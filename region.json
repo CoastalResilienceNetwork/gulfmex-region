@@ -1,0 +1,44 @@
+{
+    "title": "Coastal Resilience: Gulf of Mexico",
+    "headerLinks": [
+        {
+            "text": "The Nature Conservency",
+            "url": "http://www.nature.org/"
+        },
+        {
+            "text": "Coastal Resilience",
+            "url": "http://coastalresilience.org/"
+        }
+    ],
+    "sidebarLinks": [
+        {
+            "text": "Help & Support",
+            "url": "http://coastalresilience.org/help"
+        },
+        {
+            "text": "Terms of Use",
+            "url": "http://coastalresilience.org/legal"
+        }
+    ],
+    "initialExtent": [
+        -98.61328125,
+        17.392579271057766,
+        -79.716796875,
+        31.653381399664
+    ],
+    "basemaps": [
+        {
+            "name": "Topological",
+            "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer"
+        },
+        {
+            "name": "Ocean",
+            "url": "http://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer"
+        }
+    ],
+    "pluginOrder": [
+        "layer_selector",
+        "measure",
+        "nearshore_waves"
+    ]
+}
