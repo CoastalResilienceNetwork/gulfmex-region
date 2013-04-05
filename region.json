@@ -1,15 +1,13 @@
 {
     "organization": "The Nature Conservency",
-    "title": "Coastal Resilience: Gulf of Mexico",
+    "titleMain": { "text": "Coastal Resilience", "url": "http://coastalresilience.org/" },
+    "titleDetail": { "text": "Gulf of Mexico", "url": "http://coastalresilience.org/geographies/gulf-mexico" },
     "headerLinks": [
         {
             "text": "The Nature Conservency",
             "url": "http://www.nature.org/"
         },
-        {
-            "text": "Coastal Resilience",
-            "url": "http://coastalresilience.org/"
-        }
+        { "text": "Partners", "url": "partners.html", "popup": true }
     ],
     "sidebarLinks": [
         {
