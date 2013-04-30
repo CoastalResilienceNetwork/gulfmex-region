@@ -1,6 +1,13 @@
-{
-    "agsSources": ["http://dev.ags.coastalresilience.org:6080/arcgis/rest/services"],
-    "wmsSources": [
+[
+    {
+        "agsSource": 
+        {
+	        "url": "http://dev.ags.coastalresilience.org:6080/arcgis/rest/services",
+            "folderTitle": "Ags"
+        }
+    },
+    {
+        "wmsSource":
         {
             "url": "http://preview.grid.unep.ch:8080/geoserver/ows",
             "folderTitle": "Risks",
@@ -10,5 +17,7 @@
                 "preview:cs_frequency"
             ]
         }
-    ]
-}
+    }
+]
+
+
