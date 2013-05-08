@@ -26,5 +26,6 @@
         "layer_selector",
         "measure"
     ],
-    "printServerUrl": "http://sampleserver6.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task"
+    "printServerUrl": "http://sampleserver6.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+    "helpUrl": "http://coastalresilience.org/help"
 }
