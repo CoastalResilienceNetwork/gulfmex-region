@@ -24,6 +24,13 @@
     ],
     "pluginOrder": [
         "layer_selector",
+        "coastal_defense",
+        "community_planning",
+        "flood_slr",
+        "future_habitat",
+        "habitat_explorer",
+        "restoration_explorer",
+        "risk_explorer",
         "measure"
     ],
     "printServerUrl": "http://sampleserver6.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
