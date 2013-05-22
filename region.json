@@ -37,6 +37,7 @@
     ],
     "pluginOrder": [
         "layer_selector",
+        "draw_report",
         "measure"
     ],
     "printServerUrl": "http://sampleserver6.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task"
