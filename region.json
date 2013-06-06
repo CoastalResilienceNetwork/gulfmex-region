@@ -4,7 +4,7 @@
     "headerLinks": [
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
         { "text": "Partners", "url": "partners.html", "popup": true },
-        { "text": "Legal Disclosure", "url": "http://www.nature.org/aboutus/governance/Terms-of-Use.xml?src=f9" }
+        { "text": "Legal Disclosure", "url": "http://www.nature.org/aboutus/governance/Terms-of-Use.xml?src=f9" },
         { "text": "Get Started", "url": "http://coastalresilience.org/help", "popup": true }
     ],
     "initialExtent": [
