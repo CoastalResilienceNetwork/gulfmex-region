@@ -77,16 +77,5 @@
                 }
             ]
         }
-    },
-    {
-        "wmsSource": {
-            "url": "http://preview.grid.unep.ch:8080/geoserver/ows",
-            "folderTitle": "UNISDR",
-            "layerIds": [
-                { "name": "preview:cy_risk" },
-                { "name": "preview:cy_buffers" },
-                { "name": "preview:cs_frequency" }
-            ]
-        }
     }
 ]
