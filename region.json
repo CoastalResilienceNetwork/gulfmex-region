@@ -5,7 +5,8 @@
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
         { "text": "Partners", "url": "partners.html", "popup": true },
         { "text": "Legal Disclosure", "url": "http://www.nature.org/aboutus/governance/Terms-of-Use.xml?src=f9" },
-        { "text": "Get Started", "url": "http://coastalresilience.org/help", "popup": true }
+        { "text": "Get Started", "url": "http://coastalresilience.org/help", "popup": true },
+        { "text": "Tour", "url": "javascript:;", "elementId": "help-overlay-start"}
     ],
     "initialExtent": [
         -98.61328125,
@@ -35,5 +36,11 @@
         "risk_explorer",
         "measure"
     ],
-    "printServerUrl": "http://sampleserver6.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task"
+    "export": {
+        "printServerUrl": "http://sampleserver6.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task"    
+    },
+    "colors": {
+       "primary": "#26648E",
+       "secondary": "#26648E"
+    }
 }
