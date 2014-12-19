@@ -2,11 +2,12 @@
     {
         "agsSource": {
             "url": "http://services.coastalresilience.org:6080/arcgis/rest/services",
-            "folderTitle": "Coastal_Resilience_base_data",
+            "folderTitle": "Coastal Resilience (Gulf of Mexico)",
             "folders": [
-                {
+				{
                     "name": "Alabama",
                     "services": [
+					    { "name": "Restore_Coastal_Alabama", "type":"dynamic" },
                         { "name": "Habitats", "type":"dynamic" },
                         { "name": "Bathymetry", "type":"dynamic" },
                         { "name": "Salinity", "type":"dynamic" },
@@ -17,8 +18,7 @@
                 {
                     "name": "Florida",
                     "services": [
-                        { "name": "FEMA_Repetitive_Loss", "type":"dynamic" },
-						{ "name": "Oyster_Restoration_Explorer", "type":"dynamic" },
+					    { "name": "FEMA_Repetitive_Loss", "type":"dynamic" },
                         { "name": "Habitats", "type":"dynamic" },
                         { "name": "Species", "type":"dynamic" },
                         { "name": "Bathymetry", "type":"dynamic" },
@@ -32,7 +32,7 @@
                     "name": "Louisiana",
                     "services": [
                         { "name": "Oyster_Restoration_Explorer", "type":"dynamic" },
-                        { "name": "Habitats", "type":"dynamic" },
+						{ "name": "Habitats", "type":"dynamic" },
                         { "name": "Species", "type":"dynamic" },
                         { "name": "Bathymetry", "type":"dynamic" },
                         { "name": "Salinity", "type":"dynamic" },
@@ -43,8 +43,8 @@
                 {
                     "name": "Mississippi",
                     "services": [
-                        { "name": "Oyster_Restoration_Explorer", "type":"dynamic" },
                         { "name": "Restoration_Projects", "type":"dynamic" },
+						{ "name": "Oyster_Restoration_Explorer", "type":"dynamic" },
                         { "name": "Habitats", "type":"dynamic" },
                         { "name": "Bathymetry", "type":"dynamic" },
                         { "name": "Salinity", "type":"dynamic" },
@@ -56,7 +56,6 @@
                 {
                     "name": "Texas",
                     "services": [
-                        { "name": "Oyster_Restoration_Explorer", "type":"dynamic" },
                         { "name": "Restoration_Projects", "type":"dynamic" },
                         { "name": "Habitats", "type":"dynamic" },
                         { "name": "Bathymetry", "type":"dynamic" },
@@ -65,13 +64,16 @@
                         { "name": "Social_and_Economic", "type":"dynamic" }
                     ]
                 },
-                {
+				{
                     "name": "Gulf_of_Mexico",
                     "services": [
                         { "name": "Habitats", "type":"dynamic" },
                         { "name": "Salinity", "type":"dynamic" },
                         { "name": "Coastal_Management", "type":"dynamic" },
-                        { "name": "Coastal_Hazards", "type":"dynamic" },
+                        { "name": "Coastal_Hazards", "type":"dynamic", "layerMetadata": [
+						{"id":1, "parentLayerId":-1, "downloadUrl": "download/cumulative_oil.zip"}
+						]
+						},
                         { "name": "Social_and_Economic", "type":"dynamic" }
                     ]
                 }

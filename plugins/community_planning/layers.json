@@ -1,0 +1,56 @@
+[
+    {
+        "agsSource": {
+            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services",
+            "folderTitle": "Gulf_of_Mexico_Community_Planning",
+            "folders": [
+                {
+                    "name": "Charlotte_Harbor",
+                    "services": [
+                        { "name": "Habitats", "type":"dynamic" },
+                        { "name": "Boundaries", "type":"dynamic" },
+                        { "name": "Bathymetry", "type":"dynamic" },
+                        { "name": "Critical_Infrastructure", "type":"dynamic" },
+						{ "name": "Coastal_Management", "type":"dynamic" },
+                        { "name": "Social_and_Economic", "type":"dynamic" }
+					]
+				},
+                {
+                    "name": "Choctawhatchee_and_St_Andrew_Bays",
+					"services": [
+                    { "name": "Community_Risk_and_Resiliency", "type":"dynamic" },
+					{ "name": "Marsh_Conservation", "type":"dynamic" }
+					]
+				},
+                {
+                    "name": "Corpus_Christi",
+					"services": [
+                    { "name": "Community_Risk_and_Resiliency", "type":"dynamic" },
+					{ "name": "Marsh_Conservation", "type":"dynamic" }
+					]
+				},
+                {
+					"name": "Galveston_Bay",
+					"isNew": { "startDate": "10/30/14", "endDate": "12/31/14" },
+                    "services": [
+					{ "name": "Carbon_Sequestration_and_Emission_in_Coastal_Habitats", "type":"dynamic" },
+					{ "name": "Carbon_Storage_in_Coastal_Habitats", "type":"dynamic" },
+					{ "name": "Community_Risk_and_Resiliency", "type":"dynamic" },
+					{ "name": "Fishery_Habitat_Change_Blue_Crab", "type":"dynamic" },
+					{ "name": "Fishery_Habitat_Change_Brown_Shrimp", "type":"dynamic" },
+					{ "name": "Fishery_Habitat_Change_Red_Drum", "type":"dynamic" },
+					{ "name": "Fishery_Habitat_Change_Southern_Flounder", "type":"dynamic" },
+					{ "name": "Marsh_Conservation", "type":"dynamic" }
+					]
+				},
+                {
+					"name": "Grand_Bay_NERR",
+					"services": [
+                    { "name": "Community_Risk_and_Resiliency", "type":"dynamic" },
+					{ "name": "Marsh_Conservation", "type":"dynamic" }
+                    ]
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "agsSource": {
+            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services",
+            "folderTitle": "Coastal_Resilience_base_data",
+            "folders": [
+                {
+                    "name": "Alabama",
+                    "services": [
+                        { "name": "Habitats", "type":"dynamic" },
+                        { "name": "Bathymetry", "type":"dynamic" },
+                        { "name": "Salinity", "type":"dynamic" },
+                        { "name": "Coastal_Management", "type":"dynamic" },
+                        { "name": "Social_and_Economic", "type":"dynamic" }
+                    ]
+                },
+                {
+                    "name": "Florida",
+                    "services": [
+                        { "name": "FEMA_Repetitive_Loss", "type":"dynamic" },
+						{ "name": "Oyster_Restoration_Explorer", "type":"dynamic" },
+                        { "name": "Habitats", "type":"dynamic" },
+                        { "name": "Species", "type":"dynamic" },
+                        { "name": "Bathymetry", "type":"dynamic" },
+                        { "name": "Salinity", "type":"dynamic" },
+                        { "name": "Coastal_Management", "type":"dynamic" },
+                        { "name": "Social_and_Economic", "type":"dynamic" },
+                        { "name": "Florida_Infrastructure", "type":"dynamic" }
+                    ]
+                },
+                {
+                    "name": "Louisiana",
+                    "services": [
+                        { "name": "Oyster_Restoration_Explorer", "type":"dynamic" },
+                        { "name": "Habitats", "type":"dynamic" },
+                        { "name": "Species", "type":"dynamic" },
+                        { "name": "Bathymetry", "type":"dynamic" },
+                        { "name": "Salinity", "type":"dynamic" },
+                        { "name": "Coastal_Management", "type":"dynamic" },
+                        { "name": "Social_and_Economic", "type":"dynamic" }
+                    ]
+                },
+                {
+                    "name": "Mississippi",
+                    "services": [
+                        { "name": "Oyster_Restoration_Explorer", "type":"dynamic" },
+                        { "name": "Restoration_Projects", "type":"dynamic" },
+                        { "name": "Habitats", "type":"dynamic" },
+                        { "name": "Bathymetry", "type":"dynamic" },
+                        { "name": "Salinity", "type":"dynamic" },
+                        { "name": "Coastal_Management", "type":"dynamic" },
+                        { "name": "Social_and_Economic", "type":"dynamic" },
+                        { "name": "Built_Infrastructure", "type":"dynamic" }
+                    ]
+                },
+                {
+                    "name": "Texas",
+                    "services": [
+                        { "name": "Oyster_Restoration_Explorer", "type":"dynamic" },
+                        { "name": "Restoration_Projects", "type":"dynamic" },
+                        { "name": "Habitats", "type":"dynamic" },
+                        { "name": "Bathymetry", "type":"dynamic" },
+                        { "name": "Salinity", "type":"dynamic" },
+                        { "name": "Coastal_Management", "type":"dynamic" },
+                        { "name": "Social_and_Economic", "type":"dynamic" }
+                    ]
+                },
+                {
+                    "name": "Gulf_of_Mexico",
+                    "services": [
+                        { "name": "Habitats", "type":"dynamic" },
+                        { "name": "Salinity", "type":"dynamic" },
+                        { "name": "Coastal_Management", "type":"dynamic" },
+                        { "name": "Coastal_Hazards", "type":"dynamic" },
+                        { "name": "Social_and_Economic", "type":"dynamic" }
+                    ]
+                }
+            ]
+        }
+    }
+]

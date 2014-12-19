@@ -1,0 +1,97 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>gulfmex_gm_landcover2010</title>
+        <geoform>raster digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Coastal Change Analysis Program (C-CAP) is developing a nationallystandardized database on land cover and habitat change in the coastalregions of the United States. C-CAP inventories wetland habitats andadjacent uplands and monitors changes inthese habitats on a 1 to 5 year cycle. The monitoring cycle will varyaccording to the rate and magnitude of change in each geographic region.Satellite imagery (primarily Landsat Thematic Mapper), aerialphotography, and field data are interpreted, classified, analyzed, andintegrated with other digital data in a geographic information system(GIS). The resulting land cover change databases are disseminated indigital form for use by anyone wishing to conduct geographic analysis inthe completed regions.Purpose: The Coastal Change Analysis Program (C-CAP) is designed to monitorchange in terrestrial land cover withincoastal environments of the United States including the Atlantic,Pacific, and Gulf of Mexico, the Great Lakes, Alaska, Hawaii, and allU.S. territories and possessions. C-CAP classifies types of land cover,wetland habitats, and adjacent uplands using remote sensing techniques(primarily satellite imagery and aerial photography).</abstract>
+      <purpose>NOAA's Coastal Change Analysis Program (C-CAP) Land Cover Data</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-100.907589</westbc>
+        <eastbc>-79.887012</eastbc>
+        <northbc>32.575800</northbc>
+        <southbc>24.320104</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Land Cover Analysis</themekey>
+        <themekey>Change Detection Analysis</themekey>
+        <themekey>C-CAP</themekey>
+        <themekey>coastal zone</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Data set is not for use in litigation. While efforts have been made toensure that these data are accurate and reliable within the state of theart, NOAA, cannot assume liability for any damages, or misrepresentations,caused by any inaccuracies in the data, or as a result of the data to beused on a particular system. NOAA makes no warranty, expressed or implied,nor does the fact of distribution constitute such a warranty.</useconst>
+    <datacred>NOAA's Ocean Service, Office for Coastal Management, NOAA CSC, Charleston, SC</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.2.1.3497</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>VAT_gulfmex_gm_landcover2010</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Class_Name</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20141021</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

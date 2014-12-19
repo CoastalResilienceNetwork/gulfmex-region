@@ -1,19 +1,25 @@
 {
+    "googleAnalyticsPropertyId": "7401895-14",
     "titleMain": { "text": "Coastal Resilience", "url": "http://coastalresilience.org/" },
-    "titleDetail": { "text": "Gulf of Mexico", "url": "http://coastalresilience.org/geographies/gulf-mexico" },
-    "headerLinks": [
-        { "text": "Go To...", "url": "#", "items": [
+    "titleDetail": { "text": "Gulf of Mexico", "url": "http://coastalresilience.org/project-areas/gulf-of-mexico" },
+	"headerLinks": [
+		{ "text": "GET STARTED", "url": "getstarted.html", "popup": true },
+		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
+        { "text": "GO TO", "url": "#", "items": [
                 { "text": "Entire USA", "url": "http://maps.coastalresilience.org/us/" },
+				{ "text": "California", "url": "http://maps.coastalresilience.org/ventura/" },
+				{ "text": "Florida Keys", "url": "http://maps.coastalresilience.org/flkeys/" },
+				{ "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
+				{ "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
                 { "text": "New York & Connecticut", "url": "http://maps.coastalresilience.org/nyct" },
                 { "text": "New Jersey", "url": "http://maps.coastalresilience.org/nj" },
-                { "text": "Puget Sound, WA", "url": "http://maps.coastalresilience.org/pugetsound" }
+				{ "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
+                { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
             ]
         },
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
         { "text": "Partners", "url": "partners.html", "popup": true },
-        { "text": "Legal Disclosure", "url": "http://www.nature.org/aboutus/governance/Terms-of-Use.xml?src=f9" },
-        { "text": "Get Started", "url": "http://coastalresilience.org/help", "popup": true },
-        { "text": "Tour", "url": "javascript:;", "elementId": "help-overlay-start"}
+        { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" }
     ],
     "initialExtent": [
         -98.61328125,
@@ -33,19 +39,16 @@
     ],
     "pluginOrder": [
         "layer_selector",
-        "draw_report",
-        "coastal_defense",
-        "community_planning",
-        "flood_slr",
-        "future_habitat",
-        "habitat_explorer",
+		"community_planning",
+		"flood_slr",
+		"future_habitat",
+		"coastal_defense",
         "restoration_explorer",
         "risk_explorer",
         "measure"
     ],
     "print": {
-        "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
-        "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"
+        "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"  
     },
     "colors": {
        "primary": "#26648E",
