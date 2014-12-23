@@ -1,11 +1,10 @@
 {
-    "frameworkVersion": "2dd009a",
+    "frameworkVersion": "HEAD",
     
     "plugins": [
         {
             "repo": "explorer",
-            "name": "restoration_explorer",
-            "ver": "faf2610"
+            "name": "restoration_explorer"
         },
         {   "repo": "explorer",
             "name": "risk_explorer"
