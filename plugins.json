@@ -1,6 +1,4 @@
 {
-    "frameworkVersion": "HEAD",
-    
     "plugins": [
         {
             "repo": "explorer",
