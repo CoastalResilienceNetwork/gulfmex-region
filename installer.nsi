@@ -1,4 +1,4 @@
-!DEFINE APP_NAME "TNC_CR_GulfOfMexico"
+!DEFINE APP_NAME "tnc-ca-gulfmex"
 
 !INCLUDE "GeositeInstall.nsh"
 
