@@ -3,7 +3,7 @@
     "titleMain": { "text": "Coastal Resilience", "url": "http://coastalresilience.org/" },
     "titleDetail": { "text": "Gulf of Mexico", "url": "http://coastalresilience.org/project-areas/gulf-of-mexico" },
 	"headerLinks": [
-		{ "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
+		{ "text": "GET STARTED", "url": "getstarted.html", "popup": true },
 		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
         { "text": "GO TO", "url": "#", "items": [
                 { "text": "Entire USA", "url": "http://maps.coastalresilience.org/us/" },
@@ -27,34 +27,6 @@
         -79.716796875,
         31.653381399664
     ],
-        "subregions": {
-        "color": "#00C5CD",
-        "opacity": 0.2,
-        "clickToFocus": true,
-        "hideByDefault": false,
-        "areas": [
-            {
-                "id": "flower-garden",
-                "display": "Flower Garden Banks Marine Sanctuary",
-                "details": "The sanctuary protects a productive...",
-                "shape": [[-94.7900390625,27.780771643348196],[-94.7900390625,28.497660832963472],[-93.724365234375,28.497660832963472],[-93.724365234375,27.780771643348196],[-94.7900390625,27.780771643348196]],
-                "availablePlugins": ["layer_selector"]
-            },
-            {
-                "id": "the-ocean",
-                "display": "Somewhere in the ocean",
-                "details": "Mostly water",
-                "shape": [[-88.2861328125,27.449790329784214],[-86.3525390625,28.07198030177986],[-85.25390625,27.72243591897343],[-85.53955078125,26.80446076654616],[-87.4951171875,26.09625490696853],[-88.74755859375,26.29341500426577],[-88.2861328125,27.449790329784214]]
-            },
-            {
-                "id": "galveston",
-                "display": "Galveston Bay",
-                "details": "",
-                "shape": [[-95.2734375,29.983486718474694],[-95.0482177734375,29.38217507514529],[-95.460205078125,28.97931203672246],[-95.16357421875,28.859107573773],[-94.21875,29.506549442788618],[-94.89990234375,30.164126343161097],[-95.2734375,29.983486718474694]],
-                "color": "#ff0080",
-            }
-        ]
-    },
     "basemaps": [
         { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
         { "name": "National Geographic", "url": "http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer" },
@@ -70,7 +42,6 @@
 		"community_planning",
 		"flood_slr",
 		"future_habitat",
-		"coastal_defense",
         "restoration_explorer",
         "risk_explorer",
         "measure"
@@ -82,71 +53,5 @@
        "primary": "#26648E",
        "secondary": "#26648E"
     },
-    "identifyBlacklist": ["OBJECTID", "OBJECTID_1"],
- "launchpads": [
-        {
-            "id": "get-started",
-            "title": "Getting Started",
-            "description": "This is the launchpad description",
-            "showSubRegions": true,
-            "showByDefault": true,
-            "categories": [
-              {
-                "name": "What's new?",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "issues": [
-                    {
-                      "name": "Sea Rise",
-                      "description": "Lorem Ipsum",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJtYXAwIjrEgGV4dGVudMSGxIB0eXBlxIYixInEi8SNIiwieG1pbsSGLTkzODcwNzguNTY5NjQ1OTc3xJt5xJ7EoDoyNzUwMjA0LsS5xLIwMMSrNTjEm8SdYXjEocSlxLk4ODUuNjPEsjE0xK45xLTEgsWLOjPEuTbEpjLEqjLFkMWkODPEpMSbc3BhdGlhbFJlZmVyxIxjxJTEhyJ3a2lkxIYxxLzGgTDEm2zFrWVzdFfFvcW/xZ3FkDd9fcWqZWxlY8SLZEJhc2XEgnBJbmTEicSGM8aSIsWsbmXEhcW6xqhlTnVtYsW1xIbGhCLGicaHT2ZQbHVnxJ9zxI/GtsaUxpbGmMa7xr3En8SVcMa8xr5ucy/GhnnFtV/GnMaVxpdvcsSaxqfHi8a/x4HHiseHx43Hj2HHkXLHk8eDx5bHmMW6cm9vdC9Db8abdMWwIMWyc2lsacW3ZSAoTsWtaW9uxbApL1NvY8WvbCBhxqEgRWPIgW/EnmPHgW/FrMiIxJHGtC7EusSbY2jGlmtlxo1mxbDGnMSbdmnHtmLGlVPFtcioxbjHgDpbyKRsyKbItMi2yKVlXcamx6rHrMeux7DGt8iKx7XHt8e5bsW4x7zHvsWuyIHIg8i/x7HHs0hhemFyZMixxIDIlmHImHnImjXIncifY8ihyKPIuci8x6vHrcevyY7JgsaIyYTHusmIx7/Ji2zIhMiPx5dlxr7IgXPIi8iNUMeqyKjJhsaIyJXIl2nImTowxKrJnsigyKLEhsi3ZcmkyL5VU0dTL0h1cnJpY8iMZS3GoGR1xbhkIMmnyYHIjseqx7bIgSDJkMmSyZTHjk5BQ0NIIHfGh3IgxpV2xpTJv8mZyoHJm8qDyoUiyJ7Kh8miyLXKi8SbyL3HrcqOypDKksqUypbKmMapypvGocqeyKLKocmAx7LIikXKpciAbsqoyZHJk8mVL8qtyq/KscqdxqkgxbTFrcqUyb7FusmYyZrJnMqGyaDKiDrKisqMx61OT0FBL25vd0PLt1NUy6BlyZPHtMyDbC1UaW3Hu09ixpxydsmux43Kusutyr7JncuAyZ/JocqJyaPLhsmly6DLt8u5y7vLvcu/zIFHypZkxqLKoFPKlMikyYdGybPKmMaJyZYiy6zKvMuuzJjLgsyby4TLtMyfy7jIhXTHl23HjkFsbMqTypXKl8qZzLPMtcqCyoTMl8uBy7DLg8aczLzLtsy+U82Acs2CL82EbM2XzYHNi8qAzY0uxZnMuM2RzLrNk8ydyL7Nlcu5yK1hIExlyrjJgsipZS9NxINwxJ9ny5RuZsW+x7ovyJDNvSA1ZsSOy6vNocq9zY7Lr8yay7LMnCLLh8y9zazMg82vzbHGlMe0zbTNts24zbrNvM2+xqLJvc6ByIFmIDbOhsyUzLbMls6My7HLs82py7XMoMiFzpTNsM2yzpjGnC9zbMq1zoXOh8mXzonMt82Qzo10cnXLhc6QzJ7Nq86wza7Oss6XUs6ZzrfKtc6lzrvMtM69zqnNpc+Az4LPhM6RyqLLliBGbMeryqDKqcuex47Pnc+fz5zFtnHPg8mGyr3OvMq7zaLNj8yZzqvJo8aRz7M=",
-                      "faIcon": "fa fa-life-bouy"
-                    },
-                    {
-                      "name": "Habitat Risk",
-                      "description": "Lorem Ipsum",
-                      "saveCode": "eyJtYXAwIjrEgGV4dGVudMSGxIB0eXBlxIYixInEi8SNIiwieG1pbsSGLTk0NTU4NzEuODk1MTAyNjYzxJt5xJ7EoDoyMTYwNMS6LsS6N8SkMjLEq8SzxJzEgnjEoTgzxYw3NzYuMzE5xKfEssWSxLTFiMSGMjczNjTEpC42McSwMDkzNMSnxJtzcGF0aWFsUmVmZXLEjGPElMSHIndraWTEhsSuxLkwMMSbbMWtZXN0V8W9xb86Mzg1N33Em1/FrHJ0c8SGW8SIxIrEjMSOxbrEkcSTxJXEl8aexJrFh8SfxKHEo8SlxKfEqcSrxK3Er8SxxYbEtcaoxLjEusS8xL7FgMWCxYTFpsSbxJ1hxYk6LcWLxY3Fj8WRxZPFlcWMMcWYxr/FmsWcxZ7FoMWixaTFpsWoN8WqxazFrsWwxbLFtMW2bsW4xI/Fu8aMxoDEr8SuxoQixobEi8aJxovFvsSGxo/GkX3GkyJmcmFtZUlkxpk6WzBdfce9xaplbGVjxItkQmFzZcSCcEluZMSJxIY0x7DFrG5lxIXFusiUZU51bWLFtcSGx6XGicaHT2ZQbHVnxJ/HucSAyInIgsiEZWTIpsioxrQic8e0cMiCxpXIp8ipbnMvxb7GnmlmecaVb8SfxI7Em8i4yLPIvcefyYrIvMi+xoZ5xbVfyK3Ig3Rvcsefcm9vdC9Db8iIdMWwIMWyc2lsacW3ZSAoTsWtaW9uxbApL1NvY8WvbCBhyI4gRWPJsm/EnmPHn2/FrMm5xJHIoC43NcSbY2jIg2vIsMSGZsWwyInEm3ZpyadiyIJTxbXKmsW4x7lbypZsypjKpcqnypdlx78iyZvJncmfyaHIosm7yabJqMmqx53JrMmuybDJssm0yrDJosmkSGF6YXLHuMqGyohpyoo6MC7KjiLKkMqSypQ6dHJ1ZcqZyptpyp1lTGHJknLHt8qjx7zHsMquyZ7JoMq+yrPGiMq1yavJrcmvxa7Ku2zJtcqAyZhlyKnJsnPJvMm+UMmbyprKt8irIsqHYcqJecqLy43Lj2PKk8aNyqhly6PJnMmeVVNHUy9IdXJyaWPJvWUtyI1kdcW4ZCDLpsqyyb/Jm8mnybIgy4DLgsuEyL5OQUNDSCB3xodyIMiCdsiBy4bMgcuIzIPLisuMyo/KkcyHy5HMisyMyq/Mj8yRzJPMlcyXzJnIlcycyI7Mn8iwzKLKscmjybtFzKbJsW7MqcuBy4PHuC/MrsywzLLMnsiVIMW0xa3MlcaIzLvMgsyEzYHLkMyJyqrNhsmeTk9BQS9ub3dDzbRTVM2fZcuDyaXOgGwtVGnHtSBPYsiJcnbKusmMxbrMgM2rzL/Mhc2CzIjKlc2wxJvLpM2fzbTNts24zbrNvM2+R8yXZMiPzKFTzJXKlsW4IEbLs8yZxonLvs6SzL3NrMuOzpbNhM6Zyq3Mjc6czbXJtsmXcm3IvkFsbMyUzJbMmMyazrHLh8uJy4vOlc2uzpjKpsyLzprOus2zzrxTzr7PgC/PgmzPlsmYz4DNqs6zzL85za3Ng82vz5DNsc67zbbKn2EgTGXMucqzyptlL03Eg3DEn2fNk25myYDKty/Kgc+6IDVmxp/EgM6yz4vNgM61z446zYXPksqvz5TPqc6Az6zPrsiByaXPsc+zz7XPt8+5z7vIj8+9z79mIDbQg8+f0IfPjc+kz4/Iic+n0I/JttCRz63Pr9CVyIkvc2zMttCC0ITLv8+KzL7PjM+jzpfQi864zpvQqs+q0JLQrlLQltCyzLbQodC20IbQudCIzIbQvNCMzrnKr8yjzZXOrGzJnMyhzKrNnci+RtGVb8yhRsW2ccuVx53MvtCF0LjOtNGNzrfPpsewyLZtyLhlyLrJi8i+Y3XGicqDX8mRyZPJlciEyZjJms660ZLJpMq0yanLq8q5y67Js8uwybbJuMm6y7jMocuyzbjKhNCj0YvKjdC70anKmCLKmsqcyp7KoMyYzanHusyKLNKezIrKrM6b0b/LqMmn0oLKt8uszo/KvNKkzZvMq8uFzpHRps6U0pPPpdCo0I3Lpc2U0oDLqdKnzqvShM2ZyrzLssW2y7XIvdKLIMu6b8u8yqLSkNGnzrbGjcuTy5XLl9KYy5vLncW1y6DGmjHHvcev05k=",
-                      "faIcon": "fa fa-paw"
-                    },
-                    {
-                      "name": "Split Screen",
-                      "description": "Lorem Ipsum",
-                      "saveCode": "eyJtYXAwIjrEgGV4dGVudMSGxIB0eXBlxIYixInEi8SNIiwieG1pbsSGLTkyODc3MTAuNDPEpDc1MjUzxJt5xJ7EoDoyxK4wMjA0LsS4xKYwMDU2NTjEm8SdYXjEoTg4xLjEsDMuxKY0NDjEsTc2xLPEgsWKOsSsxZc3xLouxK/FlcSkODMzxYYic3BhdGlhbFJlZmVyxIxjxJTEhyJ3a2lkxIbEqDLEqDDEm2zFrGVzdFfFvMW+xZzFlTd9xJtfxatydHPEhlvEiMSKxIzEjsW5xJHEk8SVxJfGm8SaxJzEtcShxKPEpcSnxKnEq8StxK/EscWZxJ/EhsS4NcS6xLzEvsSmxZ/FgsWExajFiMWbLcWMxY7EscWRN8WTxZUzxZfFmcWJxIbFnTbFnzLFocSkxaLFpcWnxJvFqsWsxa7FsMWyxbTFtsW4xIDFu8W9xb/EusaCxoTGhsaIxorHn8aNNcaPxpAiZnJhbWVJZMaWOlswXX3HuMeUZWxlY8SLZEJhc2XEgnBJbmTEiceKx6vFq25lxIXFuciOZU51bWLFtMSGxoPFqXTGhk9mUGx1Z8Sfx7TEgMiEx73Hv2VkyKHIo8awOiJwyKLIpG5zL8aFecW0X8iox750b3LGo8iyyK7ItcSPyLHIs8ilyLdhyLlyyLvHvMi9yL/JhXJvb3QvQ2/Ig8idbCDFsXNpbGnHmyAoTseWb27FrykvU29jx5cgYciJIEVjyadvxJ5jyYVvxavJrsSRyJrFkTXEm2Nox75ryKvEhmbFr8iExJt2acmeYse9U8W0yo3Ft8e0W8qJbMqLypjKmsqKZce6IsmSyZTJlsmYxojFr8mcxofJn8mhbsW3yaPJpcWtyafJqcqjyZnKpkhhemFyx7PJusm8acm+OsSpyoEiyoPKhcqHOsqbZceryqHJlcmXyrPJm8mdyqnJosmkyabJqGzJqsm0yL9lyKTJp3PJsMmyUMmSyo3Kq8aHyrthyb15yb/LgcuDY8qGxozLh8uJyZPJlVVTR1MvSHVycmljybFlLciIZHXFt2Qgy4zKpcmbRcmSyZ7JpyDKtcq3yrnItk5BQ0NIIHfGhnIgx712x7zLpMumy6jKgsqEy6vLhcuuxJvLii/Lssu0y7bLuMu6y7zIj8u/yInMgsirzIXKpMmaybPMimnMjMyOyrjHsy/MksyUzJbMgciPIMWzxazLuMujxbnJu8ulyr3Lp8q/xaHMosuEy63KncuvyqJOT0FBL25vd0PNmFNUzL9lyrjKp8WvLVRpx7AgT2LIhHJ2y5PIpiLNi8ygzY/Lqcyjy6zKiM2UzKfLsMy/zZjNms2czZ7NoM2iR8u6ZMiKzIRTy7jKicqsRsuYy7zGiM2zzbXNjcyhy4LNucylzbzKoM2+zZfNmcmryL5ybci2QWxsy7fLucu7y73Ok8q8yr7LgM2RzKTNk8qZy4jNvc2WzoDOn8i/zqIvzqRsU86gzqLMn86VzY85zq/NusuGzprMqM6dzZrKkmEgTGXMncuOyo5lL03Eg3DEn2fMtW5mxb3Hmy/Jtc+bIDVmxpzEgM6Uzq3NkM6XzZLNu86yzZXJlc+JyavNpM+Nz4/HvMmcz5LPlM+Wz5jPms+cyIrLos+fyadmIDbPpM+Az6jNuM+rz4bPrc60z6/Ots+Lz7PPkM+2yIQvc2zMms+jz6XNtM6szY7Ors+qzrDEhnRydc6zzpvOtc6e0I7PjtCQUs+30JTMmtCD0JjPp9Cbz6nLqs+F0KDQos+uyrLMhyBGbMmTzITMvMyQL9C70L3QusW1cdCiyqvNjs+m0JrOltCzzpnPrcerc8evyLJlxpLJh8i1z591xojJt1/IuMi6yLzHv8mQxbnMqMyGzLfLj8mgy5HKrsy6y5TJqsmsya7KpsmxzITLl82cybjQhdCxxK7PhNGOyosiyo3Kj8qRypPLu82JypfKnSzLh9KEyp3Kn9GjzLbKptGmyqrKrMuSyq/Rq9C4zLfQv8q6zYrRi8230bjOsciE0LfRpNKLyqjRp8uiyq3Lk8qxy5fFtcuayLXLncyEy59vy6HKldG10YzOmMaM0LXLiH3StdGQY8W1xIzJhcWqyaB0U9K4ZdK6OtKzx5R5yqvPlXDHtMymxIHEgzHJhcahxJnGncSSxbjElsaaxJnFh8alOi3GgsSuNjLFkMSsxLzFpzYzxZgixLTIr8WmNjTErjcuOcWVMTHErDI005jHidOaOTk2xYIwOS4xNcWFNNOyMcWoxLTTuDM007vFp8eONdOsxY0w1IrFpceUxavFrcWvxbHFs8W1y6LJhceexozGgMeiIsaFxIvHpcaLx4rGjtK1x7vIqciAyILIhMiGzIDIizrGj8SbyJPTjsiSy73IlciXyJk6MceUyJ3Ei8ifyK3ItM2z0Z/IgNWCyK/FqdGSx73RlcmDyLbPncSNaWZ5xpJvxJ/EjtS00ZbIptK2fQ==",
-                      "faIcon": "fa fa-leaf"
-                    },
-                    {
-                      "name": "Galveston",
-                      "description": "Lorem Ipsum",
-                      "saveCode": "eyJwYW5lMCI6xIDEgsSETnVtYmVyxIcwLCJzdGF0ZU9mUGx1Z2luc8SHxIBzZWxlY8SZZMSdxJ/EocSHbnVsbMSUcMSexKDEosSkfX3ElGHEqml2ZVN1YnJlxKBvbsSkImlkxIciZ2FsxYHElsWJIsSUZGlzxLZhecWPR8WSxZR0xYkgQsWdxZciZGXEl2lsxKM6IsWoc2hhcGXEh1tbLTk1LjI3MzQzNzUsMjkuOTjGgTg2NzE4NDc0Njk0XSzFusW8LjA0ODIxN8aixoHGg8aFxocuM8afxqE1MMaEMTQ1xofGmMaaxb3GlDAyMMasNzgxMsamOMaJNzkzxr0wM8aOMjLGlMazxbvFvTE2MzXGk8agOMaExobHgDg1OTHGrceSxoPGgMeMxpbFvsaQx5bGp8asNjU0xpY0xb84xo3GkMehNC44Oce1xrfGpMeWMzAux480xr3HkMaCx4/HnDk3x6HFvcW/x7jGpsaIxorGjMaOxpDGksaUxpZdxpgiY29sb8SRxbAjZmYwMDjEhsS7xJRtxbXEhsSIImV4xJludMWLdHnFtsWPyKrIrMiuxJR4bcSvOi3HnMaTxoTGnS7Hgjkwx6jHiTPElHnIucWKOjMzxqAyx4THs8eZxoAxNTbGjci3yKV4xIfIvMeGxo7GsMaIx7Q0yIE1MTHJiMmaxIfHkTbFvzcyx7PFvMmmMjYwxbzElMWbxJhpxZJSZWbEkGVuY8W3yKh3a8WNxIfHnMagyJ/Io8SVxKfEqcSrxabEpsilcEluxarJmzowxLs=",
-                      "faIcon": "fa fa-leaf"
-                    },
-                    {
-                      "name": "Flower Garden Hazard",
-                      "description": "Lorem Ipsum",
-                      "saveCode": "eyJwYW5lMCI6xIDEgsSETnVtYmVyxIcwLCJzdGF0ZU9mUGx1Z2luc8SHxIBzZWxlY8SZZMSdxJ/EocSHxIHEnsSgxKIvbGF5xJBfxKbEqMSqb8SRxJRhxKppdmVTdWJyZcSgb27EpCJpZMSwZmxvd8SQLWdhcmRlxY3ElGRpc3DEtnnEsEbFlMWWciBHxZrFnG4gQsSDa3MgTcWaxKFlIFPEg8SqdcWaxaXFn2XEl2lsxKM6IlRoxblzxbx0xb5yeSBwcm/EmcSqxbRhxpLGlGR1xYLFhC7GoCLElHNoYXBlxIdbWy05NC43OTAwM8axNjI1LDI3xq84MDc3MTY0MzM0ODE5Nl0sxqvGrcavxrHGs8a1xrfGuTguNDk3NjYwODMyx4nHhTcyx4vHjTPGrzLHgzY1MseFMzfGuDLHlceXx5nHm8edx582x6HHo8eMxqzHpseix6nHq8etx6/Guca7N8a9xr/HgceDx4XHh8eJx6TGrMauxrDGssa0MMa2x7DIhMiGx4DHgseEx4bHiMeKx4siYXZhxoRhYsSoxK3Es8aGWyLFpMS5xLvEqXTEviJdfcSUxaPErsSixY7ItsioxLXEt8itxKfIr8ixxIgixpTGlS9Db2HElmFsIFJlc8aEacWdY8W5KE7EmGnFjMmLKS9Tb2NpyYsgxINkIEVjxYxvbWljxY5vxILJoHTFpTowxq/GuCJjxopja2XFkTpmyYvEpsSUdsWhacilxYXEkMqEyZTIqcqAxoVlLMqNyoLKkWXIs8SUyYR0yYbJiMmKyYzJjsmQbMmSbsmUIMmWyZjJmmzJnMmHyYnEl8mMSGF6xa3GhsSAya/FgWnJssSSLsm3ybnEqcm8yb50cnXKjyLKhMmQyodMyL1ySWTIqTDKlcmDb8mFyqnKm8mNyY/JkcmTyZXJl3TJmW7Jmy/Jp8S+xYrLmsaYbsmlUMaUyoTKocmPya7JsMq1ybPJtcq5ybrKvMSHypN9y7TItMifxp7FhcWHxYnFi8WNyYLFkMWSxajFl8WZxZvFncaiIsWgxaLFpMWmzIHFqsWszITFr8WxbsWzxbXFt8SExbrGjcaPxoDMh8aCyKLGhcSwxonGi8yYxb/GmsaVyK/GmMykxpzLuMagLsyGxqTGpsaoOsaqyI7Hj8iRx5LIlca8xr7ImMiJyJvIjMe7x47IkMeRyJPHk8exx5bHmMeax5zHnsegNMeiyI05x73HqDPHqsesx4PIgs2Ex7PNh8e2zYrNjMy+zY/Hv82Tx67Mt8iFzLnIiMiayIvHisy+yI/HkMiSyJTIg8y4yIfImciKyJxdyJ7IoMydyKTIpsSyxKHIqciry4fEusi/xL3Ekcizy7ZtxqbEhsmCZXjEmW50xY7JssanxLDOiM6KzozElHjJq8u9LTHGvjY5NTHHlceax54xMTMxxJR5zpbEh86kzpw0zYvGvDY3x67Gus6szpTOhHjEh86YxrM4xq3OsMm2ODXGvzU5OM6mzrXOqceDMcawMS7GvsiLx5fGtzbGo8SCy5nJi8mOZsSQy5bFjndry786zpkyzpnEk828xJnEllfPm8m+M86+N8u2X8SCcnTIqcSAzpHFnc6MyYLOjsywIs+yzovMhs6VxK86zrjHmc6czp4uzqDPn86jzqUizqfPvc6qNc6syJbOr86xN86zIs6VYc62z77Omc+ozrvHvTXPqcevz4LPhNCVz4bOpM+Jz4vIhceIz441z5DElc+SyaFsz5XPl8uoz5nPpsSHz57PoMSUxLbPo3TPpc+cz6jOv8u0xJRmcmFtZcuJy4vIs8uNyK7Eqsm9xbHEps6EcEnLo86IxIcyy7Q=",
-                      "faIcon": "fa fa-leaf"
-                    }
-                  ]
-              },
-              {
-                "name": "Use Cases",
-                "description": "Lorem Ipsum",
-                "issues": [
-                    {
-                      "name": "Dunes",
-                      "description": "Lorem Ipsum",
-                      "saveCode": "eyJwYW5lMCI6xIDEgsSETnVtYmVyxIcwLCJzdGF0ZU9mUGx1Z2luc8SHxIBzZWxlY8SZZMSdxJ/EocSHxIHEnsSgxKIvbGF5xJBfxKbEqMSqb8SRxJRwxLLEocSjxIjEscSuxLTEtsS4csS6xKfEqXTEvsSkInJvb3QvQ29hxJZhbCBSZXNpbGllbmNlIChOxJhpb27FnCkvU29jacWcIMSDZCBFY8Wub21pY8WRb8SCxbV0ecSSLjc1xJRjaMSpa2VkxIdmxZzEpsSUdmnFoWLEqFPEkMaZxafFhFvGlWzGl8akxqbGlmVdfcSUxZPFlcWXxZnFm8WdxZ/FocWjxaXFp8Wpxat0xa3Fr2zFscWYxZrEl8WdSGF6YXJkxYTEgMaEYcaGxog6MC7GjCLGjsaQxpLGlMapxqzFksWUxZbHgMayxZ7FoMWixaTFpsWoxarFrMWuxbAvxbzEvmXEoMWuc8W4bsW6UMWTxpnHpMeKIseMx47GiceTx5VjxpHGkzrGp2XHmsauxZZVU0dTL0h1cnLGgcSDZS1Jx7J1xafFuseex4LFu8WTxaHFriDHhMeGx4hzL05BQ0NIIHfEmMSQIMSodsSnxoPGhWnGh8e8xo3Gj8e/x5fIgseZxq3HnC/IiMiKyIzIjsiQY8iSyJTIlsiYIMiaxbdFyJ3GvMigx4XHh8eJyKXIp8ipIGR1xIQgZmXEmMiOxaDIs8eNyLXHj8eRx73IuciAxId0cnVlxpjGmmnGnGVMxLfEkEnHicSHWzMsNMaryL7Gr05PQUEvbm93Q8qCU1TIpcmecsegxZwtVGltxahPYsSmcnbHp8SiyaLHu8eQx5LIuMeWyIHIg8iFyL/KgcqDyoXKh8qJQcqLL0fIkGRkxpIgU8iOxpXGuEbHrMmGxJbHuMe6yaTIt8eUyajIu8qlfcuGx5ptYXDEhsWFZXjEmW50xZHGh3BlxLDLjsuQy5LElHjGgG7Ehy0xMDQ5NTcyMS4yMjc4OTM4MDHElHnLncSHM8uxy6rLty40y6E2NsunMjg2y5vLiXjLnzg3y7c5NDMuMTE4ODQ2MTLLs8yFy7Y5OMulMzLLuzAyOcuxzIjHk3PEgsa7xZzFn8mdcsa3y5bFhXdraciBy6HLpzAwx5pfxIJydMaixIDLmMWly5LFhcuUzK4izL/LkSLMhMSvOsugy6LLpMumy6jLqsusy67LsMuyIsu0zYrLt8yVMsu6y7wwy77MgMyCzIRhzIbNi8yIzIrMjMyOzJDMksyUzJbNlsyYOjPMmsyczJ40zKDMosyQxovElMymxazMqWXMq8ytxZHMsMyyxIfMtMuhzLfHmmZyYcqVybfGojDGq8m+xJXFjcSqxpJCxZply4lwyJXKs82kzoc=",
-                      "faIcon": "fa fa-quote-left"
-                    },
-                    {
-                      "name": "Climate Change",
-                      "description": "Lorem Ipsum",
-                      "saveCode": "eyJwYW5lMCI6xIDEgsSETnVtYmVyxIcwLCJzdGF0ZU9mUGx1Z2luc8SHxIBzZWxlY8SZZMSdxJ/EocSHbnVsbMSUcMSexKDEosSkfcS7xJRtYXDEhsSIImV4xJludMSkInR5cGXEh8WDxYVlxYcixJR4bcSvOi0yNDk5Nzk2NS43MzAzxZ/FncSUecWXbsSHLTHFpzE0NsWnLjPFtMWmNTIyOMWVxL54xIczxbI3xZwzM8WjNTnFsjbFssWqxb/EhzHGhMWnNDI2xbY4OMW0NjjFs8SUc8SCdGlhbFJlZsSQxZJjxY7FgndraWTGkDAyMTDEkyJsxJhlxJZXxq7GsDozODU3fcSUX2NsaXDFicWLxY3Fj8WExYbFiMW+xZjFrzbFqMayNMW2xbw0xrXFnjPGjseTxbA3xovFtcW3xaUzxbrFvMW+YcaAOjIzMjfGiTkyxbbHgjHHlTEyxo7Hq8aQxpLGhMaVxpfGmcW3xpw2xp7GoMaixqTGpsaobsaqxYnGrcavxrHGs8a1xJTGuMSZxrvGvcaBx4HHg8eEIl/EgnJ0xKM6W8SAx4/FksWIxYLHjMarxZDHkMWUIsWWxZgxNTA3NzDIsy45NTUxxZ44yL3Hn8WtxZnHocejN8W2xbjHp8W7xb3Ir8aPx63GtcWnyLM4xbbGlDfGmDnIt8e7x6zGkTTGk8iAx4DIgsabxp3ElciHxqPGpcancsapxqvEgMiPxr7GtMiSxrbIlca6dMa8yJDGv8iaxLwiZnJhbWVJZMiiW8WvXceEyKXFkcWTyKnFjMiryKbFk8eSyYLFmsmPx7EwyZIzyZTJlsmYIsWrx6DFscWzx6TJiMeoyYvFlse8xZnGmca1ypPHtMezNsmcx7c3yZnHvcmcx7/GlsmfxprIhMiGxJjIiMmmyIvIjcasyJg6ya7GtMmwxrnIl8m1x4DHgsm4ybrJvMm+yoDEh1sxyoQsyobIrcqJx406yKzIp8iuyLDJgsa2yprKj8mEyp3JhselxbnJiseqx6wyypHJkcmTx7DKlzXKrsq+x77GlMqyxpjKtMmixp/Kt8mlyIrJqMiMyaoiyazIkcuAyJTLgsmzyr3LhcibxJTLiMm9yb/KgTDLj8uRy5fLk8qLyofHkcmMx5PLpsWmypLKlMqWOMmXy6zKmcWsxa7LnsW0y6DKn8ujyYzKo8ubyY3Jm8mdy7HJoMq1yaPLtsiJyafJqciOyr3Kv8iTxrfMgcm0xr7MhMuHybvMiMuLyKPMi31dx4VzaGlmxKvHi8qKx47MkcuYzJ7FmcW8x67KqsWcxaM0NDfFuMWhyYHMn8qczKHJh8emyqDLpMSHzZHFt82WOc2VzZfNmcycxavKo8ypyrHIgcuzyIXMrsahy7fMscu6zLPIqCJQUk9KQ1NbXCJXR1NfyL3GnF9XZWJfTcSQY8SYb3JfQXV4aceIYXJ5X1NwaMaozoIsR0VPR82/zoEizqjOhs6EzobOiDTOo0RBVFVNzqpEzorOhc6HOcaczqNTUEhFzbxJRM6qzq7OvM6+xZTMoci/xbXEkzLOvS4yx4LFu8enxbRdzYPNu0lNRc63zoJHyajFkndpY2jOozAuzIssVU5JVM64ZWfPoc+nz6nJmzXHr8ezyLzFncmcM8+YLM27zb1FQ1RJT07Oqs6Pcs6RdM6TzpXOl86ZxqLOnM6ezqDOoiLPmUFSQc+cVM+DzqpGxqPEpl9FYcSWxKFnz7TPqlDQmNCaRdCcUtCe0KBlX07Ok3TNhm7Qp8WUz6jQqdCr0JvQnc6CQ8inybtszo7EkMavxqJuzqPPkM+pxorFn8abxoTFnsi3OdCX0JnQvtCvzoJTxJduZM6bZF9QzpvGo8So0YQx0KjRlNCs0K7Oqs6WzpjOmtCSzp/OocmoX1TKitGmz6vPrc+vzoLOj8SZcs6jMc+pz5gixLvInMSmxKjEqmVkQtCkZcS+cEnRm8WExJLEuw==",
-                      "faIcon": "fa fa-futbol-o"
-                    }
-                  ]
-              }
-            ]
-        }
-    ]
+    "identifyBlacklist": ["OBJECTID", "OBJECTID_1"]
 }
