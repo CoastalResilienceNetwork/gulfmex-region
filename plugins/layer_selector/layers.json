@@ -187,11 +187,13 @@
                         { "name": "Florida", "type":"dynamic", "displayName":"Oyster Restoration Suitability", "description":"This section is for highlighting geographies where we have finer scale data for illustrating potential oyser reef restoration. Note: Oyster data layers not visible when zooming out beyond the 1:500,000 scale.", "showLayers": [
 								{"id":47, "parentLayerId":-1 },
 								{"id":48, "parentLayerId":-1 },
-								{"id":49, "parentLayerId":-1 },
-								{"id":50, "parentLayerId":-1 },
-								{"id":51, "parentLayerId":-1 },
+								{"id":49, "parentLayerId":48 },
+								{"id":50, "parentLayerId":48 },
+								{"id":51, "parentLayerId":48 },
 								{"id":52, "parentLayerId":-1 },
-								{"id":53, "parentLayerId":-1 }
+								{"id":53, "parentLayerId":52 },
+								{"id":54, "parentLayerId":52 },
+								{"id":55, "parentLayerId":52 }
 							]
 						}	
 					]
