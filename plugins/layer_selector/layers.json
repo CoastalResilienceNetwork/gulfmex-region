@@ -540,7 +540,7 @@
                     "services": [
                         { "name": "Gulf_of_Mexico", "type":"dynamic", "displayName":"Coastal Hazards", "showLayers": [
 								{"id":15, "parentLayerId":-1 },
-								{"id":16, "parentLayerId":-1, "downloadUrl": "/download/cumulative_oil.zip" }
+								{"id":16, "parentLayerId":-1, "downloadUrl": "/docs/download/cumulative_oil.zip" }
 							]
 						}	
 					]
