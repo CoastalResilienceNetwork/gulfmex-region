@@ -2,10 +2,10 @@
     "plugins": [
         {
             "repo": "explorer",
-            "name": "restoration_explorer"
+            "name": "restorationexplorer"
         },
         {   "repo": "explorer",
-            "name": "risk_explorer"
+            "name": "riskexplorer"
         },
         {
             "repo": "future_habitat",
