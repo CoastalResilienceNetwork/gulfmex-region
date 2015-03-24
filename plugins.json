@@ -14,10 +14,6 @@
         {
             "repo": "community-planning",
             "name": "community_planning"
-        },
-        {
-            "repo": "coastal_defense_gulfmex",
-            "name": "coastal_defense"
         }
     ]
 }
