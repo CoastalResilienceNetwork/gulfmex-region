@@ -82,7 +82,7 @@
                 {
 					"name": "",
                     "services": [
-						{ "name": "Florida", "type":"dynamic", "displayName":"FEMA Repetetive Loss", "showLayers": [
+						{ "name": "Florida", "type":"dynamic", "displayName":"FEMA Repetitive Loss", "showLayers": [
 								{"id":1, "parentLayerId":-1 }
 							]
 						}	
