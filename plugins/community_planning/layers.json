@@ -130,6 +130,47 @@
         }
 	},
 	{
+		    "agsSource": {
+            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "folderTitle": "Escambia County",
+            "folders": [
+                {
+                    "name": "",
+                    "services": [
+						{ "name": "Escambia_County", "type":"dynamic", "displayName":"Transportation Infrastructure", "showLayers": [
+								{"id":1, "parentLayerId":-1 },
+								{"id":2, "parentLayerId":-1 },
+								{"id":3, "parentLayerId":-1 },
+								{"id":4, "parentLayerId":-1 },
+								{"id":5, "parentLayerId":-1 }
+							]
+						}
+					]
+				},
+				{
+                    "name": "",
+                    "services": [
+						{ "name": "Escambia_County", "type":"dynamic", "displayName":"Stormwater Infrastructure", "showLayers": [
+								{"id":7, "parentLayerId":-1 },
+								{"id":8, "parentLayerId":-1 },
+								{"id":9, "parentLayerId":-1 }
+							]
+						}
+					]
+				},
+				{
+                    "name": "",
+                    "services": [
+						{ "name": "Escambia_County", "type":"dynamic", "displayName":"City of Pensacola", "showLayers": [
+								{"id":10, "parentLayerId":-1 }
+							]
+						}
+					]
+				}
+            ]
+        }
+	},
+	{
         "agsSource": {
             "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Corpus Christi",
