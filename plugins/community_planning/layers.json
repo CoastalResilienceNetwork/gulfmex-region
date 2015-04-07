@@ -162,7 +162,8 @@
                     "name": "",
                     "services": [
 						{ "name": "Escambia_County", "type":"dynamic", "displayName":"City of Pensacola", "showLayers": [
-								{"id":10, "parentLayerId":-1 }
+								{"id":10, "parentLayerId":-1 },
+								{"id":11, "parentLayerId":-1 }
 							]
 						}
 					]
