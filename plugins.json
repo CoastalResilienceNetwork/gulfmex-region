@@ -1,4 +1,5 @@
 {
+    "frameworkVersion": "f565be2",
     "plugins": [
         {
             "repo": "explorer",
