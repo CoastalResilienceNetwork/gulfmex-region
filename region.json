@@ -95,7 +95,7 @@
             "description": "Coastal Resilience is a decision support tool that provides local, state and national planners a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal hazards",
             "showSubRegions": true,
             "subRegionDescription": "Choose a specific region and it will take you there, or you can freely explore the map.",
-            "showByDefault": true,
+            "showByDefault": false,
             "categories": [
               {
                 "name": "One-click Interactive Map",
