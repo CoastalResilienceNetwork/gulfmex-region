@@ -6,14 +6,16 @@
         { "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
 		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
         { "text": "GO TO", "url": "#", "items": [
-                { "text": "Entire USA", "url": "http://maps.coastalresilience.org/us/" },
-				{ "text": "California", "url": "http://maps.coastalresilience.org/ventura/" },
-				{ "text": "Florida Keys", "url": "http://maps.coastalresilience.org/flkeys/" },
-				{ "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
-				{ "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
-                { "text": "New York & Connecticut", "url": "http://maps.coastalresilience.org/nyct" },
-                { "text": "New Jersey", "url": "http://maps.coastalresilience.org/nj" },
-				{ "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
+                { "text": "California", "url": "http://maps.coastalresilience.org/california/" },
+                { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut" },
+                { "text": "Global", "url": "http://maps.coastalresilience.org/global/" },
+                { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
+                { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
+                { "text": "New York", "url": "http://maps.coastalresilience.org/newyork" },
+                { "text": "New Jersey", "url": "http://maps.coastalresilience.org/newjersey" },
+                { "text": "Southeast Florida", "url": "http://maps.coastalresilience.org/seflorida/" },
+                { "text": "United States", "url": "http://maps.coastalresilience.org/unitedstates/" },
+                { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
                 { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
             ]
         },
@@ -44,7 +46,11 @@
 		"future_habitat",
         "restoration_explorer",
         "risk_explorer",
-        "measure"
+        "zoom_to",
+        "measure",
+        "legend_display",
+        "full_extent",
+        "subregion_toggle"
     ],
     "print": {
         "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"  
