@@ -6,15 +6,16 @@
         { "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
 		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
         { "text": "GO TO", "url": "#", "items": [
-                { "text": "Entire USA", "url": "http://maps.coastalresilience.org/unitedstates/" },
-				{ "text": "California", "url": "http://maps.coastalresilience.org/california/" },
+                { "text": "California", "url": "http://maps.coastalresilience.org/california/" },
                 { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut" },
-				{ "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
-				{ "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
+                { "text": "Global", "url": "http://maps.coastalresilience.org/global/" },
+                { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
+                { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
                 { "text": "New York", "url": "http://maps.coastalresilience.org/newyork" },
                 { "text": "New Jersey", "url": "http://maps.coastalresilience.org/newjersey" },
                 { "text": "Southeast Florida", "url": "http://maps.coastalresilience.org/seflorida/" },
-				{ "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
+                { "text": "United States", "url": "http://maps.coastalresilience.org/unitedstates/" },
+                { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
                 { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
             ]
         },
@@ -85,7 +86,7 @@
             "title": "Getting Started",
             "description": "This is the launchpad description",
             "showSubRegions": true,
-            "showByDefault": false,
+            "showByDefault": true,
             "categories": [
               {
                 "name": "What's new?",
