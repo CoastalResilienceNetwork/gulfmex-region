@@ -273,7 +273,7 @@
             "folderTitle": "Charlotte Harbor",
             "folders": [
                 {
-                    "name": "",
+                    "name": "Charlotte_Harbor",
                     "services": [
 						{ "name": "Charlotte_Harbor", "type":"dynamic", "displayName":"Coastal Hazards and SLR", "description":"The Coastal Hazards map service features data sets related to erosion, sea level rise and flooding. A brief description and metadata appear when you click on each layer.", "showLayers": [
 								{"id":41, "parentLayerId":-1 },
@@ -389,7 +389,7 @@
             "folderTitle": "Corpus Christi",
             "folders": [
                 {
-                    "name": "",
+                    "name": "Corpus_Christi",
                     "services": [
 						{ "name": "Corpus_Christi", "type":"dynamic", "displayName":"Storm_Surge_Inundation", "showLayers": [
 								{"id":19, "parentLayerId":-1 },
