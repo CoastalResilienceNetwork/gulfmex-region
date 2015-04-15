@@ -269,11 +269,13 @@
     },
 	{
         "agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "",
             "folderTitle": "Charlotte Harbor",
             "folders": [
                 {
-                    "name": "Charlotte_Harbor",
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
+					"name": "Gulf_of_Mexico",
+					"displayName": "Charlotte Harbor",
                     "services": [
 						{ "name": "Charlotte_Harbor", "type":"dynamic", "displayName":"Coastal Hazards and SLR", "description":"The Coastal Hazards map service features data sets related to erosion, sea level rise and flooding. A brief description and metadata appear when you click on each layer.", "showLayers": [
 								{"id":41, "parentLayerId":-1 },
@@ -304,7 +306,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Choctawhatchee and St Andrew Bays",
             "folders": [
                 {
@@ -385,11 +387,13 @@
 	},
 	{
         "agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "",
             "folderTitle": "Corpus Christi",
             "folders": [
                 {
-                    "name": "Corpus_Christi",
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
+					"name": "Gulf_of_Mexico",
+					"displayName": "Corpus Christi",
                     "services": [
 						{ "name": "Corpus_Christi", "type":"dynamic", "displayName":"Storm Surge Inundation", "showLayers": [
 								{"id":19, "parentLayerId":-1 },
@@ -407,7 +411,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Galveston Bay",
             "folders": [
                 {
@@ -488,7 +492,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Grand Bay NERR",
             "folders": [
                 {
@@ -569,7 +573,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Jefferson County",
             "folders": [
                 {
@@ -633,6 +637,6 @@
 					]	
 				}
 			]
-        }
+        	}
 	}
 ]
