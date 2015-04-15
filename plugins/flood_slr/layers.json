@@ -275,7 +275,7 @@
                 {
                     "name": "Charlotte_Harbor",
                     "services": [
-						{ "name": "", "type":"dynamic", "displayName":"Coastal Hazards and SLR", "description":"The Coastal Hazards map service features data sets related to erosion, sea level rise and flooding. A brief description and metadata appear when you click on each layer.", "showLayers": [
+						{ "name": "Charlotte_Harbor", "type":"dynamic", "displayName":"Coastal Hazards and SLR", "description":"The Coastal Hazards map service features data sets related to erosion, sea level rise and flooding. A brief description and metadata appear when you click on each layer.", "showLayers": [
 								{"id":41, "parentLayerId":-1 },
 								{"id":42},
 								{"id":43},
