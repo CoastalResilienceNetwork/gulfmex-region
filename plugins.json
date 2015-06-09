@@ -1,4 +1,5 @@
 {
+    "frameworkVersion": "7b87641b7c7a92074e90e44d83281823d2db2d71",
     "plugins": [
         {
             "repo": "explorer",
