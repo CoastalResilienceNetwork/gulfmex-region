@@ -174,12 +174,12 @@
 	{
 			"agsSource": {
             "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
-            "folderTitle": "Aransas Pass",
+            "folderTitle": "",
             "folders": [
                 {
                     "name": "",
                     "services": [
-						{ "name": "Aransas_Pass", "type":"dynamic", "displayName":"Aransus Pass", "showLayers": [
+						{ "name": "Aransas_Pass", "type":"dynamic", "displayName":"", "showLayers": [
 								{"id":0, "parentLayerId":-1 },
 								{"id":1, "parentLayerId":-1 },
 								{"id":2, "parentLayerId":-1 },
