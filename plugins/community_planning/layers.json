@@ -179,7 +179,7 @@
                 {
                     "name": "",
                     "services": [
-						{ "name": "Aransas_Pass", "type":"dynamic", "displayName":"", "showLayers": [
+						{ "name": "Aransas_Pass", "type":"dynamic", "displayName":"Aransus Pass", "showLayers": [
 								{"id":0, "parentLayerId":-1 },
 								{"id":1, "parentLayerId":-1 },
 								{"id":2, "parentLayerId":-1 },
