@@ -43,10 +43,10 @@
     "pluginOrder": [
         "layer_selector",
 		"community_planning",
-		"flood_slr",
 		"future_habitat",
         "eca",
         "coastal_defense_gulfmex",
+        "flood_slr",
         "restoration_explorer",
         "risk_explorer",
         "zoom_to",
