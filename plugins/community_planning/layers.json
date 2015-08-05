@@ -179,18 +179,32 @@
                 {
                     "name": "",
                     "services": [
-						{ "name": "Aransas_Pass", "type":"dynamic", "displayName":"Aransus Pass", "showLayers": [
-								{"id":0, "parentLayerId":-1 },
-								{"id":1, "parentLayerId":0 },
-								{"id":2, "parentLayerId":0 },
-								{"id":3, "parentLayerId":0 },
-								{"id":4, "parentLayerId":0 },
-								{"id":5, "parentLayerId":0 },
-								{"id":6, "parentLayerId":-1 },
-								{"id":7, "parentLayerId":6 },
-								{"id":8, "parentLayerId":6 },
-								{"id":9, "parentLayerId":6 },
-								{"id":10, "parentLayerId":6 },
+						{ "name": "Aransas_Pass", "type":"dynamic", "displayName":"Habitat", "showLayers": [
+								{"id":1, "parentLayerId":-1 },
+								{"id":2, "parentLayerId":-1 },
+								{"id":3, "parentLayerId":-1 },
+								{"id":4, "parentLayerId":-1 },
+								{"id":5, "parentLayerId":-1 }
+							]
+						}
+					]
+				},
+				{
+					"name": "",
+                    "services": [
+						{ "name": "Aransas_Pass", "type":"dynamic", "displayName":"Land Parcels", "showLayers": [
+								{"id":7, "parentLayerId":-1 },
+								{"id":8, "parentLayerId":-1 },
+								{"id":9, "parentLayerId":-1 },
+								{"id":10, "parentLayerId":-1 }
+							]
+						}
+					]
+				},
+				{
+					"name": "",
+                    "services": [
+						{ "name": "Aransas_Pass", "type":"dynamic", "displayName":"Sensitivity Index", "showLayers": [
 								{"id":11, "parentLayerId":-1 }
 							]
 						}
