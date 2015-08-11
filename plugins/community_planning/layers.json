@@ -195,8 +195,7 @@
 						{ "name": "Aransas_Pass", "type":"dynamic", "displayName":"Land Parcels", "showLayers": [
 								{"id":7, "parentLayerId":-1 },
 								{"id":8, "parentLayerId":-1 },
-								{"id":9, "parentLayerId":-1 },
-								{"id":10, "parentLayerId":-1 }
+								{"id":9, "parentLayerId":-1 }
 							]
 						}
 					]
@@ -205,7 +204,7 @@
 					"name": "",
                     "services": [
 						{ "name": "Aransas_Pass", "type":"dynamic", "displayName":"Sensitivity Index", "showLayers": [
-								{"id":11, "parentLayerId":-1 }
+								{"id":10, "parentLayerId":-1 }
 							]
 						}
 					]
