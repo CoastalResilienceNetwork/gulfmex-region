@@ -180,11 +180,12 @@
                     "name": "",
                     "services": [
 						{ "name": "Aransas_Pass", "type":"dynamic", "displayName":"Habitat", "showLayers": [
-								{"id":1, "parentLayerId":-1 },
-								{"id":2, "parentLayerId":-1 },
-								{"id":3, "parentLayerId":-1 },
-								{"id":4, "parentLayerId":-1 },
-								{"id":5, "parentLayerId":-1 }
+								{"id":0, "parentLayerId":-1 },
+								{"id":1, "parentLayerId":0 },
+								{"id":2, "parentLayerId":0 },
+								{"id":3, "parentLayerId":0 },
+								{"id":4, "parentLayerId":0 },
+								{"id":5, "parentLayerId":0 }
 							]
 						}
 					]
