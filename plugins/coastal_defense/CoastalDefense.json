@@ -14,7 +14,7 @@
 			"profilePoints": {"dataset": "FL_CD_CharlotteHarbor_Habitat_Profiles_Merged", "profileField": "profile_id", "pointField": "pt_id", "depthField": "depth"},
 			"profileLines" : {"dataset": "FL_CD_CharlotteHarbor_Habitat_Profile_Lines_Valid", "profileField": "profile_id", "OIDField": "objectid"},
 			"landPoints"   : {"dataset": "FL_CD_CharlotteHarbor_Landpoints_Valid", "profileField": "profile0", "OIDField": "objectid"},
-			"gpServer":	"http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/CoastalDefense/CoastalDefenseGOM/GPServer/CoastalDefenseGOM"
+			"gpServer":	"http://dev.services2.coastalresilience.org/arcgis/rest/services/CoastalDefense/CoastalDefenseGOM/GPServer/CoastalDefenseGOM"
 		},
 		"extent" :[-9186616.176151713,3086367.9068549303,-9095215.921048285,3131249.035705001],
 		"help": [
@@ -42,7 +42,7 @@
 			"profilePoints": {"dataset": "AL_CD_Mobile_Profiles_Selected", "profileField": "id", "pointField": "ptid", "depthField": "depth"},
 			"profileLines" : {"dataset": "AL_CD_Mobile_Profile_Lines", "profileField": "ptid", "OIDField": "objectid"},
 			"landPoints"   : {"dataset": "AL_CD_Mobile_Landpoints_Selected_PG", "profileField": "ptid", "OIDField": "objectid"},
-			"gpServer":	"http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/CoastalDefense/CoastalDefenseGOM/GPServer/CoastalDefenseGOM"
+			"gpServer":	"http://dev.services2.coastalresilience.org/arcgis/rest/services/CoastalDefense/CoastalDefenseGOM/GPServer/CoastalDefenseGOM"
 		},
 		"extent" :[-9830125,3529547,-9765232,3594910],
 		"help": [

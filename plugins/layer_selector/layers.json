@@ -1,7 +1,7 @@
 [
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Alabama",
             "folders": [
                 {
@@ -76,7 +76,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Florida",
             "folders": [
                 {
@@ -203,7 +203,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Louisiana",
             "folders": [
                 {
@@ -310,7 +310,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Mississippi",
             "folders": [
                 {
@@ -411,7 +411,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Texas",
             "folders": [
                 {
@@ -497,7 +497,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Gulf of Mexico",
             "folders": [
 				{
