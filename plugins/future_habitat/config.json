@@ -8,7 +8,7 @@
 {
 	"name": "Florida - Charlotte Harbor",
 	"extent": {"xmin":-9182912.67348,"ymin":3039639.87052,"xmax":-9090902.67348,"ymax":3144399.87052,"spatialReference":{"wkid":102100,"latestWkid":3857}},
-    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/gulfmex_FL_CH_SLAMM/ImageServer",
+    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_FL_CH_SLAMM/ImageServer",
 	"cellsize": 1,
 	"root": "gulfmex_FL_CH_SLAMM",
 	"field": "name",
@@ -57,7 +57,7 @@
 },{
 	"name": "Florida - SBB",
 	"extent": {"xmin":-9257562.126706902,"ymin":3277117.0146503076,"xmax":-9185382.126706902,"ymax":3413437.0146503076,"spatialReference":{"wkid":102100,"latestWkid":3857}},
-    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/gulfmex_FL_SBB_SLAMM/ImageServer",
+    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_FL_SBB_SLAMM/ImageServer",
 	"cellsize": 1,
 	"root": "gulfmex_FL_SBB_SLAMM",
 	"field": "name",
@@ -106,7 +106,7 @@
 },{
 	"name": "Florida - Pensacola Bay",
 	"extent": {"xmin":-9744722.009371394,"ymin":3538660.216507531,"xmax":-9661097.009371394,"ymax":3598045.216507531,"spatialReference":{"wkid":102100,"latestWkid":3857}},
-    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/gulfmex_FL_PEN_SLAMM/ImageServer",
+    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_FL_PEN_SLAMM/ImageServer",
 	"cellsize": 1,
 	"root": "gulfmex_FL_PEN_SLAMM",
 	"field": "name",
@@ -155,7 +155,7 @@
 },{
 	"name": "Florida - Tampa Bay",
 	"extent": {"xmin":-9223918.268466095,"ymin":3172683.0065546175,"xmax":-9148153.268466095,"ymax":3276978.0065546175,"spatialReference":{"wkid":102100,"latestWkid":3857}},
-    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/gulfmex_FL_TB_SLAMM/ImageServer",
+    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_FL_TB_SLAMM/ImageServer",
 	"cellsize": 1,
 	"root": "gulfmex_FL_TB_SLAMM",
 	"field": "name",
@@ -205,7 +205,7 @@
 {
 	"name": "Florida - Apalachicola",
 	"extent": {"xmin":-9492351.617249923,"ymin":3448802.055469633,"xmax":-9426711.617249923,"ymax":3506042.055469633,"spatialReference":{"wkid":102100,"latestWkid":3857}}, 
-    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/gulfmex_FL_APA_SLAMM/ImageServer",
+    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_FL_APA_SLAMM/ImageServer",
 	"cellsize": 1,
 	"root": "gulfmex_FL_APA_SLAMM",
 	"field": "name",
@@ -254,7 +254,7 @@
 {
 	"name": "Florida - CSAB",
 	"extent": {"xmin":-9662580.873142697,"ymin":3486276.9436249575,"xmax":-9480560.873142697,"ymax":3605686.9436249575,"spatialReference":{"wkid":102100,"latestWkid":3857}}, 
-    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/gulfmex_FL_CSAB_SLAMM/ImageServer",
+    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_FL_CSAB_SLAMM/ImageServer",
 	"cellsize": 1,
 	"root": "gulfmex_FL_CSAB_SLAMM",
 	"field": "name",
@@ -302,7 +302,7 @@
 {
 	"name": "Texas - Galveston Bay",
 	"extent": {"xmin":-10617428.7792,"ymin":3367666.45955,"xmax":-10501308.7792,"ymax":3501886.45955,"spatialReference":{"wkid":102100,"latestWkid":3857}}, 
-    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/gulfmex_TX_GB_SLAMM/ImageServer",
+    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_TX_GB_SLAMM/ImageServer",
 	"cellsize": 1,
 	"root": "gulfmex_TX_GB_SLAMM",
 	"field": "name",
@@ -350,7 +350,7 @@
 {
 	"name": "Texas - JC",
 	"extent": {"xmin":-10516233.7701,"ymin":3442038.3806878375,"xmax":-10444563.7701,"ymax":3481208.3806878375,"spatialReference":{"wkid":102100,"latestWkid":3857}}, 
-    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/gulfmex_TX_JC_SLAMM/ImageServer",
+    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_TX_JC_SLAMM/ImageServer",
 	"cellsize": 1,
 	"root": "gulfmex_TX_JC_SLAMM",
 	"field": "name",
@@ -398,7 +398,7 @@
 {
 	"name": "Texas - Corpus Christi",
 	"extent": {"xmin":-10904805.3567,"ymin":3193133.3176969676,"xmax":-10797270.3567,"ymax":3261263.3176969676,"spatialReference":{"wkid":102100,"latestWkid":3857}}, 
-    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/gulfmex_TX_CC_SLAMM/ImageServer",
+    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_TX_CC_SLAMM/ImageServer",
 	"cellsize": 1,
 	"root": "gulfmex_TX_CC_SLAMM",
 	"field": "name",
@@ -447,7 +447,7 @@
 {
 	"name": "Mississippi - Grand Bay",
 	"extent": {"xmin":-9851687.74698411,"ymin":3543930.1375008198,"xmax":-9825717.74698411,"ymax":3566120.1375008198,"spatialReference":{"wkid":102100,"latestWkid":3857}}, 
-    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/gulfmex_MS_GBN_SLAMM/ImageServer",
+    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_MS_GBN_SLAMM/ImageServer",
 	"cellsize": 1,
 	"root": "gulfmex_MS_GBN_SLAMM",
 	"field": "name",
@@ -496,7 +496,7 @@
 {
 	"name": "Alabama - Mobile Bay",
 	"extent": {"xmin":-9820253.094781566,"ymin":3530016.5998805803,"xmax":-9761393.094781566,"ymax":3657366.5998805803,"spatialReference":{"wkid":102100,"latestWkid":3857}}, 
-    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/gulfmex_AL_MOB_SLAMM/ImageServer",
+    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_AL_MOB_SLAMM/ImageServer",
 	"cellsize": 1,
 	"root": "gulfmex_AL_MOB_SLAMM",
 	"field": "name",
@@ -545,7 +545,7 @@
 {
 	"name": "Alabama - Perdido Bay",
 	"extent": {"xmin":-9761729.29492236,"ymin":3535507.2970831012,"xmax":-9727589.29492236,"ymax":3584167.2970831012,"spatialReference":{"wkid":102100,"latestWkid":3857}}, 
-    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/gulfmex_AL_PER_SLAMM/ImageServer",
+    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_AL_PER_SLAMM/ImageServer",
 	"cellsize": 1,
 	"root": "gulfmex_AL_PER_SLAMM",
 	"field": "name",
@@ -594,7 +594,7 @@
 {
 	"name": "Louisiana - Barataria - Breton Sound",
 	"extent": {"xmin":-10037023.7253,"ymin":3363555.64353,"xmax":-9885268.72531,"ymax":3531030.64353,"spatialReference":{"wkid":102100,"latestWkid":3857}},
-    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/gulfmex_LA_HCRT/ImageServer",
+    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_LA_HCRT/ImageServer",
 	"cellsize": 1,
 	"root": "gulfmex_LA_HCRT",
 	"field": "Name",

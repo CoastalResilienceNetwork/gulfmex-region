@@ -1,7 +1,7 @@
 [
     {
         "agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Charlotte Harbor",
             "folders": [
                 {
@@ -91,7 +91,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Choctawhatchee and St Andrew Bay",
             "folders": [
                 {
@@ -131,7 +131,7 @@
 	},
 	{
 		    "agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Escambia County",
             "folders": [
                 {
@@ -173,7 +173,7 @@
 	},
 	{
 			"agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Aransas Pass",
             "folders": [
                 {
@@ -214,7 +214,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Galveston Bay",
             "folders": [
                 {
@@ -375,7 +375,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Grand Bay NERR",
             "folders": [
                 {

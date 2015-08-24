@@ -273,7 +273,7 @@
             "folderTitle": "Charlotte Harbor",
             "folders": [
                 {
-                    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services",
+                    "url": "http://services.coastalresilience.org/arcgis/rest/services",
 					"name": "Gulf_of_Mexico",
 					"displayName": "Charlotte Harbor",
                     "services": [
@@ -306,7 +306,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Choctawhatchee and St Andrew Bays",
             "folders": [
                 {
@@ -391,7 +391,7 @@
             "folderTitle": "Corpus Christi",
             "folders": [
                 {
-                    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services",
+                    "url": "http://services.coastalresilience.org/arcgis/rest/services",
 					"name": "Gulf_of_Mexico",
 					"displayName": "Corpus Christi",
                     "services": [
@@ -411,7 +411,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Galveston Bay",
             "folders": [
                 {
@@ -492,7 +492,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Grand Bay NERR",
             "folders": [
                 {
@@ -573,7 +573,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Jefferson County",
             "folders": [
                 {
