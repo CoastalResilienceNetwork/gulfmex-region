@@ -506,7 +506,7 @@
                         { "name": "Gulf_of_Mexico", "type":"dynamic", "displayName":"Habitats", "description":"The Habitat map service features data including but not limited to salt marshes, sea grasses, and current and historical oyster reefs.  A brief description and metadata appear when you click on each layer.", "showLayers": [
 								{"id":1, "parentLayerId":-1 },
 								{"id":2, "parentLayerId":-1 },
-								{"id":3, "parentLayerId":-1 },
+								{"id":3, "parentLayerId":-1 ,"downloadUrl": "http://data.coastalresilience.org/Gulfmex/gulfmex_GM_marshes_2009.zip" },
 								{"id":4, "parentLayerId":-1 },
 								{"id":5, "parentLayerId":-1 }
 							]
@@ -540,7 +540,7 @@
                     "services": [
                         { "name": "Gulf_of_Mexico", "type":"dynamic", "displayName":"Coastal Hazards", "showLayers": [
 								{"id":15, "parentLayerId":-1 },
-								{"id":16, "parentLayerId":-1, "downloadUrl": "/gulfmex/docs/download/cumulative_oil.zip" }
+								{"id":16, "parentLayerId":-1, "downloadUrl": "http://data.coastalresilience.org/Gulfmex/gulfmex_cumulative_oil.zip" }
 							]
 						}	
 					]
