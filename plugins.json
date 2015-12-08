@@ -2,7 +2,7 @@
     "plugins": [
         {
             "repo": "eca",
-            "name": "economics_of_coastal_adaptation"
+            "name": "eca"
         },
         {
             "repo": "future_habitat",
