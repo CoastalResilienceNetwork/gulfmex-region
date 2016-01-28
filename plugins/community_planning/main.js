@@ -1,3 +1,4 @@
+﻿
 define([
     "dojo/_base/declare",
     "plugins/layer_selector/main",
