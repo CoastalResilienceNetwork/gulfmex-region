@@ -530,7 +530,8 @@
 								{"id":10, "parentLayerId":-1 },
 								{"id":11, "parentLayerId":-1 },
 								{"id":12, "parentLayerId":-1 },
-								{"id":13, "parentLayerId":-1 }
+								{"id":13, "parentLayerId":-1 },
+								{"id":14, "parentLayerId":-1 }
 							]
 						}	
 					]
@@ -539,8 +540,8 @@
 					"name": "",
                     "services": [
                         { "name": "Gulf_of_Mexico", "type":"dynamic", "displayName":"Coastal Hazards", "showLayers": [
-								{"id":15, "parentLayerId":-1 },
-								{"id":16, "parentLayerId":-1, "downloadUrl": "http://data.coastalresilience.org/Gulfmex/gulfmex_cumulative_oil.zip" }
+								{"id":16, "parentLayerId":-1 },
+								{"id":17, "parentLayerId":-1, "downloadUrl": "http://data.coastalresilience.org/Gulfmex/gulfmex_cumulative_oil.zip" }
 							]
 						}	
 					]
@@ -549,13 +550,13 @@
 					"name": "",
                     "services": [
                         { "name": "Gulf_of_Mexico", "type":"dynamic", "displayName":"Social and Economic", "showLayers": [
-								{"id":18, "parentLayerId":-1 },
 								{"id":19, "parentLayerId":-1 },
 								{"id":20, "parentLayerId":-1 },
 								{"id":21, "parentLayerId":-1 },
 								{"id":22, "parentLayerId":-1 },
 								{"id":23, "parentLayerId":-1 },
-								{"id":24, "parentLayerId":-1 }
+								{"id":24, "parentLayerId":-1 },
+								{"id":25, "parentLayerId":-1 }
 							]
 						}	
 					]
