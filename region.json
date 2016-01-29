@@ -21,7 +21,6 @@
             ]
         },
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
-        { "text": "Partners", "url": "partners.html", "popup": true },
         { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" }
     ],
     "initialExtent": [
@@ -103,14 +102,6 @@
                 "name": "Interactive Maps",
                 "description": "Choose a button to take you to our analysis tools. After picking a button, you will be able to explore the full suite of data and make a custom map.",
                 "issues": [
-                    {
-                      "name": "Explore the map",
-                      "description": "",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xMTQxOTA4MC41Mjk1Nzg0ODXEmnnFgcSTMjDFjjE4MS4zMzU0MMWcNzA2xL/EqXjEiC3FkzMyNcWxLjk2MDTFmzg3M8WXxazEiDM2xbEyxbvFjcWTxYUxM8WGxJrEi2F0acSWUmVmZcSExJ3EuMSJIndraWTEiDEwMsagMMSabMaOZXN0V8acxp46M8WVN33Ep8SBZWxlY8SwZEJhxJjEqXBJbmTErsSIMMazcGFuZcSrxpnHh8eJTnVtYsaVx4TGjHTGp09mUGx1Z8WCxKLGmcSYxrbGuGVkx5rHnMWCxLnEjMenbnMvxqZ5xpVfx6HGt3RvciLEmmHGuGl2ZVN1YsSEx51vxJNudWxsxJrHqsedx6zEs8iLx57HrmHHsHLHssa1x7THtsSzcm9vdC9BxqZiYcSpyJ7IoMiiYTHEs2/Hh2PEjnnHhC43xJpjaMa3a8ekxKPElsSYxrPHvXJzaciExLnFoMioxJrImsicyKRhyKHIo8ifyYjIpjM0NTbFksipyKvIrcivyLEiyLPItci3xJTIucSmyYTIm8idyYvJiWHJh8mjxqDJk8e6yZU6xYzJl8mZY8i2xq3EpMi6yZ/JhsmiyKbJpcimMcaiM8moyKzEtcmWyLLItMmvyZvJssmeIsmFyaHIpcmKyorIpzUxNsm9yarJrMqByZrJscmdxrPKiMm4yovJjMSpxZ7FiMWbxqIyyqLFsTTKkcm/yavIsMqUyoPKlsSlypjJoC9GbMe2xp3JpMqxyrNkyKfKpsiuyqjJrcqCybDIuMqtybTIncq2csq0yrDKssuFyrjJjsmQN8q6yoDJmMq+yoTKl8uCy4fKt8q1y4jKtDnLjsq8yqrKv8mcy4HKh8qvy4TLhsujyrjFhcubypPLkMqVy4DJs8uhyYbLpcuXy5bGicWGy6jKqcuqyqvLrMqGypnLsMuVy4nIpzYxN8Wey7XKvcury5/Lrcu7y5jKuMu9yrTKoMm6yqMyxbnFjsqQxpnIqsmpyqfLqcmuy57Khcquy6/Misuxy77GhMWiMznFucyEy53LksugzInLlsyMyrg0N8WUxY7Mp8u3zJvLk8uuyJ1Mb3VpyL7HiMmkzLnMu8y9bsinMsuNzJXJlMyYy7bMmsypzIjKr82AzLzGkM2DL82PzYLNhMuzxYfKjsyUxIDMlsm+yrvMmcuRyqzNjcmGzZTNkcy/zLrNkMy+yp7Lms2HzJfNns2KzaDLucydzLjNp82VzZPNtM2lyqEyzLPNi82hy7rNjs23zL7Nts2BzbjMkjI2zYXNu82wzIfNvs2jzoDNks2kzL7FjzMwxorFscyjNMWjxoEzxbw4zKTFpcWHzonMhsycy5TOkM6Pzo5hzpg0zqrFpDbMr8WUNM2rzZvNiM2uzIXLuM6LzbIvTcy8yL5zyL5wcGnOuc67z4POv2nIqM2szZ3Lj828zbHLlM66zr3PhM+Az4LPj8+Pz4XJjs6xIs2cypLNr86izLbKmc+OzrzOvs+Rz5/PkM+GzZnOoc62zqPMt8+Sz6Bpz4XPq8+kzarPp8y1zKrKr8+jz5TPos+Dz7dpzbnPss2MzozInc+2z6HPgdCBz63PgMyRxbLOhs6Iz4jPms61z7PNotCAz7nQgs+vz7rOks6UxokyzpfPvc29zrjQhM+u0J3PgMaB0JrPjM+qVMSuxrwv0KV4xrzPh86yza3Pis6Kz6nKmdCp0KfQs3PLi8mROM+Xz5nNidCNz77OuNC10KjQpnPFm9CizrfLlNGA0LXKotCY0YXQscqv0YjRgtCIzoc3xoTRjM+d0Y7RgtGB0KrQttCWzpbFos6YNdGVz7TJhkfIh2Ygb9GmTcSuaWNvL9GkbNGm0agg0ap40axvybrLi9Gh0I/Rr9Gl0afRqdGr0a3RvdGx0b/RtNKBb8mS0IvQvMyo0JvLlNGw0bLSgNG20oLSj9KF0bXRt8agxojJu8u00orOtNKM0KPKmdKU0bPSltKT0b7SotKHyo/MgdG7z7/Sg9KQ0obSktGu0qHSkdKXOcyO0YrKpMWy0qrGssayx7nHu8e9x7/IgWXIg8iFyIdsxrI=",
-                      "faIcon": "fa fa-globe",
-                      "faSize": 32
-                    },
                     {
                       "name": "Living Shorelines",
                       "description": "",
