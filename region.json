@@ -70,18 +70,9 @@
         "hideByDefault": false,
         "areas": [
             {
-                "id": "New Orleans",
-                "display": "New Orleans",
-                "details": "New Orleans, LA",
-                "shape": [""],
-                "availablePlugins": ["layer_selector", "coastal_defense"],
-                "outlineColor": "#000",
-                "noFill": true
-            },
-            {
                 "id": "Tampa Bay",
                 "display": "Tampa Bay",
-                "shape": [""],
+                "details": "Tampa Bay, FL", "shape":[[-82.91162655619355,27.89266640972588],[-82.84438212608092,27.5884058370522],[-82.59130974222403,27.20477244655647],[-82.49231493424207,27.21646511902301],[-82.48112299039093,27.4132450727414],[-82.4599314912559,27.5605116908843],[-82.3270233452628,27.72182987293516],[-82.31306560235142,27.93596840886031],[-82.54267295092924,28.05766030033054],[-82.87138859872236,28.07311798581571],[-82.91162655619355,27.89266640972588]],
                 "availablePlugins": ["layer_selector", "eca"],
                 "outlineColor": "#000",
                 "noFill": true
