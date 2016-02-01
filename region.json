@@ -73,6 +73,7 @@
                 "id": "New Orleans",
                 "display": "New Orleans",
                 "details": "New Orleans, LA",
+                "shape": [""],
                 "availablePlugins": ["layer_selector", "coastal_defense"],
                 "outlineColor": "#000",
                 "noFill": true
@@ -80,6 +81,7 @@
             {
                 "id": "Tampa Bay",
                 "display": "Tampa Bay",
+                "shape": [""],
                 "availablePlugins": ["layer_selector", "eca"],
                 "outlineColor": "#000",
                 "noFill": true
