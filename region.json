@@ -93,6 +93,14 @@
                 "description": "Choose a button to take you to our analysis tools. After picking a button, you will be able to explore the full suite of data and make a custom map.",
                 "issues": [
                     {
+                      "name": "Explore the map",
+                      "description": "",
+                      "saveCode": "e34df34rd3....3434",
+                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xMTQ0NzIwOS4zNTU5ODc0MjLEmnnFgcSTxYo2MMWTMi4yODI1Njg1xZ04xL/EqXjEiC04NDDFh8WxLjEzxbDFhTnFjsWXxavEiDM2MjPFiTYuNsW+OTQzxoE2NsSaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIgxMDLGoTDEmmzGj2VzdFfGncafOjPFpjd9xKfEgWVsZWPEsGRCYcSYxKlwSW5kxK7EiDDGtHBhbmXEq8aax4jHik51bWLGlseFxo10xqhPZlBsdWfFgsSixprEmMa3xrllZMebx53FgsSIbnVsbMSaxIzHqG7HoHvGs8az",
+                      "faIcon": "fa fa-globe",
+                      "faSize": 32
+                    },
+                    {
                       "name": "Living Shorelines",
                       "description": "",
                       "saveCode": "e34df34rd3....3434",
