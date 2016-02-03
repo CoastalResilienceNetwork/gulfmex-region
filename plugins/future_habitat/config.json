@@ -7,7 +7,7 @@
     "pluginData": [
 {
 	"name": "Gulf-wide",
-	"extent": {"xmin":-12005565.339,"ymin":1963006.553,"xmax":-7762054.248,"ymax":4510614.007,"spatialReference":{"wkid":102100,"latestWkid":3857}},
+    "extent": {"xmin":-10925565.339,"ymin":2768362.273562973,"xmax":-8804257.297925206,"ymax":3769042.273562973,"spatialReference":{"wkid":102100,"latestWkid":3857}},
     "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/gulfmex_SLAMM_GCPLCC/ImageServer",
 	"cellsize": 1,
 	"root": "gulfmex_SLAMM",
@@ -16,7 +16,7 @@
 	"initialCondition": "base",
 	delimiter: "_",
 	variables: [
-		      {"name":"Choose an SLR Scenario", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition"},{"name":"0.5m SLR", "value":"0.5m SLR"}, {"name":"1.0m SLR", "value":"1.0m SLR "}, {"name":"1.2m SLR", "value":"1.2m SLR"}, {"name":"1.5m SLR", "value":"1.5m SLR "},, {"name":"2.0m SLR", "value":"2.0m SLR "}]},
+		      {"name":"Choose an SLR Scenario", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition"},{"name":"0.5m SLR", "value":"s05"}, {"name":"1.0m SLR", "value":"s10"}, {"name":"1.2m SLR", "value":"s12"}, {"name":"1.5m SLR", "value":"s15"}, {"name":"2.0m SLR", "value":"s20"}]},
               {"name":"Choose a Scenario Year", "index":1, "values":[ {"name":"2025","value":"2025"},{"name":"2050","value":"2050"},{"name":"2075","value":"2075"},{"name":"2100","value":"2100"}]}
                ],
 	"change": true,
