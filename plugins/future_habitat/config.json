@@ -13,17 +13,17 @@
 	"root": "gulfmex_SLAMM",
 	"field": "name",
 	"methods": "http://www.tnc.org",
-	"initialCondition": "Initial_Condition",
+	"initialCondition": "base",
 	delimiter: "_",
 	variables: [
-		      {"name":"Choose an SLR Scenario", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Initial Condition"},{"name":"0.5m SLR", "value":"0.5m SLR"}, {"name":"1.0m SLR", "value":"1.0m SLR "}, {"name":"1.2m SLR", "value":"1.2m SLR"}, {"name":"1.5m SLR", "value":"1.5m SLR "},, {"name":"2.0m SLR", "value":"2.0m SLR "}]},
+		      {"name":"Choose an SLR Scenario", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition"},{"name":"0.5m SLR", "value":"0.5m SLR"}, {"name":"1.0m SLR", "value":"1.0m SLR "}, {"name":"1.2m SLR", "value":"1.2m SLR"}, {"name":"1.5m SLR", "value":"1.5m SLR "},, {"name":"2.0m SLR", "value":"2.0m SLR "}]},
               {"name":"Choose a Scenario Year", "index":1, "values":[ {"name":"2025","value":"2025"},{"name":"2050","value":"2050"},{"name":"2075","value":"2075"},{"name":"2100","value":"2100"}]}
                ],
 	"change": true,
 	"habitats": [
-			{"name":"exclude","values":[1,2,21,24,15,16,17,18,19]},
+			{"name":"exclude","values":[1,2,24,15,16,17,18,19]},
 			{"name":"Forested Wetlands","values":[3,4,7,9,23]},
-			{"name":"Marsh","values":[5,6,8,20]},
+			{"name":"Marsh","values":[5,6,8,20,21]},
 			{"name":"Beaches and Flats","values":[10,11,12,13,14,22,25,26]}
 		],
 	"colormap":[
