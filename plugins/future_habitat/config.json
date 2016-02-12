@@ -33,14 +33,14 @@
 						  [3, 77, 166, 77],
 						  [4, 77, 84, 0],
 						  [5, 77, 255, 77],
-						  [6, 0, 0, 0],
+						  [6, 164, 255, 164],
 						  [7, 165, 165, 77],
 						  [8, 77, 193, 193],
 						  [9, 166, 77, 166],
 						  [10, 255, 255, 202],
 						  [11, 211, 211, 211],
 						  [12, 255, 255, 77],
-						  [13, 0, 0, 0],
+						  [13, 179, 89, 0],
 						  [14, 150, 150, 150],
 						  [15, 77, 77, 255],
 						  [16, 77, 77, 255],
@@ -51,9 +51,11 @@
 						  [21, 0, 0, 0],
 						  [22, 166, 121, 77],
 						  [23, 77, 121, 77],
-						  [24, 0, 0, 0]
+						  [24, 0, 0, 0],
+						  [25, 0, 0, 0],
+						  [26, 255, 214, 117]
 						],
-	"labels":{"1": "Developed Land", "2": "Undeveloped Land", "3": "Swamp", "4": "CypressSwamp", "5": "Inland Freshwater Marsh", "6": "Tidal Freshwater Marsh", "7": "Transitional Fresh Marsh", "8": "Regularly Flooded Marsh", "9": "Mangrove", "10": "Estuarine Beach", "11": "Tidal Flat", "12": "Ocean Beach", "13": "Ocean Flat", "14": "Rocky Intertidal", "15": "Inland Open Water", "16": "Riverine Tidal", "17": "Estuarine Open Water", "18": "Tidal Creek", "19": "Open Ocean", "20": "Irregularly Flooded Marsh", "21": "Tall Spartina", "22": "Inland Shore", "23": "Tidal Swamp", "24": "Blank", "25": "Vegetated Tidal Flat", "26": "Backshore"}
+	"labels":{"1": "Developed Land", "2": "Undeveloped Land", "3": "Swamp", "4": "CypressSwamp", "5": "Inland Freshwater Marsh", "6": "Tidal Freshwater Marsh", "7": "Transitional Salt Marsh (Scrub/Shrub)", "8": "Regularly Flooded Marsh", "9": "Mangrove", "10": "Estuarine Beach", "11": "Tidal Flat", "12": "Ocean Beach", "13": "Ocean Flat", "14": "Rocky Intertidal", "15": "Inland Open Water", "16": "Riverine Tidal", "17": "Estuarine Open Water", "18": "Tidal Creek", "19": "Open Ocean", "20": "Irregularly Flooded Marsh", "21": "Tall Spartina", "22": "Inland Shore", "23": "Tidal Swamp", "24": "Blank", "25": "Vegetated Tidal Flat", "26": "Backshore"}
 },{
 	"name": "Florida - Charlotte Harbor",
 	"extent": {"xmin":-9182912.67348,"ymin":3039639.87052,"xmax":-9090902.67348,"ymax":3144399.87052,"spatialReference":{"wkid":102100,"latestWkid":3857}},
