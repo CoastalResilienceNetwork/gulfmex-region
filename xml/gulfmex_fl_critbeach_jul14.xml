@@ -1,0 +1,184 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>critbeach_jul14</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset provides an inventory of Florida's erosion problem areas fronting on the Atlantic Ocean, Straits of Florida, Gulf of Mexico, and the roughly seventy coastal barrier tidal inlets. Critical erosion areas are segments of the shoreline where natural processes or human activity has caused or contributed to erosion and recession of the beach or dune system. The erosion problem areas are classified as either critical or noncritical and is based on the Critical Erosion Report for 2014. Which indicates the condition of shoreline, determined by our staff of Coastal Engineers. This report is used to document areas of change and to help the beach management staff with prioritizing projects and resources to the areas of greatest need.  This is an update to the FGDL layer: CRITBEACH_JUN13.shp</abstract>
+      <purpose>To show the areas and severity of beach erosion as determined by our engineering staff.</purpose>
+	  <supplinf>The determination of beach condition was under the direction of Ralph Clark and his staff of Coastal Engineers. Beach Management Funding Assistance (BMFA) Program (Formerly the Beach Erosion Control Program - BECP) "To develop and implement a long term regional proactive beach management program for the state of Florida" Recognizing the importance of the state's beaches, the Florida Legislature in 1986 adopted a posture of protecting and restoring the state's beaches through a comprehensive beach management planning program. Under the program, the Department of Environmental Protection’s Division of Water Resource Management evaluates beach erosion problems throughout the state seeking viable solutions. The primary vehicle for implementing the beach management planning recommendations is the Florida Beach Management Funding Assistance Program, which is a program established for the purpose of working in concert with local, state and federal governmental entities to achieve the protection, preservation and restoration of the coastal sandy beach resources of the state. Under the program, financial assistance in an amount up to 50 percent of project costs is available to Florida's county and municipal governments, community development districts, or special taxing districts for shore protection and preservation activities located on the Gulf of Mexico, Atlantic Ocean, or Straits of Florida. Eligible activities include beach restoration and nourishment activities, project design and engineering studies, environmental studies and monitoring, inlet management planning, inlet sand transfer, dune restoration and protection activities, and other beach erosion prevention related activities consistent with the adopted Strategic Beach Management Plan. The program is authorized by Section 161.101, Florida Statutes. Since 1998, when the Legislature dedicated a portion of the Ecosystem Management and Restoration Trust Fund for beach management, $626.6 million has been appropriated to cost-share with local governments on local and federally authorized projects, with each level of government contributing about one-third of the cost of the entire program. This has resulted in the restoration and subsequent maintenance of over 227.8 miles, or nearly 56%, of the state’s 407.3 miles of critically eroded beaches. Source: http://www.dep.state.fl.us/beaches/programs/becp/index.htm Why Restore Eroded Beaches? Bulldozer moving sand along the beach front Beach erosion threatens the very resource that residents and visitors enjoy. Over 485 miles, or approximately 59% of the state's beaches, are experiencing erosion. At present, about 387 of the state's 825 miles of sandy beaches have experienced "critical erosion", a level of erosion which threatens substantial development, recreational, cultural, or environmental interests. While some of this erosion is due to natural forces and imprudent coastal development, a significant amount of coastal erosion in Florida is directly attributable to the construction and maintenance of navigation inlets. Florida has over 60 inlets around the state, many have been artificially deepened to accommodate commercial and recreational vessels and employ jetties to prevent sand from filling in the channels. A by-product of this practice is that the jetties and the inlet channels have interrupted the natural flow of sand along the beach causing an accumulation of sand in the inlet channel and at the jetty on one side of the inlet, and a loss of sand to the beaches on the other side of the inlet. One way to restore eroded beaches is through beach nourishment. In a typical beach nourishment project, sand is collected from an offshore location by a dredge and is piped onto the beach. A slurry of sand and water exits the pipe on the beach and once the water drains away, only sand is left behind. Bulldozers move this new sand on the beach until the beach matches the design profile. Beach nourishment is a preferred way to add sand to a system which has been starved by the altered inlets because it provides a significant level of storm protection benefits for upland properties and is the least impacting to the coastal system. An additional benefit of beach restoration projects is that they quickly restore shorebird and marine turtle habitat. Local, state and federal entities are now managing over 200 miles of restored beaches in Florida. Source: http://www.dep.state.fl.us/beaches/programs/becp/restore.htm</supplinf>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-87.517550</westbc>
+        <eastbc>-80.029894</eastbc>
+        <northbc>30.706217</northbc>
+        <southbc>24.543421</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>188</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>CRITBEACH_JUL14</enttypl>
+        <enttypd>CRITBEACH_JUL14.DBF</enttypd>
+        <enttypds>FDEP</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID_1</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RANGES</attrlabl>
+        <attrdef>Monument or location of record.</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STATUS</attrlabl>
+        <attrdef>Erosion status determined by engineers. Status of the erosion. Critically eroded area is a segment of the shoreline where natural processes or human activity have caused or contributed to erosion and recession of the beach or dune system to such a degree that upland development, recreational interests, wildlife habitat, or important cultural resources are threatened or lost.</attrdef>
+        <attrdefs>FDEP</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>CRITICAL</edomv>
+            <edomvds>FDEP</edomvds>
+            <edomvd>Critical erosion area. Critically eroded area is a segment of the shoreline where natural processes or human activity have caused or contributed to erosion and recession of the beach or dune system to such a degree that upland development, recreational interests, wildlife habitat, or important cultural resources are threatened or lost. Critically eroded areas may also include peripheral segments or gaps between identified critically eroded areas which, although they may be stable or slightly erosional now, their inclusion is necessary for continuity of management of the coastal system or for the design integrity of adjacent beach management projects.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CRITICAL INLET</edomv>
+            <edomvds>FDEP</edomvds>
+            <edomvd>Critical inlet erosion area.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NONCRITICAL</edomv>
+            <edomvds>FDEP</edomvds>
+            <edomvd>Noncritical erosion area.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NONCRITICAL INLET</edomv>
+            <edomvds>FDEP</edomvds>
+            <edomvd>Noncritical inlet erosion area.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>County record is located in.</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LOCAL_NAME</attrlabl>
+        <attrdef>Local or common name for area.</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DESCRIPT</attrlabl>
+        <attrdef>Based on the field STATUS.</attrdef>
+        <attrdefs>GeoPlan</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FGDLAQDATE</attrlabl>
+        <attrdef>Date FGDL acquired the data from the Source.</attrdef>
+        <attrdefs>GeoPlan</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AUTOID</attrlabl>
+        <attrdef>Unique ID added by GeoPlan</attrdef>
+        <attrdefs>GeoPlan</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview />
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+          <transize>0.044</transize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20160314</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
