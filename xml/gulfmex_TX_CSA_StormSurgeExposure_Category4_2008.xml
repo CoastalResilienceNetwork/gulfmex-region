@@ -1,0 +1,409 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+ <idinfo>
+  <citation>
+   <citeinfo>
+    <origin>Mary Kate Brown</origin>
+    <pubdate>20160318</pubdate>
+    <title>Storm Surge Exposure for a Category 4  like event in 2008</title>
+    <geoform>Vector Digital Data Set (Polygon)</geoform>
+    <onlink>http://maps.coastalresilience.org/gulfmex/</onlink>
+    <lworkcit>
+     <citeinfo>
+      <origin>Mary Kate Brown</origin>
+      <pubdate>20160318</pubdate>
+      <title>Copano and San Antonio Bays Sea Level Rise Analyses</title>
+      <geoform>Website</geoform>
+      <pubinfo>
+       <pubplace>Coastal Resilience Network</pubplace>
+       <publish>The Nature Conservancy</publish>
+      </pubinfo>
+      <onlink>maps.coastalresilience.org</onlink>
+     </citeinfo>
+    </lworkcit>
+   </citeinfo>
+  </citation>
+  <descript>
+   <abstract>This dataset was made to show the percentage of each census block in Copano and San Antonio Bays that are potentially exposed to a storm surge scenario similar to Category 4 storms, classified between Low (&lt;5%), Moderate (5%-10%) and High (&gt;15%) based on percent of block group area inundated.</abstract>
+   <purpose>Data set was created to determine the condition of the Copano and San Antonio Bays landscape under the a 2100 sea level rise scenario and used for analyses of marsh resiliency, coastal resiliency, and community  resiliency.</purpose>
+  </descript>
+  <timeperd>
+   <timeinfo>
+    <sngdate>
+     <caldate>20160318</caldate>
+    </sngdate>
+   </timeinfo>
+   <current>publication date</current>
+  </timeperd>
+  <status>
+   <progress>Complete</progress>
+   <update>None planned</update>
+  </status>
+  <spdom>
+   <bounding>
+    <westbc>-97.414969249</westbc>
+    <eastbc>-96.364375438</eastbc>
+    <northbc>28.630371519</northbc>
+    <southbc>27.780199901</southbc>
+   </bounding>
+  </spdom>
+  <keywords>
+   <theme>
+    <themekt>None</themekt>
+    <themekey>SLAMM</themekey>
+    <themekey>SLR</themekey>
+    <themekey>sea level rise</themekey>
+    <themekey>storm surge</themekey>
+    <themekey>category 4</themekey>
+   </theme>
+   <place>
+    <placekt>None</placekt>
+    <placekey>San Antonio Bay</placekey>
+    <placekey>Copano Bay</placekey>
+    <placekey>Texas</placekey>
+    <placekey>Gulf of Mexico</placekey>
+   </place>
+  </keywords>
+  <accconst>Data access will be granted on gulfsealevelrise.org and coastalresilience.org and will follow the data access constraints on those two websites.</accconst>
+  <useconst>Data use will be granted on gulfsealevelrise.org and coastalresilience.org and will follow the data use constraints on those two websites.</useconst>
+  <datacred>This project is funded by GLO Contract No. 15-032-000-8374 and is supported by data collected by research staff of the Coastal Studies group, Near Surface Observatory, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin. This project was supported by grant no. 13-268-000-7485 from the General Land Office of Texas to the BEG. Jeffrey G. Paine served as the principal investigator. The project was funded under a Coastal Impact Assistance Program grant made available to the State of Texas by the U. S. Department of the Interior, U.S. Fish and Wildlife Service.</datacred>
+  <native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2 (Build 3552) Service Pack N/A (Build N/A)</native>
+ </idinfo>
+ <dataqual>
+  <attracc>
+   <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+  </attracc>
+  <logic>No formal logical accuracy tests were conducted.</logic>
+  <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+  <posacc>
+   <horizpa>
+    <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+   </horizpa>
+   <vertacc>
+    <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+   </vertacc>
+  </posacc>
+  <lineage>
+   <procstep>
+    <procdesc>Development of the data set by the agency / individuals identified in the 'Originator' element in the Identification Info section of the record.</procdesc>
+    <procdate>Unknown</procdate>
+   </procstep>
+  </lineage>
+ </dataqual>
+ <spdoinfo>
+  <direct>Vector</direct>
+  <ptvctinf>
+   <sdtsterm>
+    <sdtstype>G-polygon</sdtstype>
+    <ptvctcnt>3431</ptvctcnt>
+   </sdtsterm>
+  </ptvctinf>
+ </spdoinfo>
+ <spref>
+  <horizsys>
+   <planar>
+    <mapproj>
+     <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere (ESRI Full Name: WGS_1984_Web_Mercator_Auxiliary_Sphere)</mapprojn>
+     <mercator>
+      <stdparll>0.0</stdparll>
+      <longcm>0.0</longcm>
+      <feast>0.0</feast>
+      <fnorth>0.0</fnorth>
+     </mercator>
+    </mapproj>
+    <planci>
+     <plance>coordinate pair</plance>
+     <coordrep>
+      <absres>0.6096</absres>
+      <ordres>0.6096</ordres>
+     </coordrep>
+     <plandu>Meter</plandu>
+    </planci>
+   </planar>
+   <geodetic>
+    <horizdn>D_WGS_1984</horizdn>
+    <ellips>WGS_1984</ellips>
+    <semiaxis>6378137.0</semiaxis>
+    <denflat>298.257223563</denflat>
+   </geodetic>
+  </horizsys>
+ </spref>
+ <eainfo>
+  <detailed Name="gulfmex_CSA_StormSurgeExposure_Category1_2100">
+   <enttyp>
+    <enttypl>Attribute Table</enttypl>
+    <enttypd>Table containing attribute information associated with the data set.</enttypd>
+    <enttypds>Producer defined</enttypds>
+   </enttyp>
+   <attr>
+    <attrlabl>blkkey</attrlabl>
+    <attrdef>Individual Census Block ID</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>9114</rdommin>
+      <rdommax>851931</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>Acres</attrlabl>
+    <attrdef>Census Block acreage</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0.00899416022002697</rdommin>
+      <rdommax>28160.30078125</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>SOVI</attrlabl>
+    <attrdef>County-level socioeconomic and demographic data were used to construct an index of social vulnerability to environmental hazards, called the Social Vulnerability Index (SoVI©) for the United States based on data collected from 2005 to 2009.</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>Med High</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Med Low</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Medium</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>SS_Acres</attrlabl>
+    <attrdef>Area of storm surge in census block (acres)</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>27839.3324176</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>Pecentage</attrlabl>
+    <attrdef>Percent of storm surge area within its respective census block</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>0</rdommin>
+      <rdommax>100.000481625</rdommax>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>Exposure</attrlabl>
+    <attrdef>Exposure range for storm surge percentage: 0-0.1% = None; 0.11-4.99% = Low; 5.0-14.99%=Medium; 15.0-100% = High</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>High</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Low</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Medium</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>None</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>Rank</attrlabl>
+    <attrdef>Rank of census block based on its combined risk of exposure and SOVI. 0= No Risk to 5= Highest Risk</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>0</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>1</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>2</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>3</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>4</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>5</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>Risk_Label</attrlabl>
+    <attrdef>Label of ranking, whereas 0= "No Risk" to 5= "Highest Risk"</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>Highest Risk</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Low-Med Risk</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Lowest Risk</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Med-High Risk</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Medium Risk</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>No Risk</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+  </detailed>
+  <overview>
+   <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+   <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+  </overview>
+ </eainfo>
+ <distinfo>
+  <distrib>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>The Nature Conservancy</cntorg>
+     <cntper>Mary Kate Brown</cntper>
+    </cntorgp>
+    <cntpos>Coastal Conservation Specialist</cntpos>
+    <cntaddr>
+     <addrtype>Mailing and Physical</addrtype>
+     <address>56 Saint Joseph St.</address>
+     <address>Suite 704</address>
+     <city>Mobile</city>
+     <state>AL</state>
+     <postal>36602</postal>
+     <country>USA</country>
+    </cntaddr>
+    <cntvoice>251-433-1150 x101</cntvoice>
+    <cntfax>251-433-1160</cntfax>
+    <cntemail>mkbrown@tnc.org</cntemail>
+   </cntinfo>
+  </distrib>
+  <distliab>Distributor assumes no liability for misuse of data.</distliab>
+  <stdorder>
+   <digform>
+    <digtinfo>
+     <formname>Vector Digital Data Set (Polygon)</formname>
+    </digtinfo>
+    <digtopt>
+     <onlinopt>
+      <computer>
+       <networka>
+        <networkr>http://maps.coastalresilience.org/gulfmex/</networkr>
+       </networka>
+      </computer>
+     </onlinopt>
+    </digtopt>
+   </digform>
+   <fees>None. No fees are applicable for obtaining the data set.</fees>
+  </stdorder>
+ </distinfo>
+ <metainfo>
+  <metd>20160320</metd>
+  <metc>
+   <cntinfo>
+    <cntperp>
+     <cntper>Mary Kate Brown</cntper>
+     <cntorg>The Nature Conservancy</cntorg>
+    </cntperp>
+    <cntpos>Coastal Conservation Specialist</cntpos>
+    <cntaddr>
+     <addrtype>Mailing and Physical</addrtype>
+     <address>56 Saint Joseph St.</address>
+     <address>Suite 704</address>
+     <city>Mobile</city>
+     <state>AL</state>
+     <postal>36602</postal>
+     <country>USA</country>
+    </cntaddr>
+    <cntvoice>251-433-1150 x101</cntvoice>
+    <cntfax>251-433-1160</cntfax>
+    <cntemail>mkbrown@tnc.org</cntemail>
+   </cntinfo>
+  </metc>
+  <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  <metstdv>FGDC-STD-001-1998</metstdv>
+  <mettc>local time</mettc>
+ </metainfo>
+</metadata>
