@@ -1,51 +1,4 @@
-[
-    	{
-        "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
-            "folderTitle": "Copano and San Antonio Bays",
-            "folders": [
-                {
-                    "name": "",
-                    "services": [
-						{ "name": "Copano_San_Antonio_Bays", "type":"dynamic", "displayName":"Conservation and Resiliency Analysis - 1 meter of SLR by 2100 Scenario", "showLayers": [
-								{"id":1, "parentLayerId":-1 },
-								{"id":2, "parentLayerId":1 },
-								{"id":3, "parentLayerId":1 },
-								{"id":4, "parentLayerId":-1 },
-								{"id":5, "parentLayerId":4 },
-								{"id":6, "parentLayerId":4 },
-								{"id":7, "parentLayerId":4 },
-								{"id":8, "parentLayerId":4 },
-								{"id":9, "parentLayerId":4 },
-								{"id":10, "parentLayerId":4 },
-								{"id":11, "parentLayerId":4 },
-								{"id":12, "parentLayerId":4 },
-								{"id":13, "parentLayerId":4 },
-								{"id":14, "parentLayerId":4 },
-								{"id":15, "parentLayerId":-1 },
-								{"id":16, "parentLayerId":15 },
-								{"id":17, "parentLayerId":15 },
-								{"id":18, "parentLayerId":15 },
-								{"id":19, "parentLayerId":15 },
-								{"id":20, "parentLayerId":15 },
-								{"id":21, "parentLayerId":15 },
-								{"id":22, "parentLayerId":15 },
-								{"id":23, "parentLayerId":15 },
-								{"id":24, "parentLayerId":15 },
-								{"id":25, "parentLayerId":15 },
-								{"id":26, "parentLayerId":-1 },
-								{"id":27, "parentLayerId":26 },
-								{"id":28, "parentLayerId":26 },
-								{"id":29, "parentLayerId":26 },
-								{"id":30, "parentLayerId":26 },
-								{"id":31, "parentLayerId":26 }
-							]
-						}
-					]
-				}
-            ]
-        }
-	},
+[    	
     {
         "agsSource": {
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
@@ -169,6 +122,53 @@
 								{"id":15, "parentLayerId":10 },
 								{"id":16, "parentLayerId":10 },
 								{"id":17, "parentLayerId":10 }
+							]
+						}
+					]
+				}
+            ]
+        }
+	},
+	{
+        "agsSource": {
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "folderTitle": "Copano and San Antonio Bays",
+            "folders": [
+                {
+                    "name": "",
+                    "services": [
+						{ "name": "Copano_San_Antonio_Bays", "type":"dynamic", "displayName":"Conservation and Resiliency Analysis - 1 meter of SLR by 2100 Scenario", "showLayers": [
+								{"id":1, "parentLayerId":-1 },
+								{"id":2, "parentLayerId":1 },
+								{"id":3, "parentLayerId":1 },
+								{"id":4, "parentLayerId":-1 },
+								{"id":5, "parentLayerId":4 },
+								{"id":6, "parentLayerId":4 },
+								{"id":7, "parentLayerId":4 },
+								{"id":8, "parentLayerId":4 },
+								{"id":9, "parentLayerId":4 },
+								{"id":10, "parentLayerId":4 },
+								{"id":11, "parentLayerId":4 },
+								{"id":12, "parentLayerId":4 },
+								{"id":13, "parentLayerId":4 },
+								{"id":14, "parentLayerId":4 },
+								{"id":15, "parentLayerId":-1 },
+								{"id":16, "parentLayerId":15 },
+								{"id":17, "parentLayerId":15 },
+								{"id":18, "parentLayerId":15 },
+								{"id":19, "parentLayerId":15 },
+								{"id":20, "parentLayerId":15 },
+								{"id":21, "parentLayerId":15 },
+								{"id":22, "parentLayerId":15 },
+								{"id":23, "parentLayerId":15 },
+								{"id":24, "parentLayerId":15 },
+								{"id":25, "parentLayerId":15 },
+								{"id":26, "parentLayerId":-1 },
+								{"id":27, "parentLayerId":26 },
+								{"id":28, "parentLayerId":26 },
+								{"id":29, "parentLayerId":26 },
+								{"id":30, "parentLayerId":26 },
+								{"id":31, "parentLayerId":26 }
 							]
 						}
 					]
