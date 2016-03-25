@@ -172,6 +172,21 @@
 							]
 						}
 					]
+				},
+				{
+                    "name": "",
+                    "services": [
+						{ "name": "Copano_San_Antonio_Bays", "type":"dynamic", "displayName":"Marsh Conservation and Management - 1 meter of SLR by 2100", "showLayers": [
+								{"id":33, "parentLayerId":-1 },
+								{"id":34, "parentLayerId":-1 },
+								{"id":35, "parentLayerId":-1 },
+								{"id":36, "parentLayerId":-1 },
+								{"id":37, "parentLayerId":-1 },
+								{"id":38, "parentLayerId":-1 },
+								{"id":39, "parentLayerId":-1 }
+							]
+						}
+					]
 				}
             ]
         }
