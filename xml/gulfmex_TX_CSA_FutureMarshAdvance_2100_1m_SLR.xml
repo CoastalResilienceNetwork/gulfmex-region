@@ -1,0 +1,238 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Mary Kate Brown</origin>
+        <pubdate>20160321</pubdate>
+        <title>Future Marsh Advance with 1m SLR in 2100</title>
+        <geoform>Vector Digital Data Set (Polygon)</geoform>
+        <lworkcit>
+          <citeinfo>
+            <origin>Meagan Murdock</origin>
+            <origin>Jorge Brenner</origin>
+            <origin>Mary Kate Brown</origin>
+            <pubdate>20160321</pubdate>
+            <title>Sea Level Rise Analysis in Copano and San Antonio Bays, Texas</title>
+            <geoform>Website</geoform>
+            <pubinfo>
+              <pubplace>The Coastal Resilience Network</pubplace>
+              <publish>The Nature Conservancy</publish>
+            </pubinfo>
+            <onlink>http://maps.coastalresilience.org/network/</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset shows the advancement zone in Copano and San Antonio Bays, TX within which existing regularly- and irregularly-flooded salt marshes are expected to migrate through the year 2100 under a 1m SLR scenario. The advancement zone dataset excludes existing marsh distribution and only shows the future path of marsh habitat.This dataset is based on results from the application of SLAMM. The predicted distribution of marshes in years 2025, 2050, 2075, and 2100 were merged together and existing marsh distrubtion was removed in order to depict future marsh advancement.</abstract>
+      <purpose>These marsh polygons were used in the analysis of marsh conservation and resiliency through a 1m sea level rise scenario by 2100.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20160321</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.393540</westbc>
+        <eastbc>-96.373479</eastbc>
+        <northbc>28.622789</northbc>
+        <southbc>27.792221</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>2100</themekey>
+        <themekey>gain</themekey>
+        <themekey>sea level rise</themekey>
+        <themekey>advance</themekey>
+        <themekey>Marsh</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Copano Bay</placekey>
+        <placekey>Gulf of Mexico</placekey>
+        <placekey>texas</placekey>
+        <placekey>San Antonio Bay</placekey>
+      </place>
+    </keywords>
+    <accconst>Data access constraints follow the guidelines as posted on coastalresilience.org or gulfsealevelrise.org</accconst>
+    <useconst>Data use constraints follow the guidelines as posted on coastalresilience.org or gulfsealevelrise.org</useconst>
+    <datacred>This project is funded by GLO Contract No. 15-032-000-8374 and is supported by data collected by research staff of the Coastal Studies group, Near Surface Observatory, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin. This project was supported by grant no. 13-268-000-7485 from the General Land Office of Texas to the BEG. Jeffrey G. Paine served as the principal investigator. The project was funded under a Coastal Impact Assistance Program grant made available to the State of Texas by the U. S. Department of the Interior, U.S. Fish and Wildlife Service.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted.</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Development of the data set by the agency / individuals identified in the 'Originator' element in the Identification Info section of the record.</procdesc>
+        <procdate>unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>gulfmex_TX_CSA_FutureMarshAdvance_2100_1m_SLR</enttypl>
+        <enttypd>Table containing attribute information associated with the data set.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Acres</attrlabl>
+        <attrdef>Acres of future marsh advancement</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>44376.6798834</rdommin>
+            <rdommax>44376.6798834</rdommax>
+            <attrunit>Acres</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+      <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Nature Conservancy</cntorg>
+          <cntper>Mary Kate Brown</cntper>
+        </cntorgp>
+        <cntpos>Coastal Conservation Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>56 Saint Joseph St</address>
+          <address>Suite 704</address>
+          <city>Mobile</city>
+          <state>AL</state>
+          <postal>36602</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>251-433-1150 x101</cntvoice>
+        <cntfax>251-433-1160</cntfax>
+        <cntemail>mkbrown@tnc.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Distributor assumes no liability for misuse of data.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Vector Digital Data Set (Polygon)</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://maps.coastalresilience.org/network/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. No fees are applicable for obtaining the data set.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20160325</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Nature Conservancy</cntorg>
+          <cntper>Mary Kate Brown</cntper>
+        </cntorgp>
+        <cntpos>Coastal Conservation Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>56 Saint Joseph St</address>
+          <address>Suite 704</address>
+          <city>Mobile</city>
+          <state>AL</state>
+          <postal>36602</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>251-433-1150 x101</cntvoice>
+        <cntfax>251-433-1160</cntfax>
+        <cntemail>mkbrown@tnc.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
