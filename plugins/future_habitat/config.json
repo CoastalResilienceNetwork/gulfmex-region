@@ -302,7 +302,7 @@
 {
 	"name": "Texas - Copano and San Antonio Bays",
 	"extent": {"xmin":-10842211.6207,"ymin":3221179.39614,"xmax":-10727356.6207,"ymax":3329099.39614,"spatialReference":{"wkid":102100,"latestWkid":3857}}, 
-    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/gulfmex_TX_CSA_SLAMM/ImageServer",
+    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_TX_CSA_SLAMM/ImageServer",
 	"cellsize": 1,
 	"root": "gulfmex_TX_CSA_SLAMM",
 	"field": "name",
