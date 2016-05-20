@@ -12,7 +12,7 @@
 	"cellsize": 1,
 	"root": "gulfmex_SLAMM",
 	"field": "name",
-	"methods": "http://www.tnc.org",
+	"methods": "http://www.warrenpinnacle.com/prof/SLAMM/GCPLCC",
 	"initialCondition": "base",
 	delimiter: "_",
 	variables: [
@@ -55,7 +55,7 @@
 						  [25, 0, 0, 0],
 						  [26, 255, 214, 117]
 						],
-	"labels":{"1": "Developed Land", "2": "Undeveloped Land", "3": "Swamp", "4": "CypressSwamp", "5": "Inland Freshwater Marsh", "6": "Tidal Freshwater Marsh", "7": "Transitional Salt Marsh (Scrub/Shrub)", "8": "Regularly Flooded Marsh", "9": "Mangrove", "10": "Estuarine Beach", "11": "Tidal Flat", "12": "Ocean Beach", "13": "Ocean Flat", "14": "Rocky Intertidal", "15": "Inland Open Water", "16": "Riverine Tidal", "17": "Estuarine Open Water", "18": "Tidal Creek", "19": "Open Ocean", "20": "Irregularly Flooded Marsh", "21": "Tall Spartina", "22": "Inland Shore", "23": "Tidal Swamp", "24": "Blank", "25": "Vegetated Tidal Flat", "26": "Backshore"}
+	"labels":{"1": "Developed Land", "2": "Undeveloped Land", "3": "Swamp", "4": "CypressSwamp", "5": "Inland Freshwater Marsh", "6": "Tidal Freshwater Marsh", "7": "Transitional Salt Marsh (Scrub/Shrub)", "8": "Regularly Flooded Marsh", "9": "Mangrove", "10": "Estuarine Beach", "11": "Tidal Flat", "12": "Ocean Beach", "13": "Ocean Flat", "14": "Rocky Intertidal", "15": "Inland Open Water", "16": "Riverine Tidal", "17": "Estuarine Open Water", "18": "Tidal Creek", "19": "Open Ocean", "20": "Irregularly Flooded Marsh", "21": "Tall Spartina", "22": "Inland Shore", "23": "Tidal Swamp", "24": "Blank", "25": "Vegetated Tidal Flat", "26": "Flooded Forest"}
 },{
 	"name": "Florida - Charlotte Harbor",
 	"extent": {"xmin":-9182912.67348,"ymin":3039639.87052,"xmax":-9090902.67348,"ymax":3144399.87052,"spatialReference":{"wkid":102100,"latestWkid":3857}},
