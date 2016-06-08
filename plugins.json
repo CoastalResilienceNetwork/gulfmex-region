@@ -1,5 +1,8 @@
 {
     "plugins": [
+        {   "repo": "map-tree",
+            "name": "layer_selector"
+        },
         {
             "repo": "eca",
             "name": "eca"
