@@ -1,0 +1,353 @@
+[
+    {
+        "displayName": "Alabama",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Alabama"
+        },
+        "includeLayers": [
+			{
+				"name" : "Restore Coastal Alabama",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Habitats",
+				"description" : "The Habitat map service features data including but not limited to salt marshes, sea grasses, and current and historical oyster reefs. A brief description and metadata appear when you click on each layer.",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Bathymetry",
+				"description":"The Bathymetry map service features state bathymetry data. A brief description and metadata appear when you click on each layer.",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Salinity",
+				"description":"The Salinity map service features information from the Salinity Zones in Estuaries along the Gulf of Mexico data set obtained from NOAA/NCDDC. In some cases, additional state specific salinity data sets are included. A brief description and metadata appear when you click on each layer.",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Coastal Management",
+				"description":"The Coastal Management map service features data sets pertaining to the management of coastal lands, waters and natural resources. A brief description and metadata appear when you click on each layer.",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Social and Economic",
+				"description":"The Social and Economic map service features data concerning the social vulnerability of coastal communities and indicators of local dependence on coastal natural resources. A brief description and metadata appear when you click on each layer.",
+				"includeAllLayers" : true
+			}
+		]
+	},
+	{
+        "displayName": "Florida",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Florida"
+        },
+        "includeLayers": [
+			{
+				"name" : "FEMA Repetitive Loss",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Habitats",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Species",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Bathymetry",
+				"description":"This section is for highlighting geographies where we have finer scale data for illustrating potential oyster reef restoration. Note: Oyster data layers not visible when zooming out beyond the 1:500,000 scale.",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Salinity",
+				"description":"This section is for highlighting geographies where we have finer scale data for illustrating potential oyster reef restoration. Note: Oyster data layers not visible when zooming out beyond the 1:500,000 scale.",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Coastal Management",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Social and Economic",
+				"description":"This section is for highlighting geographies where we have finer scale data for illustrating potential oyser reef restoration. Note: Oyster data layers not visible when zooming out beyond the 1:500,000 scale.",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Florida Infrastructure",
+				"includeLayers" : [
+					{
+						"name": "Transportation",
+						"includeAllLayers": true
+					},
+					{
+						"name": "Critical Facilities",
+						"includeAllLayers": true
+					},
+					{
+						"name": "Community Facilities",
+						"includeAllLayers": true
+					},
+					{
+						"name": "Energy /Hazardous Materials",
+						"includeAllLayers": true
+					}
+				]
+			},
+			{
+				"name" : "Oyster Restoration Suitability",
+				"description":"This section is for highlighting geographies where we have finer scale data for illustrating potential oyser reef restoration. Note: Oyster data layers not visible when zooming out beyond the 1:500,000 scale.",
+				"includeLayers" : [
+					{
+						"name" : "Study area"
+					},
+					{
+						"name" : "Ecological",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Socioeconomic",
+						"includeAllLayers" : true
+					}
+				]
+			}
+		]
+	},
+	{
+        "displayName": "Louisiana",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Louisiana"
+        },
+        "includeLayers": [
+			{
+				"name" : "Oyster Restoration Explorer",
+				"description":"This section is for highlighting geographies where we have finer scale data for illustrating potential oyser reef restoration. Note: Oyster data layers not visible when zooming out beyond the 1:500,000 scale.",
+				"includeLayers" : [
+					{
+						"name" : "LA study area"
+					},
+					{
+						"name" : "Ecological",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Socioeconomic",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "Habitats",
+				"description":"The Habitat map service features data including but not limited to salt marshes, sea grasses, and current and historical oyster reefs.  A brief description and metadata appear when you click on each layer.",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Species",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Bathymetry",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Salinity",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Coastal Management",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Social and Economic",
+				"includeAllLayers" : true
+			}
+		]
+	},
+	{
+        "displayName": "Mississippi",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Mississippi"
+        },
+        "includeLayers": [
+			{
+				"name" : "Restoration Projects",
+				"description":"The Nature Conservancy in collaboration with multiple partners has developed a robust Gulf of Mexico spatial database to help our state programs, their partners, and the region identify oyster reef restoration projects that consider ecological, social and economic benefits.  The Oyster Restoration Dashboard allows users to explore this database to identify potential restoration investments within each of the Gulf states of Florida, Alabama, Mississippi, Louisiana and Texas.",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Oyster Restoration Explorer",
+				"description":"The Nature Conservancy in collaboration with multiple partners has developed a robust Gulf of Mexico spatial database to help our state programs, their partners, and the region identify oyster reef restoration projects that consider ecological, social and economic benefits.  The Oyster Restoration Dashboard allows users to explore this database to identify potential restoration investments within each of the Gulf states of Florida, Alabama, Mississippi, Louisiana and Texas.",
+				"includeLayers" : [
+					{
+						"name" : "Study Area"
+					},
+					{
+						"name" : "Ecological",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Socioeconomic",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "Habitats",
+				"description":"The Habitat map service features data including but not limited to salt marshes, sea grasses, and current and historical oyster reefs.  A brief description and metadata appear when you click on each layer.",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Bathymetry",
+				"description":"The Nature Conservancy in collaboration with multiple partners has developed a robust Gulf of Mexico spatial database to help our state programs, their partners, and the region identify oyster reef restoration projects that consider ecological, social and economic benefits.  The Oyster Restoration Dashboard allows users to explore this database to identify potential restoration investments within each of the Gulf states of Florida, Alabama, Mississippi, Louisiana and Texas.",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Salinity",
+				"description":"The Nature Conservancy in collaboration with multiple partners has developed a robust Gulf of Mexico spatial database to help our state programs, their partners, and the region identify oyster reef restoration projects that consider ecological, social and economic benefits.  The Oyster Restoration Dashboard allows users to explore this database to identify potential restoration investments within each of the Gulf states of Florida, Alabama, Mississippi, Louisiana and Texas.",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Coastal Management",
+				"description":"The Nature Conservancy in collaboration with multiple partners has developed a robust Gulf of Mexico spatial database to help our state programs, their partners, and the region identify oyster reef restoration projects that consider ecological, social and economic benefits.  The Oyster Restoration Dashboard allows users to explore this database to identify potential restoration investments within each of the Gulf states of Florida, Alabama, Mississippi, Louisiana and Texas.",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Social and Economic",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Built Infrastructure",
+				"description":"The Nature Conservancy in collaboration with multiple partners has developed a robust Gulf of Mexico spatial database to help our state programs, their partners, and the region identify oyster reef restoration projects that consider ecological, social and economic benefits.  The Oyster Restoration Dashboard allows users to explore this database to identify potential restoration investments within each of the Gulf states of Florida, Alabama, Mississippi, Louisiana and Texas.",
+				"includeAllLayers" : true
+			}
+		]
+	},
+	{
+        "displayName": "Texas",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Texas"
+        },
+        "includeLayers": [
+			{
+				"name" : "Restoration Projects",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Habitats",
+				"includeLayers": [
+					{
+						"name": "San Antonio Bay Oyster Reef"
+					},
+					{
+						"name": "Galveston Bay Oyster Reef (1995)"
+					},
+					{
+						"name": "Historic Oyster Reef (1975 NOAA)"
+					},
+					{
+						"name": "Oyster Reef (2001 TNC Ecoregional Assessment)"
+					},
+					{
+						"name": "Benthic Habitat (NOAA)"
+					},
+					{
+						"name": "Bird Rookery"
+					},
+					{
+						"name": "Oysters by Bay",
+						"includeAllLayers": true
+					}
+				]
+			},
+			{
+				"name" : "Bathymetry",
+				"description":"The Nature Conservancy in collaboration with multiple partners has developed a robust Gulf of Mexico spatial database to help our state programs, their partners, and the region identify oyster reef restoration projects that consider ecological, social and economic benefits.  The Oyster Restoration Dashboard allows users to explore this database to identify potential restoration investments within each of the Gulf states of Florida, Alabama, Mississippi, Louisiana and Texas.",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Salinity",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Coastal Management",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Social and Economic",
+				"includeAllLayers" : true
+			}
+		]
+	},
+	{
+        "displayName": "Gulf of Mexico",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Gulf_of_Mexico"
+        },
+        "includeLayers": [
+			{
+				"name" : "Habitats",
+				"description":"The Habitat map service features data including but not limited to salt marshes, sea grasses, and current and historical oyster reefs.  A brief description and metadata appear when you click on each layer.",
+				"includeLayers" : [
+					{
+						"name": "Historic Oyster Reefs"
+					},
+					{
+						"name": "Oyster Reefs"
+					},
+					{
+						"name": "Marsh (2009)",
+						"downloadUrl" : "http://data.coastalresilience.org/Gulfmex/gulfmex_GM_marshes_2009.zip"
+					},
+					{
+						"name": "Seagrass"
+					},
+					{
+						"name": "Land Cover"
+					}
+				]
+			},
+			{
+				"name" : "Salinity",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Coastal Management",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Coastal Hazards",
+				"includeLayers" : [
+					{
+						"name" : "USGS CVI Erosion Data"
+					},	
+					{
+						"name" : "Total cumulative surface oil (days)",
+						"downloadUrl": "http://data.coastalresilience.org/Gulfmex/gulfmex_cumulative_oil.zip"
+					}
+				]
+			},
+			{
+				"name" : "Social and Economic",
+				"includeAllLayers" : true
+			}
+		]
+	}
+]
