@@ -20,15 +20,11 @@
             "name": "eca"
         },
 		{
-		  "repo": "map-tree",
-		  "name": "layer_selector"
-		},
-		{
 		  "repo": "regional-planning",
 		  "name": "regional-planning"
 		},
 		{
-		  "repo": "map-tree",
+		  "repo": "regional-planning",
 		  "name": "community_planning"
         }
     ]
