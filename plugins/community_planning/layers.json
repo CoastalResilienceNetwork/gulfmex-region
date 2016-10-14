@@ -10,23 +10,331 @@
         "includeLayers": [
 			{
 				"name" : "Habitats",
-				"description" : "",
-				"includeAllLayer" : true
+				"description" : "The Habitat map service features data including but not limited to salt marshes, sea grasses, and current and historical oyster reefs. A brief description and metadata appear when you click on each layer.",
+				"includeAllLayers" : true
 			},
 			{
 				"name" : "Boundaries",
-				"description" : "",
-				"includeAllLayer" : true
+				"includeAllLayers" : true
 			},
 			{
 				"name" : "Bathymetry",
-				"description" : "",
-				"includeAllLayer" : true
+				"description" : "This section is for highlighting geographies where we have finer scale data for illustrating potential oyser reef restoration. Note: Oyster data layers not visible when zooming out beyond the 1:500,000 scale.",
+				"includeAllLayers" : true
 			},
 			{
 				"name" : "Critical Infrastructure",
-				"description" : "",
-				"includeAllLayer" : true
+				"includeLayers" : [
+					{
+						"name" : "Mobile Home and RV Parks"	
+					},
+					{
+						"name" : "Critical Facilities"	
+					},
+					{
+						"name" : "Critical Infrastructure"	
+					},
+					{
+						"name" : "HealthCare Facilities"	
+					},
+					{
+						"name" : "Shelters"	
+					},
+					{
+						"name" : "Evacuation Routes"	
+					},
+					{
+						"name" : "Roads"	
+					},
+					{
+						"name" : "Evacuation Zones"	
+					},
+					{
+						"name" : "Punta Gorda Public Works",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "Coastal Management",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Social and Economic",
+				"description" : "This section is for highlighting geographies where we have finer scale data for illustrating potential oyser reef restoration. Note: Oyster data layers not visible when zooming out beyond the 1:500,000 scale.",
+				"includeAllLayers" : true
+			}
+		]
+	},
+	{
+        "displayName": "Choctawhatchee and St Andrew Bay",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Choctawhatchee_and_St_Andrew_Bay"
+        },
+        "includeLayers": [
+			{
+				"name" : "Community Risk and Resiliency",
+				"includeLayers" : [
+					{
+						"name" : "Conservation and Resiliency Analysis - 1 meter of SLR by 2100 Scenario",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "Marsh Conservation",
+				"includeLayers" : [
+					{
+						"name" : "Marsh Conservation and Management - 1 meter of SLR by 2100 Scenario",
+						"includeAllLayers" : true
+					}
+				]
+			}
+		]
+	},
+	{
+        "displayName": "Copano and San Antonio Bays",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Copano_San_Antonio_Bays"
+        },
+        "includeLayers": [
+			{
+				"name" : "Conservation and Resiliency Analysis - 1 meter of SLR by 2100 Scenario",
+				"includeLayers" : [
+					{
+						"name": "Sea-level Rise Exposure and Risk",
+						"includeAllLayers" : true
+					},
+					{
+						"name": "Storm Surge Exposure",
+						"includeAllLayers" : true
+					},
+					{
+						"name": "Storm Surge Risk",
+						"includeAllLayers" : true
+					},
+					{
+						"name": "Community Resilience",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "Marsh Conservation and Management - 1 meter of SLR by 2100",
+				"includeAllLayers" : true
+			}
+		]
+	},
+	{
+        "displayName": "Escambia County",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Escambia_County"
+        },
+        "includeLayers": [
+			{
+				"name" : "Transportation Infrastructure",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Stormwater Infrastructure",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "City of Pensacola",
+				"includeAllLayers" : true
+			}
+		]
+	},
+	{
+        "displayName": "Aransas Pass",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Aransas_Pass"
+        },
+        "includeLayers": [
+			{
+				"name" : "Habitat",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Land Parcels",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Aransas Pass Social Sensitivity Index",
+				"displayName" : "Sensitivity Index",
+				"includeAllLayers" : true
+			}
+		]
+	},
+	{
+        "displayName": "Galveston Bay",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Galveston_Bay"
+        },
+        "includeLayers": [
+			{
+				"name" : "Carbon Sequestration and Emission in Coastal Habitats",
+				"includeLayers" : [
+					{
+						"name" : "Sea-Level Rise Scenario - IPCC A1B mean SLR by 2100",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Sea-Level Rise Scenario - 1 meter of SLR by 2100",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Sea-Level Rise Scenario - 2 meter of SLR by 2100",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "Carbon Storage in Coastal Habitats",
+				"includeLayers" : [
+					{
+						"name" : "Sea-Level Rise Scenario - IPCC A1B mean SLR by 2100",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Sea-Level Rise Scenario - 1 meter of SLR by 2100",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Sea-Level Rise Scenario - 2 meter of SLR by 2100",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "Community Risk and Resiliency",
+				"includeLayers" : [
+					{
+						"name" : "Conservation and Resiliency Analysis - 1 meter of SLR by 2100 Scenario",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "Fishery Habitat Change Blue Crab",
+				"includeLayers" : [
+					{
+						"name" : "Sea-Level Rise Scenario - IPCC A1B mean SLR by 2100",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Sea-Level Rise Scenario - 1 meter of SLR by 2100",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Sea-Level Rise Scenario - 2 meter of SLR by 2100",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "Fishery Habitat Change Brown Shrimp",
+				"includeLayers" : [
+					{
+						"name" : "Sea-Level Rise Scenario - IPCC A1B mean SLR by 2100",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Sea-Level Rise Scenario - 1 meter of SLR by 2100",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Sea-Level Rise Scenario - 2 meter of SLR by 2100",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "Fishery Habitat Change Red Drum",
+				"includeLayers" : [
+					{
+						"name" : "Sea-Level Rise Scenario - IPCC A1B mean SLR by 2100",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Sea-Level Rise Scenario - 1 meter of SLR by 2100",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Sea-Level Rise Scenario - 2 meter of SLR by 2100",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "Fishery Habitat Change Southern Flounder",
+				"includeLayers" : [
+					{
+						"name" : "Sea-Level Rise Scenario - IPCC A1B mean SLR by 2100",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Sea-Level Rise Scenario - 1 meter of SLR by 2100",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Sea-Level Rise Scenario - 2 meter of SLR by 2100",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "Marsh Conservation",
+				"includeLayers" : [
+					{
+						"name" : "Marsh Conservation and Management - 1 meter of SLR by 2100 Scenario",
+						"includeAllLayers" : true
+					}
+				]
+			}
+		]
+	},
+	{
+        "displayName": "Grand Bay NERR",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Grand_Bay_NERR"
+        },
+        "includeLayers": [
+			{
+				"name" : "Community Risk and Resiliency",
+				"includeLayers" : [
+					{
+						"name" : "Conservation and Resiliency Analysis - 1 meter of SLR by 2100 Scenario",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "Marsh Conservation",
+				"includeLayers" : [
+					{
+						"name" : "Marsh Conservation and Management - 1 meter of SLR by 2100 Scenario ",
+						"includeAllLayers" : true
+					}
+				]
 			}
 		]
 	}
