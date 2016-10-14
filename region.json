@@ -40,12 +40,10 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "layer_selector",
 		"community_planning",
 		"future_habitat",
         "eca",
         "coastal_defense_gulfmex",
-        "flood_slr",
         "restoration_explorer",
         "risk_explorer",
         "zoom_to",
