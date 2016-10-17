@@ -149,8 +149,15 @@
 				"includeAllLayers" : true
 			},
 			{
-				"name" : "City of Pensacola",
-				"includeAllLayers" : true
+				"displayName" : "City of Pensacola",
+				"includeLayers" : [
+					{
+						"name" : "City of Pensacola"
+					},
+					{
+						"name" : "Land Parcels"
+					}
+				]
 			}
 		]
 	},
