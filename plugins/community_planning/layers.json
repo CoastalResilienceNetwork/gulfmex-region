@@ -171,7 +171,7 @@
         },
         "includeLayers": [
 			{
-				"name" : "Habitat",
+				"name" : "Habitats",
 				"includeAllLayers" : true
 			},
 			{
@@ -179,10 +179,15 @@
 				"includeAllLayers" : true
 			},
 			{
-				"name" : "Aransas Pass Social Sensitivity Index",
 				"displayName" : "Sensitivity Index",
-				"includeAllLayers" : true
+				"includeLayers" : [
+					{
+						"name" : "Aransas Pass Social Sensitivity Index",
+						"displayName" : "Sensitivity Index"
+					}				
+				]
 			}
+
 		]
 	},
 	{
