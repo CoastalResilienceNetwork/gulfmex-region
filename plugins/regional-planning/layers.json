@@ -360,14 +360,8 @@
         },
         "includeLayers": [
 			{
-				"name" : "CFLA MOM Storm Surge Footprints",
-				"displayName" : "Coastal Flood Atlas",
-				"opacity": 0.5,
-				"includeAllLayers" : true				
-			},
-			{
 				"name" : "CFLA Data",
-				"opacity": 0.5,
+				"displayName" : "Coastal Flood Atlas",
 				"includeLayers" : [
 					{
 						"name" : "Building Loss Ratio",
@@ -480,7 +474,7 @@
 				"name":"Estuarine Water Change", 
 				"includeLayers" : [
 					{
-						"name" : "Estuarine Water Gains - 1 meter of SLR by 2100 Scenario",
+						"name" : "Estuarine Water Gains - 1 meter of SLR by 2100 Scenario ",
 						"includeAllLayers" : true
 					}
 				]
@@ -534,14 +528,10 @@
         },
         "includeLayers": [
 			{
-				"name" : "Storm Surge Inundation",
+				"name" : "Coastal Salt Marsh Change",
 				"includeLayers" : [
 					{
-						"name" : "Predicted Storm Surge from a Hurricane Ike like event in 2004",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Predicted Storm Surge from a Hurricane Ike like event with 1m SLR by 2100 ",
+						"name" : "Coastal Salt Marsh Change - 1 meter of SLR by 2100 Scenario",
 						"includeAllLayers" : true
 					}
 				]			
@@ -609,14 +599,10 @@
         },
         "includeLayers": [
 			{
-				"name" : "Storm Surge Inundation",
+				"name" : "Coastal Salt Marsh Change",
 				"includeLayers" : [
 					{
-						"name" : "Predicted Storm Surge from a Hurricane Katrina like event in 2009",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Predicted Storm Surge from a Hurricane Katrina like event with 1m SLR by 2100 ",
+						"name" : "Coastal Salt Marsh Change - 1 meter of SLR by 2100 Scenario",
 						"includeAllLayers" : true
 					}
 				]			
@@ -654,7 +640,7 @@
 				"name" : "Estuarine Water Change",
 				"includeLayers" : [
 					{
-						"name" : "Estuarine Water Gains - 1 meter of SLR by 2100 Scenario",
+						"name" : "Estuarine Water Gains - 1 meter of SLR by 2100 Scenario ",
 						"includeAllLayers" : true
 					}
 				]
@@ -725,7 +711,7 @@
 				"name" : "Estuarine Water Change",
 				"includeLayers" : [
 					{
-						"name" : "Estuarine Water Gains - 1 meter of SLR by 2100 Scenario",
+						"name" : "Estuarine Water Gains - 1 meter of SLR by 2100 Scenario ",
 						"includeAllLayers" : true
 					}
 				]
