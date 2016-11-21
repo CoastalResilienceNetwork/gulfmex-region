@@ -2,10 +2,11 @@
     "name": "Restoration Explorer",
     "text": "To begin, select a region to view.",
     "globalText": "Modify the sliders to change the values on the map (refresh takes a couple seconds).",
-	"mainToggle": {"index": 0, "text": "Toggle Restoration Score on or off"},
+	"mainToggle": {"index": 0, "text": "Main Layer Transparency"},
     "betweenGroups": "*",
     "averageGroups": true,
-    "pluginHeight": 510,
+    "pluginHeight": 520,
+	"pluginWidth": 330,
 	"infoGraphic": "RestorationExplorer_c.jpg",
     "regions": [
         {
