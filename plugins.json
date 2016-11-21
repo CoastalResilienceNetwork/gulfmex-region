@@ -1,13 +1,9 @@
 {
     "plugins": [
         {
-            "repo": "explorer",
-            "name": "restoration_explorer"
-        },
-        {
             "repo": "multiexplorer",
-            "name": "restoration_explorer_multi"
-        },
+            "name": "restoration_explorer"
+        }
         {   "repo": "explorer",
             "name": "risk_explorer"
         },
