@@ -2,10 +2,11 @@
     "name": "Restoration Explorer",
     "text": "To begin, select a region to view.",
     "globalText": "Modify the sliders to change the values on the map (refresh takes a couple seconds).",
-	"mainToggle": {"index": 0, "text": "Toggle Restoration Score on or off"},
+	"mainToggle": {"index": 0, "text": "Main Layer Transparency"},
     "betweenGroups": "*",
     "averageGroups": true,
-    "pluginHeight": 510,
+    "pluginHeight": 520,
+	"pluginWidth": 330,
 	"infoGraphic": "RestorationExplorer_c.jpg",
     "regions": [
         {
@@ -89,7 +90,7 @@
 						}
 			],
             "name": "Alabama",
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
 			"methods": "methods/Alabama_Dashboard.pdf",
 			"workspaceId": "postgis",
 			"geometryType": "polygon",
@@ -203,7 +204,7 @@
 						}
 			],
             "name": "Mississippi",
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
 			"workspaceId": "postgis",
 			"geometryType": "polygon",
 			"dataset": "sde.gulfmex_MS_RestorationExplorer_Data",
@@ -306,7 +307,7 @@
 						}
 			],
             "name": "Louisiana",
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
 			"methods": "methods/Louisiana_Dashboard.pdf",
 			"workspaceId": "postgis",
 			"geometryType": "polygon",
@@ -400,7 +401,7 @@
 						}
 			],
             "name": "Florida",
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
 			"methods": "methods/Florida_Dashboard.pdf",
 			"workspaceId": "postgis",
 			"geometryType": "polygon",
@@ -484,7 +485,7 @@
 						}
 			],
             "name": "Texas",
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
 			"methods": "methods/Texas_Dashboard.pdf",
 			"workspaceId": "postgis",
 			"geometryType": "polygon",
