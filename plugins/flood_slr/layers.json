@@ -58,7 +58,8 @@
 					"type": "ags",
 					"layerType": "dynamic",
 					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
-					"name": "CFEM_ShallowCoastalFlooding"
+					"name": "CFEM_ShallowCoastalFlooding",
+					"combine": true
 				},
 				"includeLayers" : [
 					{
@@ -134,7 +135,7 @@
 				"includeLayers" : [
 					{
 						"name": "NoDataDissolve_wm",
-						"displayName": "Areas Not Mapped"
+						"displayName": "Areas Not Mapped",
 						"includeAllLayers": true
 					},	
 					{
