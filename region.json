@@ -42,6 +42,7 @@
     "pluginOrder": [
 		"regional-planning",
 		"community_planning",
+        "flood_slr",
 		"future_habitat",
         "eca",
         "coastal_defense_gulfmex",
