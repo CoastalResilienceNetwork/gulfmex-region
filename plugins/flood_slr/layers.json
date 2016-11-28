@@ -175,7 +175,7 @@
 				"includeLayers" : [
 					{
 						"name": "OCM Symbology",
-						"displayName": "Storm Type"
+						"displayName": "Storm Type",
 						"includeAllLayers": true
 					},	
 					{
