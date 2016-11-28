@@ -3,7 +3,7 @@
         {
             "repo": "multiexplorer",
             "name": "restoration_explorer"
-        }
+        },
         {   "repo": "explorer",
             "name": "risk_explorer"
         },
