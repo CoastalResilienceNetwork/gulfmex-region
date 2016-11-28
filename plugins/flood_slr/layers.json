@@ -133,7 +133,7 @@
 				},
 				"includeLayers" : [
 					{
-						"name": "NoDataDissolve_wm",
+						"name": "Areas Not Mapped",
 						"displayName": "Areas Not Mapped",
 						"includeAllLayers": true
 					},	
@@ -175,28 +175,7 @@
 					{
 						"name": "OCM Symbology",
 						"displayName": "Storm Type",
-						"includeLayers" : [
-							{
-								"name": "Category1_MOM_Inundation",
-								"displayName": "Category 1"
-							},	
-							{
-								"name": "Category2_MOM_Inundatio",
-								"displayName": "Category 2"
-							},	
-							{
-								"name": "Category3_MOM_Inundation",
-								"displayName": "Category 3"
-							},
-							{
-								"name": "Category4_MOM_Inundation",
-								"displayName": "Category 4"
-							},	
-							{
-								"name": "Category5_MOM_Inundation",
-								"displayName": "Category 5"
-							}
-						]
+						"includeAllLayers" : true
 					},
 					{
 						"name": "LeveeAreas_wm",
