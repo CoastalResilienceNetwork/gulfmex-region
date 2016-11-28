@@ -42,5 +42,44 @@
 				]				
 			}
 		]
+	},
+	{
+        "displayName": "NOAA Coastal Flood Exposure",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
+            "name": "CFEM_ShallowCoastalFlooding"
+		},
+		"includeLayers" : [
+			{
+				"displayName": "Shallow Coastal Flooding",
+				"server": {
+					"type": "ags",
+					"layerType": "dynamic",
+					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
+					"name": "CFEM_ShallowCoastalFlooding"
+				},
+				"includeLayers" : [
+					{
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"displayName": "Critical Facilities",
+				"server": {
+					"type": "ags",
+					"layerType": "dynamic",
+					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
+					"name": "CFEM_CriticalFacilities"
+				},
+				"includeLayers" : [
+					{
+						"includeAllLayers" : true
+					}
+				]
+			}
+		]
 	}
 ]
