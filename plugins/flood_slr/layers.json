@@ -62,7 +62,64 @@
 				},
 				"includeLayers" : [
 					{
-						"includeAllLayers": true
+						"name": "LCH_LIX_FF_FY15v2_wm",
+						"displayName": "Louisiana"
+					},
+					{
+						"name": "AL_MOB_FF_3ft_WM",
+						"displayName": "Alabama - Mobile Bay"
+					},
+					{
+						"name": "FL_KEY_FF_WM m",
+						"displayName": "Florida - Keys"
+					},
+					{
+						"name": "FL_MFL1_FF_WM",
+						"displayName": "Florida - Southwest"
+					},
+					{
+						"name": "FL_MOB_FF_WM",
+						"displayName": "Florida - Pensacola"
+					},
+					{
+						"name": "FL_TAE1_FF_WM",
+						"displayName": "Florida - Panama City"
+					},
+					{
+						"name": "FL_TAE2_FF_WM",
+						"displayName": "Florida - Tallahassee"
+					},
+					{
+						"name": "FL_TBW1_FF_WM",
+						"displayName": "Florida - Ocala"
+					},
+					{
+						"name": "FL_TBW2_FF_WM",
+						"displayName": "Florida - Tampa Bay"
+					},
+					{
+						"name": "FL_TBW3_FF2_WM",
+						"displayName": "Florida - Charlotte Harbor"
+					},
+					{
+						"name": "HGX_FF_FY15_wm",
+						"displayName": "Texas - Galveston Bay"
+					},
+					{
+						"name": "LCH_FF_FY15_wm",
+						"displayName": "Texas - Port Arthur"
+					},
+					{
+						"name": "MS_LIX_FF_WM",
+						"displayName": "Mississippi - Gulfport"
+					},
+					{
+						"name": "TX_BRO_FF_WM",
+						"displayName": "Texas - Port Mansfield"
+					},
+					{
+						"name": "TX_CRP_FF_WM",
+						"displayName": "Texas - Corpus Christi"
 					}
 				]
 			},
@@ -72,12 +129,12 @@
 					"type": "ags",
 					"layerType": "dynamic",
 					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
-					"name": "CFEM_CriticalFacilities/MapServer/1"
+					"name": "CFEM_CriticalFacilities"
 				},
 				"includeLayers" : [
 					{
 						"name": "Critical Facilities",
-						"displayName": "Critical Facilities"
+						"displayName": "Critical Facilities (Zoom In to View)"
 					}	
 				]
 			}
