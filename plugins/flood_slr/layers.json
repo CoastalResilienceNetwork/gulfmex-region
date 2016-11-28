@@ -124,6 +124,66 @@
 				]
 			},
 			{
+				"displayName": "Sea Level Rise Scenarios",
+				"server": {
+					"type": "ags",
+					"layerType": "dynamic",
+					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
+					"name": "CFEM_SeaLevelRise"
+				},
+				"includeLayers" : [
+					{
+						"name": "NoDataDissolve_wm",
+						"displayName": "Areas Not Mapped"
+						"includeAllLayers": true
+					},	
+					{
+						"name": "GOM_slr_merged_1ft",
+						"displayName": "1 ft Above Current MHHW"
+					},
+					{
+						"name": "GOM_slr_merged_2ft",
+						"displayName": "2 ft Above Current MHHW"
+					},
+					{
+						"name": "GOM_slr_merged_3ft",
+						"displayName": "3 ft Above Current MHHW"
+					},
+					{
+						"name": "GOM_slr_merged_4ft",
+						"displayName": "4 ft Above Current MHHW"
+					},
+					{
+						"name": "GOM_slr_merged_5ft",
+						"displayName": "5 ft Above Current MHHW"
+					},
+					{
+						"name": "GOM_slr_merged_6ft",
+						"displayName": "6 ft Above Current MHHW"
+					}
+				]
+			},
+			{
+				"displayName": "Storm Surge Scenarios",
+				"server": {
+					"type": "ags",
+					"layerType": "dynamic",
+					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
+					"name": "CFEM_StormSurge"
+				},
+				"includeLayers" : [
+					{
+						"name": "OCM Symbology",
+						"displayName": "Storm Type"
+						"includeAllLayers": true
+					},	
+					{
+						"name": "LeveeAreas_wm",
+						"displayName": "Levee Areas - Consult Local Officials for Flood Risk"
+					}
+				]
+			},
+			{
 				"displayName": "Critical Facilities",
 				"server": {
 					"type": "ags",
