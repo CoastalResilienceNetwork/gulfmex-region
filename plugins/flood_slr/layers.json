@@ -1,642 +1,310 @@
 [
 	{
-        "agsSource": {
-            "url": "http://regions.services.femadata.com/arcgis/rest/services",
-            "folderTitle": "Coastal Flood Hazards",
-            "folders": [
-                {
-                    "url": "http://regions.services.femadata.com/arcgis/rest/services/FEMA_R4",
-					"name": "",
-                    "services": [
-						{ 
-						"name": "FEMA_Region_IV_Coastal_Flood_Loss_Atlas_CFLA_Version_301", 
-						"displayName": "Coastal Flood Atlas", 
-						"type": "dynamic", 
-						"opacity": 0.5,
-						"showLayers": [
-								{"id":0, "parentLayerId":-1 },
-								{"id":1},
-								{"id":2},
-								{"id":3},
-								{"id":4},
-								{"id":5},
-								{"id":7, "parentLayerId":-1 },
-								{"id":8},
-								{"id":9},
-								{"id":10},
-								{"id":11},
-								{"id":12},
-								{"id":13, "parentLayerId":-1 },
-								{"id":14},
-								{"id":15},
-								{"id":16},
-								{"id":17},
-								{"id":18},
-								{"id":19, "parentLayerId":-1 },
-								{"id":20},
-								{"id":21},
-								{"id":22},
-								{"id":23},
-								{"id":24},
-								{"id":25, "parentLayerId":-1 },
-								{"id":26},
-								{"id":27},
-								{"id":28},
-								{"id":29},
-								{"id":30},
-								{"id":31, "parentLayerId":-1 },
-								{"id":32},
-								{"id":33},
-								{"id":34},
-								{"id":35},
-								{"id":36},
-								{"id":37, "parentLayerId":-1 },
-								{"id":38},
-								{"id":39},
-								{"id":40},
-								{"id":41},
-								{"id":42},
-								{"id":43, "parentLayerId":-1 }							
-							]
-						}
-                    ]
-                }				
-            ]
-        }
-    },
-	{
-        "agsSource": {
-            "url": "http://maps1.coast.noaa.gov/arcgis/rest/services",
-            "folderTitle": "NOAA Sea Level Rise",
-            "folders": [
-				{
-                    "url": "http://maps1.coast.noaa.gov/arcgis/rest/services",
-					"name": "dc_slr",
-					"groupFolder": "NOAA Sea Level Rise/Mapping Confidence",
-                    "services": [
-						{ 
-						"name": "conf_0ft",
-						"displayName": "Sea Level Rise Mapping Confidence (0 ft)", 
-						"type":"tiled", 
-						"opacity": 0.5
-						}
-                    ]
-                },
-				{
-                    "url": "http://maps1.coast.noaa.gov/arcgis/rest/services",
-					"name": "dc_slr",
-					"groupFolder": "NOAA Sea Level Rise/Mapping Confidence",
-                    "services": [
-						{ 
-						"name": "conf_1ft",
-						"displayName": "Sea Level Rise Mapping Confidence (1 ft)", 
-						"type":"tiled", 
-						"opacity": 0.5
-						}
-                    ]
-                },
-				{
-                    "url": "http://maps1.coast.noaa.gov/arcgis/rest/services",
-					"name": "dc_slr",
-					"groupFolder": "NOAA Sea Level Rise/Mapping Confidence",
-                    "services": [
-						{ 
-						"name": "conf_2ft",
-						"displayName": "Sea Level Rise Mapping Confidence (2 ft)", 
-						"type":"tiled", 
-						"opacity": 0.5
-						}
-                    ]
-                },
-				{
-                    "url": "http://maps1.coast.noaa.gov/arcgis/rest/services",
-					"name": "dc_slr",
-					"groupFolder": "NOAA Sea Level Rise/Mapping Confidence",
-                    "services": [
-						{ 
-						"name": "conf_3ft",
-						"displayName": "Sea Level Rise Mapping Confidence (3 ft)", 
-						"type":"tiled", 
-						"opacity": 0.5
-						}
-                    ]
-                },
-				{
-                    "url": "http://maps1.coast.noaa.gov/arcgis/rest/services",
-					"name": "dc_slr",
-					"groupFolder": "NOAA Sea Level Rise/Mapping Confidence",
-                    "services": [
-						{ 
-						"name": "conf_4ft",
-						"displayName": "Sea Level Rise Mapping Confidence (4 ft)", 
-						"type":"tiled", 
-						"opacity": 0.5
-						}
-                    ]
-                },
-				{
-                    "url": "http://maps1.coast.noaa.gov/arcgis/rest/services",
-					"name": "dc_slr",
-					"groupFolder": "NOAA Sea Level Rise/Mapping Confidence",
-                    "services": [
-						{ 
-						"name": "conf_5ft",
-						"displayName": "Sea Level Rise Mapping Confidence (5 ft)", 
-						"type":"tiled", 
-						"opacity": 0.5
-						}
-                    ]
-                },
-				{
-                    "url": "http://maps1.coast.noaa.gov/arcgis/rest/services",
-					"name": "dc_slr",
-					"groupFolder": "NOAA Sea Level Rise/Mapping Confidence",
-                    "services": [
-						{ 
-						"name": "conf_6ft",
-						"displayName": "Sea Level Rise Mapping Confidence (6 ft)", 
-						"type":"tiled", 
-						"opacity": 0.5
-						}
-                    ]
-                },				
-				{
-                    "url": "http://maps1.coast.noaa.gov/arcgis/rest/services",
-					"name": "dc_slr",
-					"groupFolder": "NOAA Sea Level Rise",
-                    "services": [
-						{ 
-						"name": "slr_0ft",
-						"displayName": "Sea Level Rise (0 ft)", 
-						"type":"tiled", 
-						"opacity": 0.5
-						}
-                    ]
-                },
-				{
-                    "url": "http://maps1.coast.noaa.gov/arcgis/rest/services",
-					"name": "dc_slr",
-					"groupFolder": "NOAA Sea Level Rise",
-                    "services": [
-						{ 
-						"name": "slr_1ft",
-						"displayName": "Sea Level Rise (1 ft)", 
-						"type":"tiled", 
-						"opacity": 0.5
-						}
-                    ]
-                },
-				{
-                    "url": "http://maps1.coast.noaa.gov/arcgis/rest/services",
-					"name": "dc_slr",
-					"groupFolder": "NOAA Sea Level Rise",
-                    "services": [
-						{ 
-						"name": "slr_2ft",
-						"displayName": "Sea Level Rise (2 ft)", 
-						"type":"tiled", 
-						"opacity": 0.5
-						}
-                    ]
-                },
-				{
-                    "url": "http://maps1.coast.noaa.gov/arcgis/rest/services",
-					"name": "dc_slr",
-					"groupFolder": "NOAA Sea Level Rise",
-                    "services": [
-						{ 
-						"name": "slr_3ft",
-						"displayName": "Sea Level Rise (3 ft)", 
-						"type":"tiled", 
-						"opacity": 0.5
-						}
-                    ]
-                },
-				{
-                    "url": "http://maps1.coast.noaa.gov/arcgis/rest/services",
-					"name": "dc_slr",
-					"groupFolder": "NOAA Sea Level Rise",
-                    "services": [
-						{ 
-						"name": "slr_4ft",
-						"displayName": "Sea Level Rise (4 ft)", 
-						"type":"tiled", 
-						"opacity": 0.5
-						}
-                    ]
-                },
-				{
-                    "url": "http://maps1.coast.noaa.gov/arcgis/rest/services",
-					"name": "dc_slr",
-					"groupFolder": "NOAA Sea Level Rise",
-                    "services": [
-						{ 
-						"name": "slr_5ft",
-						"displayName": "Sea Level Rise (5 ft)", 
-						"type":"tiled", 
-						"opacity": 0.5
-						}
-                    ]
-                },
-				{
-                    "url": "http://maps1.coast.noaa.gov/arcgis/rest/services",
-					"name": "dc_slr",
-					"groupFolder": "NOAA Sea Level Rise",
-                    "services": [
-						{ 
-						"name": "slr_6ft",
-						"displayName": "Sea Level Rise (6 ft)", 
-						"type":"tiled", 
-						"opacity": 0.5
-						}
-                    ]
-                },
-				{
-                    "url": "http://maps1.coast.noaa.gov/arcgis/rest/services",
-					"name": "dc_slr",
-					"groupFolder": "Coastal Flood Hazards",
-                    "services": [
-						{ 
-						"name": "Flood_Frequency",
-						"displayName": "Coastal Flood Frequency", 
-						"type":"tiled", 
-						"opacity": 0.5
-						}
-                    ]
-                }
-            ]
-        }
-    },
-	{
-        "agsSource": {
-            "url": "",
-            "folderTitle": "Charlotte Harbor",
-            "folders": [
-                {
-                    "url": "http://services.coastalresilience.org/arcgis/rest/services",
-					"name": "Gulf_of_Mexico",
-					"displayName": "Charlotte Harbor",
-                    "services": [
-						{ "name": "Charlotte_Harbor", "type":"dynamic", "displayName":"Coastal Hazards and SLR", "description":"The Coastal Hazards map service features data sets related to erosion, sea level rise and flooding. A brief description and metadata appear when you click on each layer.", "showLayers": [
-								{"id":41, "parentLayerId":-1 },
-								{"id":42},
-								{"id":43},
-								{"id":44},
-								{"id":45},
-								{"id":46},
-								{"id":47},
-								{"id":48, "parentLayerId":-1 },
-								{"id":49},
-								{"id":50},
-								{"id":51},
-								{"id":52},
-								{"id":53, "parentLayerId":-1 },
-								{"id":54},
-								{"id":55},
-								{"id":56},
-								{"id":57},
-								{"id":58},
-								{"id":59}
-							]
-						}
-					]
-				}
-            ]
-        }
+        "displayName": "Coastal Flood Hazards",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://regions.services.femadata.com/arcgis/rest/services/FEMA_R4",
+            "name": "FEMA_Region_IV_Coastal_Flood_Loss_Atlas_CFLA_Version_301"
+        },
+        "includeLayers": [
+			{
+				"name" : "CFLA Data",
+				"displayName" : "Coastal Flood Atlas",
+				"includeLayers" : [
+					{
+						"name" : "Building Loss Ratio",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Debris in Tons",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Debris in Truck Loads",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Short Term Shelter Population",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Per Capita Loss",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Maximum Surge Depth (Ft)",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "SLOSH Basin Counties"
+					}
+				]				
+			}
+		]
 	},
 	{
-        "agsSource": {
+        "displayName": "NOAA Coastal Flood Exposure",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
+            "name": "CFEM_ShallowCoastalFlooding"
+		},
+		"includeLayers" : [
+			{
+				"displayName": "Shallow Coastal Flooding",
+				"server": {
+					"type": "ags",
+					"layerType": "dynamic",
+					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
+					"name": "CFEM_ShallowCoastalFlooding"
+				},
+				"includeLayers" : [
+					{
+						"name": "LCH_LIX_FF_FY15v2_wm",
+						"displayName": "Louisiana"
+					},
+					{
+						"name": "AL_MOB_FF_3ft_WM",
+						"displayName": "Alabama - Mobile Bay"
+					},
+					{
+						"name": "FL_KEY_FF_WM",
+						"displayName": "Florida - Keys"
+					},
+					{
+						"name": "FL_MFL1_FF_WM",
+						"displayName": "Florida - Southwest"
+					},
+					{
+						"name": "FL_MOB_FF_WM",
+						"displayName": "Florida - Pensacola"
+					},
+					{
+						"name": "FL_TAE1_FF_WM",
+						"displayName": "Florida - Panama City"
+					},
+					{
+						"name": "FL_TAE2_FF_WM",
+						"displayName": "Florida - Tallahassee"
+					},
+					{
+						"name": "FL_TBW1_FF_WM",
+						"displayName": "Florida - Ocala"
+					},
+					{
+						"name": "FL_TBW2_FF_WM",
+						"displayName": "Florida - Tampa Bay"
+					},
+					{
+						"name": "FL_TBW3_FF2_WM",
+						"displayName": "Florida - Charlotte Harbor"
+					},
+					{
+						"name": "HGX_FF_FY15_wm",
+						"displayName": "Texas - Galveston Bay"
+					},
+					{
+						"name": "LCH_FF_FY15_wm",
+						"displayName": "Texas - Port Arthur"
+					},
+					{
+						"name": "MS_LIX_FF_WM",
+						"displayName": "Mississippi - Gulfport"
+					},
+					{
+						"name": "TX_BRO_FF_WM",
+						"displayName": "Texas - Port Mansfield"
+					},
+					{
+						"name": "TX_CRP_FF_WM",
+						"displayName": "Texas - Corpus Christi"
+					}
+				]
+			},
+			{
+				"displayName": "Sea Level Rise Scenarios",
+				"server": {
+					"type": "ags",
+					"layerType": "dynamic",
+					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
+					"name": "CFEM_SeaLevelRise"
+				},
+				"includeLayers" : [
+					{
+						"name": "Areas Not Mapped",
+						"displayName": "Areas Not Mapped",
+						"includeAllLayers": true
+					},	
+					{
+						"name": "GOM_slr_merged_1ft",
+						"displayName": "1 ft Above Current MHHW"
+					},
+					{
+						"name": "GOM_slr_merged_2ft",
+						"displayName": "2 ft Above Current MHHW"
+					},
+					{
+						"name": "GOM_slr_merged_3ft",
+						"displayName": "3 ft Above Current MHHW"
+					},
+					{
+						"name": "GOM_slr_merged_4ft",
+						"displayName": "4 ft Above Current MHHW"
+					},
+					{
+						"name": "GOM_slr_merged_5ft",
+						"displayName": "5 ft Above Current MHHW"
+					},
+					{
+						"name": "GOM_slr_merged_6ft",
+						"displayName": "6 ft Above Current MHHW"
+					}
+				]
+			},
+			{
+				"displayName": "Storm Surge Scenarios",
+				"server": {
+					"type": "ags",
+					"layerType": "dynamic",
+					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
+					"name": "CFEM_StormSurge"
+				},
+				"includeLayers" : [
+					{
+						"name": "OCM Symbology",
+						"displayName": "Storm Type",
+						"includeAllLayers" : true
+					},
+					{
+						"name": "LeveeAreas_wm",
+						"displayName": "Levee Areas - Consult Local Officials for Flood Risk"
+					}
+				]
+			},
+			{
+				"displayName": "Critical Facilities",
+				"server": {
+					"type": "ags",
+					"layerType": "dynamic",
+					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
+					"name": "CFEM_CriticalFacilities"
+				},
+				"includeLayers" : [
+					{
+						"name": "Critical Facilities",
+						"displayName": "Critical Facilities (Zoom In to View)"
+					}	
+				]
+			}
+		]
+	},
+	{"displayName": "Charlotte Harbor",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
             "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
-            "folderTitle": "Choctawhatchee and St Andrew Bays",
-            "folders": [
-                {
-                    "name": "",
-                    "services": [
-						{ "name": "Choctawhatchee_and_St_Andrew_Bay", "type":"dynamic", "displayName":"Coastal Salt Marsh Change", "showLayers": [
-								{"id":19, "parentLayerId":-1 },
-								{"id":20},
-								{"id":21},
-								{"id":22}
-							]
-						}
-					]
-				},
-				{
-                    "name": "",
-                    "services": [
-						{ "name": "Choctawhatchee_and_St_Andrew_Bay", "type":"dynamic", "displayName":"Coastal Wetland Change", "showLayers": [
-								{"id":24, "parentLayerId":-1 },
-								{"id":25},
-								{"id":26, "parentLayerId":-1 },
-								{"id":27},
-								{"id":28},
-								{"id":29},
-								{"id":30},
-								{"id":31, "parentLayerId":-1 },
-								{"id":32},
-								{"id":33},
-								{"id":34},
-								{"id":35},
-								{"id":36, "parentLayerId":-1 },
-								{"id":37},
-								{"id":38},
-								{"id":39},
-								{"id":40},
-								{"id":41, "parentLayerId":-1 },
-								{"id":42},
-								{"id":43},
-								{"id":44},
-								{"id":45},
-								{"id":46, "parentLayerId":-1 },
-								{"id":47},
-								{"id":48},
-								{"id":49},
-								{"id":50}
-							]
-						}
-					]
-				},
-				{
-                    "name": "",
-                    "services": [
-						{ "name": "Choctawhatchee_and_St_Andrew_Bay", "type":"dynamic", "displayName":"Estuarine Water Change", "showLayers": [
-								{"id":52, "parentLayerId":-1 },
-								{"id":53},
-								{"id":54},
-								{"id":55},
-								{"id":56}
-							]
-						}
-					]
-				},
-				{
-                    "name": "",
-                    "services": [
-						{ "name": "Choctawhatchee_and_St_Andrew_Bay", "type":"dynamic", "displayName":"Storm Surge Inundation", "showLayers": [
-								{"id":58, "parentLayerId":-1 },
-								{"id":59},
-								{"id":60, "parentLayerId":-1 },
-								{"id":61},
-								{"id":62}
-							]
-						}
-					]
-				}
-            ]
-        }
+            "name": "Charlotte_Harbor"
+		},
+		"includeLayers" : [
+			{
+				"name": "Storm Surge",
+				"displayName": "Storm Surge",
+				"includeAllLayers": true
+			},
+			{
+				"name": "DFIRM-Flooding",
+				"displayName": "DFIRM-Flooding",
+				"includeAllLayers": true
+			},
+			{
+				"name": "Static Sea Level Rise",
+				"displayName": "Static Sea Level Rise",
+				"includeAllLayers": true
+			}
+		]
 	},
-	{
-        "agsSource": {
-            "url": "",
-            "folderTitle": "Corpus Christi",
-            "folders": [
-                {
-                    "url": "http://services.coastalresilience.org/arcgis/rest/services",
-					"name": "Gulf_of_Mexico",
-					"displayName": "Corpus Christi",
-                    "services": [
-						{ "name": "Corpus_Christi", "type":"dynamic", "displayName":"Storm Surge Inundation", "showLayers": [
-								{"id":19, "parentLayerId":-1 },
-								{"id":20},
-								{"id":21},
-								{"id":22, "parentLayerId":-1 },
-								{"id":23},
-								{"id":24}
-							]
-						}
-					]
-				}
-			]
-        }
-	},
-	{
-        "agsSource": {
+	{"displayName": "Choctawhatchee and St Andrew Bay",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
             "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
-            "folderTitle": "Galveston Bay",
-            "folders": [
-                {
-                    "name": "",
-                    "services": [
-						{ "name": "Galveston_Bay", "type":"dynamic", "displayName":"Storm Surge Inundation", "showLayers": [
-								{"id":98, "parentLayerId":-1 },
-								{"id":99},
-								{"id":100},
-								{"id":101}
-							]
-						}
-					]
-				},
-				{
-                    "name": "",
-                    "services": [
-						{ "name": "Galveston_Bay", "type":"dynamic", "displayName":"Coastal Wetland Change", "showLayers": [
-                                {"id":103, "parentLayerId":-1 },
-                                {"id":104},
-                                {"id":105, "parentLayerId":-1 },
-                                {"id":106},
-                                {"id":107},
-                                {"id":108},
-                                {"id":109},
-                                {"id":110, "parentLayerId":-1 },
-                                {"id":111},
-                                {"id":112},
-                                {"id":113},
-                                {"id":114},
-                                {"id":115, "parentLayerId":-1 },
-                                {"id":116},
-                                {"id":117},
-                                {"id":118},
-                                {"id":119},
-                                {"id":120, "parentLayerId":-1 },
-                                {"id":121},
-                                {"id":122},
-                                {"id":123},
-                                {"id":124},
-                                {"id":125, "parentLayerId":-1 },
-                                {"id":126},
-                                {"id":127},
-                                {"id":128},
-                                {"id":129}
-							]
-						}
-					]
-				},
-				{
-                    "name": "",
-                    "services": [
-						{ "name": "Galveston_Bay", "type":"dynamic", "displayName":"Estuarine Water Change", "showLayers": [
-                                {"id":131, "parentLayerId":-1 },
-                                {"id":132},
-                                {"id":133},
-                                {"id":134},
-                                {"id":135}
-							]
-						}
-					]
-				},
-				{
-                    "name": "",
-                    "services": [
-						{ "name": "Galveston_Bay", "type":"dynamic", "displayName":"Storm Surge Inundation", "showLayers": [
-                                {"id":137, "parentLayerId":-1 },
-                                {"id":138},
-                                {"id":139, "parentLayerId":-1 },
-                                {"id":140},
-                                {"id":141}
-							]
-						}
-					]
-				}
-			]
-        }
+            "name": "Choctawhatchee_and_St_Andrew_Bay"
+		},
+		"includeLayers" : [
+			{
+				"name": "Storm Surge Inundation",
+				"displayName": "Storm Surge Inundation",
+				"includeAllLayers": true
+			}
+		]
 	},
-	{
-        "agsSource": {
+	{"displayName": "Corpus Christi",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
             "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
-            "folderTitle": "Grand Bay NERR",
-            "folders": [
-                {
-                    "name": "",
-                    "services": [
-						{ "name": "Grand_Bay_NERR", "type":"dynamic", "displayName":"Coastal Salt Marsh Change", "showLayers": [
-                                {"id":10, "parentLayerId":-1 },
-                                {"id":11},
-                                {"id":12},
-                                {"id":13}
-							]
-						}
-					]	
-				},
-				{
-                    "name": "",
-                    "services": [
-						{ "name": "Grand_Bay_NERR", "type":"dynamic", "displayName":"Coastal Wetland Change", "showLayers": [
-                                {"id":15, "parentLayerId":-1 },
-                                {"id":16},
-                                {"id":17, "parentLayerId":-1 },
-                                {"id":18},
-                                {"id":19},
-                                {"id":20},
-                                {"id":21},
-                                {"id":22, "parentLayerId":-1 },
-                                {"id":23},
-                                {"id":24},
-                                {"id":25},
-                                {"id":26},
-                                {"id":27, "parentLayerId":-1 },
-                                {"id":28},
-                                {"id":29},
-                                {"id":30},
-                                {"id":31},
-                                {"id":32, "parentLayerId":-1 },
-                                {"id":33},
-                                {"id":34},
-                                {"id":35},
-                                {"id":36},
-                                {"id":37, "parentLayerId":-1 },
-                                {"id":38},
-                                {"id":39},
-                                {"id":40},
-                                {"id":41}
-							]
-						}
-					]	
-				},
-				{
-                    "name": "",
-                    "services": [
-						{ "name": "Grand_Bay_NERR", "type":"dynamic", "displayName":"Estuarine Water Change", "showLayers": [
-                                {"id":43, "parentLayerId":-1 },
-                                {"id":44},
-                                {"id":45},
-                                {"id":46},
-                                {"id":47}
-							]
-						}
-					]	
-				},
-				{
-                    "name": "",
-                    "services": [
-						{ "name": "Grand_Bay_NERR", "type":"dynamic", "displayName":"Storm Surge Inundation", "showLayers": [
-                                {"id":49, "parentLayerId":-1 },
-                                {"id":50},
-                                {"id":51, "parentLayerId":-1 },
-                                {"id":52},
-                                {"id":53}
-							]
-						}
-					]	
-				}				
-			]
-        }
+            "name": "Corpus_Christi"
+		},
+		"includeLayers" : [
+			{
+				"name": "Storm Surge Inundation",
+				"displayName": "Storm Surge Inundation",
+				"includeAllLayers": true
+			}
+		]
 	},
-	{
-        "agsSource": {
+	{"displayName": "Galveston Bay",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
             "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
-            "folderTitle": "Jefferson County",
-            "folders": [
-                {
-                    "name": "",
-                    "services": [
-						{ "name": "Jefferson_County", "type":"dynamic", "displayName":"Coastal Salt Marsh Change", "showLayers": [
-                                {"id":1, "parentLayerId":-1 },
-                                {"id":2},
-                                {"id":3},
-                                {"id":4}
-							]
-						}
-					]	
-				},
-				{
-                    "name": "",
-                    "services": [
-						{ "name": "Jefferson_County", "type":"dynamic", "displayName":"Coastal Wetland Change", "showLayers": [
-                                {"id":6, "parentLayerId":-1 },
-                                {"id":7},
-                                {"id":8, "parentLayerId":-1 },
-                                {"id":9},
-                                {"id":10},
-                                {"id":11},
-                                {"id":12},
-                                {"id":13, "parentLayerId":-1 },
-                                {"id":14},
-                                {"id":15},
-                                {"id":16},
-                                {"id":17},
-                                {"id":18, "parentLayerId":-1 },
-                                {"id":19},
-                                {"id":20},
-                                {"id":21},
-                                {"id":22},
-                                {"id":23, "parentLayerId":-1 },
-                                {"id":24},
-                                {"id":25},
-                                {"id":26},
-                                {"id":27},
-                                {"id":28, "parentLayerId":-1 },
-                                {"id":29},
-                                {"id":30},
-                                {"id":31},
-                                {"id":32}
-							]
-						}
-					]	
-				},
-				{
-                    "name": "",
-                    "services": [
-						{ "name": "Jefferson_County", "type":"dynamic", "displayName":"Estuarine Water Change", "showLayers": [
-                                {"id":34, "parentLayerId":-1 },
-                                {"id":35},
-                                {"id":36},
-                                {"id":37},
-                                {"id":38}
-							]
-						}
-					]	
-				}
-			]
-        	}
+            "name": "Galveston_Bay"
+		},
+		"includeLayers" : [
+			{
+				"name": "Storm Surge Inundation",
+				"displayName": "Storm Surge Inundation",
+				"includeAllLayers": true
+			}
+		]
+	},
+	{"displayName": "Galveston Bay",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Galveston_Bay"
+		},
+		"includeLayers" : [
+			{
+				"name": "Storm Surge Inundation",
+				"displayName": "Storm Surge Inundation",
+				"includeAllLayers": true
+			}
+		]
+	},
+	{"displayName": "Grand Bay NERR",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Grand_Bay_NERR"
+		},
+		"includeLayers" : [
+			{
+				"name": "Storm Surge Inundation",
+				"displayName": "Storm Surge Inundation",
+				"includeAllLayers": true
+			}
+		]
 	}
 ]
+
+	
+	
+	
+	
+				
+	
