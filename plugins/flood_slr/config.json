@@ -8,18 +8,18 @@
 					"extent": {"xmin":-11304546.1049170,"ymin":2117771.8253307,"xmax":-8548264.9433480,"ymax":3703743.2696889,"spatialReference":{"wkid":102100,"latestWkid":3857}},
 					"methods": "http://coast.noaa.gov/digitalcoast/tools/slr",
 					"controls": [
-							{"name":"Choose Sea Level", "type": "slider", "index":0, "values":[{"selected": true,"name":"Current","value":"0", "help": "Year 2010"},{"name":"1 ft above current MHHW", "value":"1"}, {"name":"2 ft above current MHHW", "value":"2"}, {"name":"3 ft above current MHHW", "value":"3"}, {"name":"4 ft above current MHHW", "value":"4"}, {"name":"5 ft above current MHHW", "value":"5"}, {"name":"6 ft above current MHHW", "value":"6"}]},
-							{"name":"Reference Data", "type": "radio", "index":7, "values":[{"selected": true,"name":"Shallow Coastal Flooding","value":"7", "help": "Year 2010"}]}
+							{"name":"Choose Sea Level (above current MHHW)", "type": "slider", "index":0, "values":[{"selected": true,"name":"Current","value":"0", "help": "Year 2010"},{"name":"1 ft", "value":"1"}, {"name":"2 ft", "value":"2"}, {"name":"3 ft", "value":"3"}, {"name":"4 ft", "value":"4"}, {"name":"5 ft", "value":"5"}, {"name":"6 ft", "value":"6"}]},
+							{"name":"Reference Data", "type": "ancillary", "default":0, "index":7, "values":[{"selected": true,"name":"Shallow Coastal Flooding","value":"7", "help": "Year 2010"}]}
 							],
 					"combos": {
 			
-							"0": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/13"}],
-							"1": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/15"}], 
-							"2": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/17"}],
-							"3": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/19"}],	
-							"4": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/21"}],
-							"5": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/23"}], 
-							"6": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/25"}],
+							"0": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_0ft"}],
+							"1": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_1ft"}], 
+							"2": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_2ft"}],
+							"3": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_3ft"}],	
+							"4": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_4ft"}],
+							"5": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_5ft"}], 
+							"6": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_6ft"}],
 							"7": [{"type":"tiled", "url": "https://maps.coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_ShallowCoastalFlooding/MapServer"}]
 					}
 				}	
