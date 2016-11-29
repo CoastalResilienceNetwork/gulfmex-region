@@ -351,35 +351,6 @@
 		]
 	},
 	{
-        "displayName": "Charlotte Harbor",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
-            "name": "Charlotte_Harbor"
-        },
-        "includeLayers": [
-			{
-				"name":"Coastal Hazards and SLR", 
-				"description":"The Coastal Hazards map service features data sets related to erosion, sea level rise and flooding. A brief description and metadata appear when you click on each layer.",
-				"includeLayers" : [
-					{
-						"name" : "Storm Surge",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "DFIRM-Flooding",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Static Sea Level Rise",
-						"includeAllLayers" : true
-					}
-				]
-			}
-		]
-	},
-	{
         "displayName": "Choctawhatchee and St Andrew Bays",
         "server": {
             "type": "ags",
@@ -431,43 +402,6 @@
 				"includeLayers" : [
 					{
 						"name" : "Estuarine Water Gains - 1 meter of SLR by 2100 Scenario ",
-						"includeAllLayers" : true
-					}
-				]
-			},
-			{
-				"name":"Storm Surge Inundation", 
-				"includeLayers" : [
-					{
-						"name" : "Predicted Storm Surge from a Hurricane Ivan like event in 2004",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Predicted Storm Surge from a Hurricane Ivan like event with 1m SLR by 2100 ",
-						"includeAllLayers" : true
-					}
-				]
-			}
-		]
-	},
-	{
-        "displayName": "Corpus Christi",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
-            "name": "Corpus_Christi"
-        },
-        "includeLayers": [
-			{
-				"name":"Storm Surge Inundation", 
-				"includeLayers" : [
-					{
-						"name" : "Predicted Storm Surge from a simulated Cat 1 Hurricane event in 2006",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Predicted Storm Surge from a simulated Cat 1 Hurricane event with 1m SLR by 2100 ",
 						"includeAllLayers" : true
 					}
 				]
@@ -529,19 +463,6 @@
 						"includeAllLayers" : true
 					}
 				]
-			},
-			{
-				"name" : "Storm Surge Inundation",
-				"includeLayers" : [
-					{
-						"name" : "Predicted Storm Surge from a Hurricane Ike like event in 2004",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Predicted Storm Surge from a Hurricane Ike like event with 1m SLR by 2100 ",
-						"includeAllLayers" : true
-					}
-				]
 			}
 		]
 	},
@@ -597,19 +518,6 @@
 				"includeLayers" : [
 					{
 						"name" : "Estuarine Water Gains - 1 meter of SLR by 2100 Scenario ",
-						"includeAllLayers" : true
-					}
-				]
-			},
-			{
-				"name" : "Storm Surge Inundation",
-				"includeLayers" : [
-					{
-						"name" : "Predicted Storm Surge from a Hurricane Katrina like event in 2009",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Predicted Storm Surge from a Hurricane Katrina like event with 1m SLR by 2100 ",
 						"includeAllLayers" : true
 					}
 				]

@@ -269,7 +269,7 @@
 				"includeAllLayers": true
 			}
 		]
-	}
+	},
 	{"displayName": "Grand Bay NERR",
         "server": {
             "type": "ags",
