@@ -28,7 +28,7 @@
 		  "name": "community_planning"
         },
         {
-          "repo": "regional-planning",
+          "repo": "multiSelect",
           "name": "flood_slr"
         }
     ]
