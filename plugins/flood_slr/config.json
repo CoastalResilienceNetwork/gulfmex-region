@@ -13,14 +13,14 @@
 							],
 					"combos": {
 			
-							"0": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_0ft"}],
-							"1": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_1ft"}], 
-							"2": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_2ft"}],
-							"3": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_3ft"}],	
-							"4": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_4ft"}],
-							"5": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_5ft"}], 
-							"6": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_6ft"}],
-							"7": [{"type":"tiled", "url": "https://maps.coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_ShallowCoastalFlooding/MapServer"}]
+							"0": [{"type":"dynamic", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_0ft"}],
+							"1": [{"type":"dynamic", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_1ft"}], 
+							"2": [{"type":"dynamic", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_2ft"}],
+							"3": [{"type":"dynamic", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_3ft"}],	
+							"4": [{"type":"dynamic", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_4ft"}],
+							"5": [{"type":"dynamic", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_5ft"}], 
+							"6": [{"type":"dynamic", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/GOM_slr_merged_6ft"}],
+							"7": [{"type":"dynamic", "url": "https://maps.coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_ShallowCoastalFlooding/MapServer"}]
 					}
 				}	
 		]
