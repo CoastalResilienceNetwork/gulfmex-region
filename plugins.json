@@ -1,8 +1,5 @@
 {
     "plugins": [
-        {   "repo": "regional-planning",
-            "name": "regional-planning"
-        },
         {
             "repo": "eca",
             "name": "eca"
@@ -18,6 +15,9 @@
         {   
             "repo": "explorer",
             "name": "risk_explorer"
+        },
+        {   "repo": "regional-planning",
+            "name": "regional-planning"
         },
         {   
             "repo": "regional-planning",
