@@ -5,10 +5,10 @@
 		"regions": [
 				{
 					"name": "NOAA Sea Level Rise",
-					"extent": {"xmin":-8411263.503882,"ymin":4711425.2421505,"xmax":-8226808.810870,"ymax":5042333.7092422,"spatialReference":{"wkid":102100,"latestWkid":3857}},
+					"extent": {"xmin":-11304546.1049170,"ymin":2117771.8253307,"xmax":-8548264.9433480,"ymax":3703743.2696889,"spatialReference":{"wkid":102100,"latestWkid":3857}},
 					"methods": "http://coast.noaa.gov/digitalcoast/tools/slr",
 					"controls": [
-							{"name":"Choose Sea Level", "type": "slider", "index":0, "values":[{"selected": true,"name":"Current","value":"0", "help": "Year 2010"},{"name":"1 ft above <br> current MHHW", "value":"1"}, {"name":"2 ft above <br> current MHHW", "value":"2"}, {"name":"3 ft above <br> current MHHW", "value":"3"}, {"name":"4 ft above <br> current MHHW", "value":"4"}, {"name":"5 ft above <br> current MHHW", "value":"5"}, {"name":"6 ft above <br> current MHHW", "value":"6"}]},
+							{"name":"Choose Sea Level", "type": "slider", "index":0, "values":[{"selected": true,"name":"Current","value":"0", "help": "Year 2010"},{"name":"1 ft above current MHHW", "value":"1"}, {"name":"2 ft above current MHHW", "value":"2"}, {"name":"3 ft above current MHHW", "value":"3"}, {"name":"4 ft above current MHHW", "value":"4"}, {"name":"5 ft above current MHHW", "value":"5"}, {"name":"6 ft above current MHHW", "value":"6"}]},
 							{"name":"Reference Data", "type": "radio", "index":7, "values":[{"selected": true,"name":"Shallow Coastal Flooding","value":"7", "help": "Year 2010"}]}
 							],
 					"combos": {
