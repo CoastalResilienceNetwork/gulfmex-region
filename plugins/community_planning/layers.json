@@ -1,7 +1,7 @@
 [    	
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Charlotte Harbor",
             "folders": [
                 {
@@ -91,7 +91,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Choctawhatchee and St Andrew Bay",
             "folders": [
                 {
@@ -131,7 +131,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Copano and San Antonio Bays",
             "folders": [
                 {
@@ -193,7 +193,7 @@
 	},
 	{
 		    "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Escambia County",
             "folders": [
                 {
@@ -235,7 +235,7 @@
 	},
 	{
 			"agsSource": {
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Aransas Pass",
             "folders": [
                 {
@@ -277,7 +277,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Galveston Bay",
             "folders": [
                 {
@@ -438,7 +438,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Grand Bay NERR",
             "folders": [
                 {

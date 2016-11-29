@@ -2,5 +2,7 @@
     "height": 600,
     "width": 400,
     "resizable": false,
-    "hasCustomPrint": true
+    "hasCustomPrint": true,
+    "infoGraphic" : "plugins/flood_slr/slr_flooding_c.jpg",
+    "name": "Flood & Sea Level Rise"
 }
