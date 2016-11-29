@@ -1,203 +1,27 @@
-[
-	{
-        "displayName": "Coastal Flood Hazards",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://regions.services.femadata.com/arcgis/rest/services/FEMA_R4",
-            "name": "FEMA_Region_IV_Coastal_Flood_Loss_Atlas_CFLA_Version_301"
-        },
-        "includeLayers": [
-			{
-				"name" : "CFLA Data",
-				"displayName" : "Coastal Flood Atlas",
-				"includeLayers" : [
-					{
-						"name" : "Building Loss Ratio",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Debris in Tons",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Debris in Truck Loads",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Short Term Shelter Population",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Per Capita Loss",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Maximum Surge Depth (Ft)",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "SLOSH Basin Counties"
+{
+    "name": "Flood & Sea Level Rise",
+		"pluginHeight": 450,
+		"ddText": "Choose Data Source",
+		"regions": [
+				{
+					"name": "NOAA Sea Level Rise",
+					"extent": {"xmin":-8411263.503882,"ymin":4711425.2421505,"xmax":-8226808.810870,"ymax":5042333.7092422,"spatialReference":{"wkid":102100,"latestWkid":3857}},
+					"methods": "http://coast.noaa.gov/digitalcoast/tools/slr",
+					"controls": [
+							{"name":"Choose Sea Level", "type": "slider", "index":0, "values":[{"selected": true,"name":"Current","value":"0", "help": "Year 2010"},{"name":"1 ft above <br> current MHHW", "value":"1"}, {"name":"2 ft above <br> current MHHW", "value":"2"}, {"name":"3 ft above <br> current MHHW", "value":"3"}, {"name":"4 ft above <br> current MHHW", "value":"4"}, {"name":"5 ft above <br> current MHHW", "value":"5"}, {"name":"6 ft above <br> current MHHW", "value":"6"}]},
+							{"name":"Reference Data", "type": "radio", "index":7, "values":[{"selected": true,"name":"Shallow Coastal Flooding","value":"7", "help": "Year 2010"}]}
+							],
+					"combos": {
+			
+							"0": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/13"}],
+							"1": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/15"}], 
+							"2": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/17"}],
+							"3": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/19"}],	
+							"4": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/21"}],
+							"5": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/23"}], 
+							"6": [{"type":"tiled", "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_SeaLevelRise/MapServer/25"}],
+							"7": [{"type":"tiled", "url": "https://maps.coast.noaa.gov/arcgis/rest/services/FloodExposureMapper/CFEM_ShallowCoastalFlooding/MapServer"}]
 					}
-				]				
-			}
+				}	
 		]
-	},
-	{
-        "displayName": "NOAA Coastal Flood Exposure",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
-            "name": "CFEM_ShallowCoastalFlooding"
-		},
-		"includeLayers" : [
-			{
-				"displayName": "Shallow Coastal Flooding",
-				"server": {
-					"type": "ags",
-					"layerType": "dynamic",
-					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
-					"name": "CFEM_ShallowCoastalFlooding"
-				},
-				"includeLayers" : [
-					{
-						"name": "LCH_LIX_FF_FY15v2_wm",
-						"displayName": "Louisiana"
-					},
-					{
-						"name": "AL_MOB_FF_3ft_WM",
-						"displayName": "Alabama - Mobile Bay"
-					},
-					{
-						"name": "FL_KEY_FF_WM",
-						"displayName": "Florida - Keys"
-					},
-					{
-						"name": "FL_MFL1_FF_WM",
-						"displayName": "Florida - Southwest"
-					},
-					{
-						"name": "FL_MOB_FF_WM",
-						"displayName": "Florida - Pensacola"
-					},
-					{
-						"name": "FL_TAE1_FF_WM",
-						"displayName": "Florida - Panama City"
-					},
-					{
-						"name": "FL_TAE2_FF_WM",
-						"displayName": "Florida - Tallahassee"
-					},
-					{
-						"name": "FL_TBW1_FF_WM",
-						"displayName": "Florida - Ocala"
-					},
-					{
-						"name": "FL_TBW2_FF_WM",
-						"displayName": "Florida - Tampa Bay"
-					},
-					{
-						"name": "FL_TBW3_FF2_WM",
-						"displayName": "Florida - Charlotte Harbor"
-					},
-					{
-						"name": "HGX_FF_FY15_wm",
-						"displayName": "Texas - Galveston Bay"
-					},
-					{
-						"name": "LCH_FF_FY15_wm",
-						"displayName": "Texas - Port Arthur"
-					},
-					{
-						"name": "MS_LIX_FF_WM",
-						"displayName": "Mississippi - Gulfport"
-					},
-					{
-						"name": "TX_BRO_FF_WM",
-						"displayName": "Texas - Port Mansfield"
-					},
-					{
-						"name": "TX_CRP_FF_WM",
-						"displayName": "Texas - Corpus Christi"
-					}
-				]
-			},
-			{
-				"displayName": "Sea Level Rise Scenarios",
-				"server": {
-					"type": "ags",
-					"layerType": "dynamic",
-					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
-					"name": "CFEM_SeaLevelRise"
-				},
-				"includeLayers" : [
-					{
-						"name": "Areas Not Mapped",
-						"displayName": "Areas Not Mapped",
-						"includeAllLayers": true
-					},	
-					{
-						"name": "GOM_slr_merged_1ft",
-						"displayName": "1 ft Above Current MHHW"
-					},
-					{
-						"name": "GOM_slr_merged_2ft",
-						"displayName": "2 ft Above Current MHHW"
-					},
-					{
-						"name": "GOM_slr_merged_3ft",
-						"displayName": "3 ft Above Current MHHW"
-					},
-					{
-						"name": "GOM_slr_merged_4ft",
-						"displayName": "4 ft Above Current MHHW"
-					},
-					{
-						"name": "GOM_slr_merged_5ft",
-						"displayName": "5 ft Above Current MHHW"
-					},
-					{
-						"name": "GOM_slr_merged_6ft",
-						"displayName": "6 ft Above Current MHHW"
-					}
-				]
-			},
-			{
-				"displayName": "Storm Surge Scenarios",
-				"server": {
-					"type": "ags",
-					"layerType": "dynamic",
-					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
-					"name": "CFEM_StormSurge"
-				},
-				"includeLayers" : [
-					{
-						"name": "OCM Symbology",
-						"displayName": "Storm Type",
-						"includeAllLayers" : true
-					},
-					{
-						"name": "LeveeAreas_wm",
-						"displayName": "Levee Areas - Consult Local Officials for Flood Risk"
-					}
-				]
-			},
-			{
-				"displayName": "Critical Facilities",
-				"server": {
-					"type": "ags",
-					"layerType": "dynamic",
-					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
-					"name": "CFEM_CriticalFacilities"
-				},
-				"includeLayers" : [
-					{
-						"name": "Critical Facilities",
-						"displayName": "Critical Facilities (Zoom In to View)"
-					}	
-				]
-			}
-		]
-	}
-]
+}
