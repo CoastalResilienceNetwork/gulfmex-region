@@ -269,22 +269,7 @@
 				"includeAllLayers": true
 			}
 		]
-	},
-	{"displayName": "Galveston Bay",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
-            "name": "Galveston_Bay"
-		},
-		"includeLayers" : [
-			{
-				"name": "Storm Surge Inundation",
-				"displayName": "Storm Surge Inundation",
-				"includeAllLayers": true
-			}
-		]
-	},
+	}
 	{"displayName": "Grand Bay NERR",
         "server": {
             "type": "ags",
