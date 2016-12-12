@@ -9,20 +9,16 @@
         },
         "includeLayers": [
 			{
-				"name" : "Study Area Watersheds",
-				"includeAllLayers" : true
+				"name" : "Study Area Watersheds"
 			},
 			{
-				"name" : "Watersheds- High likelihood of flood damages",
-				"includeAllLayers" : true
+				"name" : "Watersheds- High likelihood of flood damages"
 			},
 			{
-				"name" : "Watersheds- High conservation opportunity",
-				"includeAllLayers" : true
+				"name" : "Watersheds- High conservation opportunity"
 			},
 			{
-				"name" : "Multi Objective Watersheds",
-				"includeAllLayers" : true
+				"name" : "Multi Objective Watersheds"
 			}
 		]
 	},
