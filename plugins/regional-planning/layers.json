@@ -1,5 +1,28 @@
 [
     {
+    	"displayName": "Open Space Project",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Open_Space_Project"
+        },
+        "includeLayers": [
+			{
+				"name" : "Study Area Watersheds"
+			},
+			{
+				"name" : "Watersheds- High likelihood of flood damages"
+			},
+			{
+				"name" : "Watersheds- High conservation opportunity"
+			},
+			{
+				"name" : "Multi Objective Watersheds"
+			}
+		]
+	},
+	{
         "displayName": "Alabama",
         "server": {
             "type": "ags",
