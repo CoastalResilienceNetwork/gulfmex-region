@@ -59,6 +59,7 @@
     "active": "#0096D6"
     },
     "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
+    "identifyEnabled": true,
     "launchpad": {
             "title": "U.S. Gulf Coast",
             "description": "<p>Coastal Resilience in the Gulf of Mexico offers natural resource managers and planners easy access to data on the current socio-economic condition and future threats of coastal hazards, as well as the role natural resources play in reducing community risk through conservation and restoration activities. Our Coastal Resiliece Gulf of Mexico project helps managers use this webmap as a structured decision support tool to select the most appropriate climate adaptation options for their particular area or interest.</p>",
