@@ -37,13 +37,13 @@
     { "name": "Basic Dark Gray"    , "url": "http://server.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer" }  
     ],
     "pluginOrder": [
+        "regional-planning",
+        "community_planning",
         "flood_slr",
 		"future_habitat",
         "eca",
         "restoration_explorer",
         "risk_explorer",
-        "regional-planning",
-        "community_planning",
         "zoom_to",
         "measure",
         "legend_display",
@@ -64,6 +64,16 @@
             "title": "U.S. Gulf Coast",
             "description": "<p>Coastal Resilience in the Gulf of Mexico offers natural resource managers and planners easy access to data on the current socio-economic condition and future threats of coastal hazards, as well as the role natural resources play in reducing community risk through conservation and restoration activities. Our Coastal Resiliece Gulf of Mexico project helps managers use this webmap as a structured decision support tool to select the most appropriate climate adaptation options for their particular area or interest.</p>",
             "plugins": [
+                {
+                    "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning and Migratory Species",
+                    "description": "",
+                    "pluginName": "regional-planning"
+                },
+                {
+                    "title": "<img src='img/community_planning.png' hspace=10>Community Planning",
+                    "description": "",
+                    "pluginName": "community_planning"
+                },
                 {
                     "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
                     "description": "Shows the potential inundation effects of sea-level rise, as well as the effects of sea-level rise on wind- and wave-driven storm surge.",
@@ -88,16 +98,6 @@
                     "title": "<img src='img/restoration_explorer.png' hspace=10>Restoration Explorer",
                     "description": "",
                     "pluginName": "restoration_explorer"
-                },
-                {
-                    "title": "<img src='img/community_planning.png' hspace=10>Community Planning",
-                    "description": "",
-                    "pluginName": "community_planning"
-                },
-                {
-                    "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
-                    "description": "",
-                    "pluginName": "regional-planning"
                 }
             ],
             "partners": [
