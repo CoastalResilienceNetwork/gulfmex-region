@@ -23,7 +23,7 @@
 		]
 	},
 	{
-		"displayName": "Migration Pathways",
+		"displayName": "Migratory Species",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
