@@ -1,49 +1,5 @@
 [
 	{
-        "displayName": "Coastal Flood Hazards",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://regions.services.femadata.com/arcgis/rest/services/FEMA_R4",
-            "name": "FEMA_Region_IV_Coastal_Flood_Loss_Atlas_CFLA_Version_301"
-        },
-        "includeLayers": [
-			{
-				"name" : "CFLA Data",
-				"displayName" : "Coastal Flood Atlas",
-				"includeLayers" : [
-					{
-						"name" : "Building Loss Ratio",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Debris in Tons",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Debris in Truck Loads",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Short Term Shelter Population",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Per Capita Loss",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Maximum Surge Depth (Ft)",
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "SLOSH Basin Counties"
-					}
-				]				
-			}
-		]
-	},
-	{
         "displayName": "NOAA Coastal Flood Exposure",
         "server": {
             "type": "ags",
