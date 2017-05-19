@@ -1,6 +1,6 @@
 [
     {
-    	"displayName": "Open Space Project",
+    	"displayName": "Open Space",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
