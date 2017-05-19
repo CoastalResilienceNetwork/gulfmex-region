@@ -38,6 +38,7 @@
     ],
     "pluginOrder": [
         "regional-planning",
+        "open_space",
         "community_planning",
         "flood_slr",
 		"future_habitat",
@@ -135,11 +136,6 @@
                     "logoPath": "img/TX_AM.png",
                     "link": "",
                     "title": "Texas A&M"
-                },
-                {
-                    "logoPath": "img/EPA.jpg",
-                    "link": "",
-                    "title": "Environmental Protection Agency"
             }
         ]
     }
