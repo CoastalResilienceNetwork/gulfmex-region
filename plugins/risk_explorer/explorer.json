@@ -1,6 +1,7 @@
 {
     "name": "Risk Explorer",
     "text": "To begin, select a region to view.",
+    "ddText": "Select a Region to View",
     "globalText": "Risk = Exposure x Vulnerability<br>Choose your variables to see your risk.",
 	"mainToggle": {"index": 0, "text": "Toggle Risk Score on or off"},
     "betweenGroups": "*",
