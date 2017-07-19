@@ -22,10 +22,6 @@
         {   
             "repo": "regional-planning",
             "name": "community_planning"
-        },
-        {   
-            "repo": "regional-planning",
-            "name": "flood_slr"
         }
     ]
 }
