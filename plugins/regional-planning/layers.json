@@ -1,43 +1,4 @@
 [
-    {
-		"displayName": "Migratory Species",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
-            "name": "Migratory_Species"
-        },
-        "includeLayers": [
-			{
-				"name" : "Multi Species",
-				"includeAllLayers" : true
-			},
-			{
-				"name" : "Conservation Results",
-				"includeAllLayers" : true
-			},
-			{
-				"name" : "Sea Turtles",
-				"includeAllLayers" : true
-			},
-			{
-				"name" : "Marine Mammals",
-				"includeAllLayers" : true
-			},
-			{
-				"name" : "Fish",
-				"includeAllLayers" : true
-			},
-			{
-				"name" : "Birds",
-				"includeAllLayers" : true
-			},
-			{
-				"name" : "Environmental Data",
-				"includeAllLayers" : true
-			}
-		]
-	},
 	{
         "displayName": "Alabama",
         "server": {
