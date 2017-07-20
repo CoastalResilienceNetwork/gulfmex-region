@@ -1,27 +1,24 @@
 {
     "googleAnalyticsPropertyId": "7401895-23",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Coastal Resilience", "url": "http://coastalresilience.org/" },
-    "titleDetail": { "text": "Gulf of Mexico", "url": "http://coastalresilience.org/project-areas/gulf-of-mexico" },
-	"headerLinks": [
-        { "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
-		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
-        { "text": "GO TO", "url": "#", "items": [
-                { "text": "California", "url": "http://maps.coastalresilience.org/california/" },
-                { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut" },
-                { "text": "Global", "url": "http://maps.coastalresilience.org/global/" },
-                { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
-                { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
-                { "text": "New York", "url": "http://maps.coastalresilience.org/newyork" },
-                { "text": "New Jersey", "url": "http://maps.coastalresilience.org/newjersey" },
-                { "text": "Southeast Florida", "url": "http://maps.coastalresilience.org/seflorida/" },
-                { "text": "United States", "url": "http://maps.coastalresilience.org/unitedstates/" },
-                { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
-                { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
-            ]
-        },
+    "titleMain": { "text": "Coastal Resilience", "url": "" },
+    "titleDetail": { "text": "Gulf of Mexico", "url": "" },
+    "headerLinks": [
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
-        { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" }
+        { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
+    ],
+    "regionLinks": [
+            { "text": "California", "url": "http://maps.coastalresilience.org/california" },
+            { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut" },
+            { "text": "Global", "url": "http://maps.coastalresilience.org/global/" },
+            { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
+            { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
+            { "text": "New Jersey", "url": "http://maps.coastalresilience.org/newjersey" },
+            { "text": "Southeast Florida", "url": "http://maps.coastalresilience.org/seflorida/" },
+            { "text": "United States", "url": "http://maps.coastalresilience.org/unitedstates/" },
+            { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
+            { "text": "Virginia Eastern Shore", "url": "http://maps.coastalresilience.org/virginia/" },
+            { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
     ],
     "initialExtent": [
         -98.61328125,
@@ -34,89 +31,100 @@
         { "name": "National Geographic", "url": "http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer" },
         { "name": "Ocean"              , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer" },
         { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
-        { "name": "Physical"           , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer" },
         { "name": "Shaded Relief"      , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer" },
         { "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
-        { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
+        { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" },
+    { "name": "Basic Dark Gray"    , "url": "http://server.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer" }  
     ],
     "pluginOrder": [
         "regional-planning",
-		"community_planning",
-        "eca",
+        "community_planning",
 		"future_habitat",
+        "eca",
         "restoration_explorer",
         "risk_explorer",
         "zoom_to",
         "measure",
         "legend_display",
-        "full_extent",
-        "subregion_toggle"
+        "full_extent"
     ],
     "print": {
-        "printServerUrl": "http://services.coastalresilience.org/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"  
+        "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"  
     },
     "colors": {
-       "primary": "#26648E",
-       "secondary": "#26648E"
+    "primary": "#2F6384",
+    "secondary": "#5E94B6",
+    "tertiary": "#333333",
+    "active": "#0096D6"
     },
     "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
-    "subregions": {
-        "hideAtZoomLevel": 8,
-        "color": "#00C5CD",
-        "outlineColor": "#008000",
-        "opacity": 0.2,
-        "clickToFocus": true,
-        "hideByDefault": true,
-        "areas": [
-            {
-                "id": "Tampa Bay",
-                "display": "Tampa Bay",
-                "details": "Tampa Bay, FL", "shape":[[-82.91162655619355,27.89266640972588],[-82.84438212608092,27.5884058370522],[-82.59130974222403,27.20477244655647],[-82.49231493424207,27.21646511902301],[-82.48112299039093,27.4132450727414],[-82.4599314912559,27.5605116908843],[-82.3270233452628,27.72182987293516],[-82.31306560235142,27.93596840886031],[-82.54267295092924,28.05766030033054],[-82.87138859872236,28.07311798581571],[-82.91162655619355,27.89266640972588]],
-                "availablePlugins": ["layer_selector", "eca"],
-                "outlineColor": "#000",
-                "noFill": true
+    "identifyEnabled": true,
+    "launchpad": {
+            "title": "U.S. Gulf Coast",
+            "description": "<p>Coastal Resilience in the Gulf of Mexico offers natural resource managers and planners easy access to data on the current socio-economic condition and future threats of coastal hazards, as well as the role natural resources play in reducing community risk through conservation and restoration activities. Our Coastal Resiliece Gulf of Mexico project helps managers use this webmap as a structured decision support tool to select the most appropriate climate adaptation options for their particular area or interest.</p>",
+            "plugins": [
+                {
+                    "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
+                    "description": "",
+                    "pluginName": "regional-planning"
+                },
+                {
+                    "title": "<img src='img/community_planning.png' hspace=10>Community Planning",
+                    "description": "",
+                    "pluginName": "community_planning"
+                },
+                {
+                    "title": "<img src='img/eca.png' hspace=10>Economics of Coastal Adaptation",
+                    "description": "",
+                    "pluginName": "eca"
+                },
+                {
+                    "title": "<img src='img/risk_explorer.png' hspace=10>Risk Explorer",
+                    "description": "",
+                    "pluginName": "risk_explorer"
+                },
+                {
+                    "title": "<img src='img/future_habitat.png' hspace=10>Future Habitat",
+                    "description": "Shows how the size and distribution of tidal marshes and other coastal habitats may change in response to future projected sea-level rise scenarios.",
+                    "pluginName": "future_habitat"
+                },
+                {
+                    "title": "<img src='img/restoration_explorer.png' hspace=10>Restoration Explorer",
+                    "description": "",
+                    "pluginName": "restoration_explorer"
+                }
+            ],
+            "partners": [
+                {
+                    "logoPath": "img/TNCLogoPrimary_RGB.png",
+                    "link": "http://nature.org",
+                    "title": "The Nature Conservancy"
+                },
+                {
+                    "logoPath": "img/Gulf_Alliance.jpg",
+                    "link": "",
+                    "title": "Gulf of Mexico Alliance"
+                },
+                {
+                    "logoPath": "img/Punta_Gorda.png",
+                    "link": "",
+                    "title": "City of Punta Gorda"
+                },
+                {
+                    "logoPath": "img/SWFRPC.png",
+                    "link": "",
+                    "title": "SWFRPC"
+                },
+                {
+                    "logoPath": "img/TX_SeaGrant.jpg",
+                    "link": "",
+                    "title": "Texas Sea Grant"
+                },
+                {
+                    "logoPath": "img/TX_AM.png",
+                    "link": "",
+                    "title": "Texas A&M"
             }
         ]
-    },
-     "launchpads": [
-        {
-            "id": "get-started",
-            "title": "Getting Started",
-            "description": "Coastal Resilience in the Gulf of Mexico offers natural resource managers and planners easy access to data on the current socio-economic condition and future threats of coastal hazards, as well as the role natural resources play in reducing community risk through conservation and restoration activities. Our <a href= 'http://coastalresilience.org/project-areas/gulf-of-mexico/' target='_blank'><b>Coastal Resiliece Gulf of Mexico project</b></a> helps managers use this webmap as a structured decision support tool to select the most appropriate climate adaptation options for their particular area or interest. <br><br> To launch the webmap, select an option in Interactive Maps that best matches your interests.<br><br><center><img src='img/tnc1.png' hspace=10>&nbsp<img src='img/GOMA.jpeg' hspace=10>&nbsp<img src='img/TX_SeaGrant.jpg' hspace=10>&nbsp<img src='img/EPA.jpg' hspace=10>&nbsp<img src='img/Punta_Gorda.png' hspace=10>&nbsp<img src='img/TX_AM.png' hspace=10>&nbsp<img src='img/SWFRPC.png' hspace=10></center>",
-            "showSubRegions": false,
-            "subRegionDescription": "Choose a specific region and it will take you there, or you can freely explore the map.",
-            "showByDefault": false,
-            "categories": [
-              {
-                "name": "Interactive Maps",
-                "description": "Choose a button to take you to our analysis tools. After picking a button, you will be able to explore the full suite of data and make a custom map.",
-                "issues": [
-                    {
-                      "name": "Explore the map",
-                      "description": "",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xMTQ0NzIwOS4zNTU5ODc0MjLEmnnFgcSTxYo2MMWTMi4yODI1Njg1xZ04xL/EqXjEiC04NDDFh8WxLjEzxbDFhTnFjsWXxavEiDM2MjPFiTYuNsW+OTQzxoE2NsSaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIgxMDLGoTDEmmzGj2VzdFfGncafOjPFpjd9xKfEgWVsZWPEsGRCYcSYxKlwSW5kxK7EiDDGtHBhbmXEq8aax4jHik51bWLGlseFxo10xqhPZlBsdWfFgsSixprEmMa3xrllZMebx53FgsSIbnVsbMSaxIzHqG7HoHvGs8az",
-                      "faIcon": "fa fa-globe",
-                      "faSize": 32
-                    },
-                    {
-                      "name": "Living Shorelines",
-                      "description": "",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xMTYwMzc1Mi4zODk5MTU0MsSaecWBxJMyMjU1MTk4LjA4xZvFmzk0NTPEv8SpeMSILTg2MTcyMDQuxaMwxYo3OMWixZbFq8SIxY4zxajFtMWNMzEyMzY2ODg0xJrEi2F0acSWUmVmZcSExJ3EuMSJIndraWTEiDEwMsaiMMSabMaQZXN0V8aexqA6xY41N8SnImNhY2jGmsSAX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8eGxarFgsWtxYXFh8WJxYvFjcWPxZHFk8WVIsWXx446xZrFnMWexaDFosWkNcWmxajFqmHFrDrFrsWwxbLGg8W3xbnFuzjFvcenxb84xoEzxoMzxoXGh8aJxovGjcSBxr3GkcaTxpXGl8SGY8a6xpzGrsahxqPGpcanxqnGq8atxp/HtMayfca0ZnJhbWVJZMeBWzBdfcigxrTEmGxlY8SwZEJhxJjEqXBJbmTErsSIMMa0xr1uZcSrxpvItmVOdW1ixpfIs8aOdMapT2ZQbHVnxYLHgcSKZcilyKdlZMmIyYrHmyLEjMmVbnMvxqh5xpdfyKTIpnRvciLEmsa3xpF2ZVN1YsSEyYtvxJNudWxsxJrJmMmLyZrEs8m4yYzJnGHJnnLJoMmPyaLJpMSzcm9vdC9BxqhiyJhhyovKjcqPMcSzb8a9Y8SOecizLjfEmsa4yKZryZLEo8SWxJjGtMmqcnNpybHEuTEuypTEmsqHyonKkWHKjsSpyrPKtWEzxac2xbrKlcqXypnKm8qdxrXGuWPKocavxKTKpcqwyojKisqMyrTKj8q3ypPIucSAypbGt8uAOjDKnMqey4TLhsqjxKXGtMqxy4zKksq2y43KuMaGMTPKvsuVxLXLgcuayqDKosSUyqTEpsuKyrLLpMuPy7XEqcWSxYbLqcqYy6vLl8uZy4PLrsuHy7HLn8uLy5DLo8uiYTE4xZ7Fs8akxZrGhzI0y7vLlsuYy4LKn8uFy6/LiMuyIsugL0ZsyaTGn8qQzJ/MoWTMicyTy73MlcutzJjMgsuey7PKisykcsyizJ7MoMyyzKbKujXKvMyoyprLvsyWy5vMmcyDzK/MtMylzKPMtcyiOcy7y6zMgMysy53LicyczIXMscyzzZHMpsWFzYnMvcyry5zLsMyuzY/Kss2TzYXNhMunMcySxpvLlMu8zLzMqs2LzZnMmsyEzZ3NhsymzYPMtsyJx6vMis2WzajMl82qzYHNnMywza7Nn82xzI3GhsWaM8yRxaQ2zbXLv823zYDNm8ydzZ7NsMyiMse1x7nFpjLOhsy+zIHNjcybzovNvM6NzKY0NzQ4xYvOlM2YzonNjsydTG91acqpYW7KkM6nzqnOq86txoY3zqLNqc6kzpjMhc6vzqrGks6tL866zrHMicakxoU0y7nOhc2kyr/Mqc6HzL/Mrc6lzrnOqM67zqzOrs+Pz4DMisWezrXOiM+MzrjKss6/zrzPks6wz53Mjs6Tz4fLqs2nz4rOls2az43Pm8+Tz53Ovs+rz5HOg8WLNjLOtM+jzabNis+YzpfNrMqKz5zPkc+tz5/PrznHt8aFzoLHucq6x7Y2xYnGgMWmxbTKlM+1zJTPps2Mz6jPms+7z67Ovc+8zq00yro0xac0Ns6dzp80zYjQjs+JzpXQkc2rzYJNzqrKqXPKqXBwaS/QqdCs0Kpp0K5p0I3Lk8+Iz6XQpc24zorMhdCy0KvQrdCv0LHQtNCz0LbKutCi0LnPpM+3z4vPudCo0YXRgtCw0YDQtNC2z4XPl9GN0JLPutGE0LPRhtGD0ZPRndC3zIvRiSLNpdCP0LzOt9Ga0Z/RkdGb0YHQtdCvz6HRl8+n0KfNutGs0ZTRntGQ0a5pz7Ayz7LPtNGKz7bNl862z5nRqdG40LbRtdGgMtCBxYjLp8aHx7nNo9G/0abOo9KD0Y/RnNGr0arRucaI0bHQps25zJ1UxK7Iqy/SnnjIq9C40aTQutGM0bLSnMyF0qLSoNKsc8y4yrzFj9Ka0L3PqcqK0q7SodKfc8Wz0rPRqM2C0rfSrsyPy6jQo9C70pLRjtG00r/Suc6Ez7POj9K80pPTh9K50rjSo9Kv0ovQhNKOxoHTjdOGzJ1HybRmIG/TnU3Ermljby/Tm2zTndOfINOheNOjb8aGzLjTmNGZzYLTp9Op06DTotOk06bTnNOe07fTrdOkyr3Tg9Ko0pvQvsqy07XTvNOr07jTpdSG06rTrNOuxqLFhcumz4PTsnRydcSZInbOu2LIpUzJv8aXyJvIncaiyKDTtNO71IzUidO606jUh9SN06TFhsWx07LRs9Oa1KXTvdOu1KjTttSI077TrznNv9OBz7DUr8yDyJTGtMmoacmqyazJrmXJsMmyybRsyJQ=",
-                      "faIcon": "fa fa-leaf",
-                      "faSize": 32
-                    },
-                    {
-                      "name": "Economics of Climate Adaptation",
-                      "description": "Economics of climate adaptation",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xMTUwMTAyMS7FijM5MMWIN8SaecWBxJPFizUxMjQzLjfFmzA1ODEzMjbEv8SpeMSILTjFmzI5NjkuxaTFijczNjg0xZTFqcSIMzc1M8W3xZ04xbc5xYbFkcWkxJrEi2F0acSWUmVmZcSExJ3EuMSJIndraWTEiMWJxYvFkcSabMaMZXN0V8aaxpw6Mzg1N8SnImNhY2jGlsSAX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8eBxajFgsWrxYXFh8aexYzFjsWQxZLFu8eJOsWYxZrFnMWexaDFosWkxabFqGHFqjrFrMWuxbDFssW0MsW2xbjFuiLFlceexb3Fv8aBNsaDxoXGh8WIM8aKxrjGjcaPxpHGk8SGY8a1xpjGqMadxYrFiTDGocajxqXGp8abxb3GrMauxq9mcmFtZUlkxrxbMF19yJjGr8SYbGVjxLBkQmHEmMSpcEluZMSuxIgwxq/GuG5lxKvGl8iuZU51bWLGk8irxop0xqNPZlBsdWfFgsa8xIplyJ3In2VkyYDJgseTIsSMyY1ucy/InmEixJrJkMmDyZLEs8mZyYTJlMaxx4JhYsS5yLxiT3bGk3ZpZXctyKUtxKvEmmNvxL1yb8SXxLNidXR0ybTJhcawb8i3b0LJu8m9bkV4cG9zdcSEVMS2x77Gosi4bMS5xpBzxpvEscaOypTEmnbElnXGliLEhMqXyKnEvcqaIsavybPKgsqEybzJtEXIncqdxo3JtMSzypLJh8S5VcioxpMgxYkgKE1lxLBycynJlyLKncmByqB1yrhyxYnKp8myyoFiyoPKhcm0R2VvZ8iPcGh5yrPJosq1OiJDb8uJxLXLhMuGyp/Eucmzy6PLm8qoy4/LkcqsbsqPx4TGl8q0ypTLn0Zsb2/GnMusyqrLksqHybNuyoHLm8uzy53LtSJMb3fLjcqAy73Lr0THusmSypHMhcS5Tsm0xLjKnMqeyqDMgcivzIvKqcuQyqvKhsuUy5bLmMuaRMiQYWfGpMucypPEucuhy6rLpcyZy6jLosS9y6vLjsyNyobLsWXKvsijyo3MqsyEzKzLn0LGpMS+y4XMscufyKnElXVsxLLLvMyfy75FzIDMgsy7yozKosyry57Mh8yJzJ3LrcygybTMj8aSzJHNk8y9yb/LtMyUzJbMsMuHxLnMm8S4fcibxI3IqcuBxLNjxI3EqcSwWWXGuVPNrsaTzKbEqcypyb/LpsaWMjAzyKzEmsSEdMqNblDGk2nLus25yphyxLPOgMadyqjNs8ajzbbNuM26cs2hzZXGl86Tx5TOg8isxq/Ij2TOjcazyJ5rxLPErsqKzZRlVG/IvGxSYsmuxKDJsM2xxrRja8mKxKPElsSYxq/Oq8qLzL3Oi3LHvcS9zrPOtXDOt8aXzqfOus68OnRyyp/Gr2TMp82+zq/Osc+Iya/IscSAz43Ou8apxKTOv8Saz5XNvcakz4TPhnTPms62z5zGsM65z5/EiM+Rz5PEqM23zq1zz5jGj860z5vOuM6oz4/PocSmz7PMvMqiz6fEsc+qz4rPrM+ez4/Psc+/xpjKv8aiyKhyaXNrQ8+uy5B4z4nPi8+dz67Pvc6+0It30I1hyKjMgMSYcsqwzo1u0JTOqNCW0JjQh9Cbz6DQncavYsa50JDGk9CpzrrQq8+6z4zQrs69xKXGr295xqXGk3PQtmvQuM+rz7vPjtCv0L3Emsi4xrJo0YTRhtCG0YjPr8SU0LDEms6wxrRy0ZBv0JfQudCaz7zRis+ixIHQoWTQsmfRg9CV0ZzQrNGT0JzRiyLKr8SF0ajQqtGq0Z7PrdGg0LzOv82s0brNrA==",
-                      "faIcon": "fa fa-bank",
-                      "faSize": 32
-                    }
-                  ]
-              }
-            ]
-        }
-    ]
+    }
 }
