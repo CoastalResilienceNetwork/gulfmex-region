@@ -85,7 +85,7 @@
                 },
                 {
                     "title": "<img src='img/future_habitat.png' hspace=10>Future Habitat",
-                    "description": "Shows how the size and distribution of tidal marshes and other coastal habitats may change in response to future projected sea-level rise scenarios.",
+                    "description": "",
                     "pluginName": "future_habitat"
                 },
                 {
