@@ -79,19 +79,9 @@
                     "pluginName": "eca"
                 },
                 {
-                    "title": "<img src='img/risk_explorer.png' hspace=10>Risk Explorer",
-                    "description": "",
-                    "pluginName": "risk_explorer"
-                },
-                {
                     "title": "<img src='img/future_habitat.png' hspace=10>Future Habitat",
                     "description": "",
                     "pluginName": "future_habitat"
-                },
-                {
-                    "title": "<img src='img/restoration_explorer.png' hspace=10>Restoration Explorer",
-                    "description": "",
-                    "pluginName": "restoration_explorer"
                 }
             ],
             "partners": [
