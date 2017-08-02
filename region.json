@@ -61,27 +61,17 @@
     "identifyEnabled": true,
     "launchpad": {
             "title": "U.S. Gulf Coast",
-            "description": "<p>Coastal Resilience in the Gulf of Mexico offers natural resource managers and planners easy access to data on the current socio-economic condition and future threats of coastal hazards, as well as the role natural resources play in reducing community risk through conservation and restoration activities. Our Coastal Resiliece Gulf of Mexico project helps managers use this webmap as a structured decision support tool to select the most appropriate climate adaptation options for their particular area or interest.</p>",
+            "description": "<p>The Coastal Resilience decision-support tool provides communities across the five Gulf states access to the best available science and data to visualize their coastal hazards risks and examine where nature can increase resilience and reduce risk through conservation and restoration activities. For additional project information, visit the <a href= 'http://coastalresilience.org/project/gulf-of-mexico/' target='_blank'><b>Gulf of Mexico</b></a> home page.</p>",
             "plugins": [
                 {
                     "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
-                    "description": "",
+                    "description": "Gulfwide and state based data layers useful for resilience planning.",
                     "pluginName": "regional-planning"
                 },
                 {
-                    "title": "<img src='img/community_planning.png' hspace=10>Community Planning",
-                    "description": "",
-                    "pluginName": "community_planning"
-                },
-                {
-                    "title": "<img src='img/eca.png' hspace=10>Economics of Coastal Adaptation",
-                    "description": "",
-                    "pluginName": "eca"
-                },
-                {
-                    "title": "<img src='img/future_habitat.png' hspace=10>Future Habitat",
-                    "description": "",
-                    "pluginName": "future_habitat"
+                    "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
+                    "description": "Shows the potential inundation effects of sea-level rise, as well as low lying areas vulnerable to storm surge.",
+                    "pluginName": "flood_slr"
                 }
             ],
             "partners": [
