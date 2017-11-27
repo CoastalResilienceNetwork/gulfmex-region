@@ -4,7 +4,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "name": "Charlotte_Harbor"
         },
         "includeLayers": [
@@ -71,7 +71,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "name": "Choctawhatchee_and_St_Andrew_Bay"
         },
         "includeLayers": [
@@ -100,7 +100,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "name": "Copano_San_Antonio_Bays"
         },
         "includeLayers": [
@@ -136,7 +136,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "name": "Escambia_County"
         },
         "includeLayers": [
@@ -166,7 +166,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "name": "Aransas_Pass"
         },
         "includeLayers": [
@@ -195,7 +195,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "name": "Galveston_Bay"
         },
         "includeLayers": [
@@ -326,7 +326,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "name": "Grand_Bay_NERR"
         },
         "includeLayers": [
