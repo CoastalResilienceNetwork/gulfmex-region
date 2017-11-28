@@ -15,7 +15,7 @@
 				"latestWkid": 3857
 			}
 		},
-		"url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/gulfmex_SLAMM_GCPLCC/ImageServer",
+		"url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/gulfmex_SLAMM_GCPLCC/ImageServer",
 		"cellsize": 1,
 		"root": "gulfmex_SLAMM",
 		"field": "name",
@@ -144,7 +144,7 @@
 				"latestWkid": 3857
 			}
 		},
-		"url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_FL_CH_SLAMM/ImageServer",
+		"url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/gulfmex_FL_CH_SLAMM/ImageServer",
 		"cellsize": 1,
 		"root": "gulfmex_FL_CH_SLAMM",
 		"field": "name",
@@ -266,7 +266,7 @@
 				"latestWkid": 3857
 			}
 		},
-		"url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_FL_SBB_SLAMM/ImageServer",
+		"url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/gulfmex_FL_SBB_SLAMM/ImageServer",
 		"cellsize": 1,
 		"root": "gulfmex_FL_SBB_SLAMM",
 		"field": "name",
@@ -388,7 +388,7 @@
 				"latestWkid": 3857
 			}
 		},
-		"url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_FL_PEN_SLAMM/ImageServer",
+		"url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/gulfmex_FL_PEN_SLAMM/ImageServer",
 		"cellsize": 1,
 		"root": "gulfmex_FL_PEN_SLAMM",
 		"field": "name",
@@ -510,7 +510,7 @@
 				"latestWkid": 3857
 			}
 		},
-		"url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_FL_TB_SLAMM/ImageServer",
+		"url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/gulfmex_FL_TB_SLAMM/ImageServer",
 		"cellsize": 1,
 		"root": "gulfmex_FL_TB_SLAMM",
 		"field": "name",
@@ -632,7 +632,7 @@
 				"latestWkid": 3857
 			}
 		},
-		"url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_FL_APA_SLAMM/ImageServer",
+		"url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/gulfmex_FL_APA_SLAMM/ImageServer",
 		"cellsize": 1,
 		"root": "gulfmex_FL_APA_SLAMM",
 		"field": "name",
@@ -753,7 +753,7 @@
 				"latestWkid": 3857
 			}
 		},
-		"url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_FL_CSAB_SLAMM/ImageServer",
+		"url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/gulfmex_FL_CSAB_SLAMM/ImageServer",
 		"cellsize": 1,
 		"root": "gulfmex_FL_CSAB_SLAMM",
 		"field": "name",
@@ -875,7 +875,7 @@
 				"latestWkid": 3857
 			}
 		},
-		"url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_TX_CSA_SLAMM/ImageServer",
+		"url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/gulfmex_TX_CSA_SLAMM/ImageServer",
 		"cellsize": 1,
 		"root": "gulfmex_TX_CSA_SLAMM",
 		"field": "name",
@@ -990,7 +990,7 @@
 				"latestWkid": 3857
 			}
 		},
-		"url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_TX_GB_SLAMM/ImageServer",
+		"url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/gulfmex_TX_GB_SLAMM/ImageServer",
 		"cellsize": 1,
 		"root": "gulfmex_TX_GB_SLAMM",
 		"field": "name",
@@ -1112,7 +1112,7 @@
 				"latestWkid": 3857
 			}
 		},
-		"url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_TX_JC_SLAMM/ImageServer",
+		"url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/gulfmex_TX_JC_SLAMM/ImageServer",
 		"cellsize": 1,
 		"root": "gulfmex_TX_JC_SLAMM",
 		"field": "name",
@@ -1234,7 +1234,7 @@
 				"latestWkid": 3857
 			}
 		},
-		"url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_TX_CC_SLAMM/ImageServer",
+		"url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/gulfmex_TX_CC_SLAMM/ImageServer",
 		"cellsize": 1,
 		"root": "gulfmex_TX_CC_SLAMM",
 		"field": "name",
@@ -1355,7 +1355,7 @@
 				"latestWkid": 3857
 			}
 		},
-		"url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_MS_GBN_SLAMM/ImageServer",
+		"url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/gulfmex_MS_GBN_SLAMM/ImageServer",
 		"cellsize": 1,
 		"root": "gulfmex_MS_GBN_SLAMM",
 		"field": "name",
@@ -1482,7 +1482,7 @@
 				"latestWkid": 3857
 			}
 		},
-		"url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_AL_MOB_SLAMM/ImageServer",
+		"url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/gulfmex_AL_MOB_SLAMM/ImageServer",
 		"cellsize": 1,
 		"root": "gulfmex_AL_MOB_SLAMM",
 		"field": "name",
@@ -1603,7 +1603,7 @@
 				"latestWkid": 3857
 			}
 		},
-		"url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_AL_PER_SLAMM/ImageServer",
+		"url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/gulfmex_AL_PER_SLAMM/ImageServer",
 		"cellsize": 1,
 		"root": "gulfmex_AL_PER_SLAMM",
 		"field": "name",
@@ -1724,7 +1724,7 @@
 				"latestWkid": 3857
 			}
 		},
-		"url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/gulfmex_LA_HCRT/ImageServer",
+		"url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/gulfmex_LA_HCRT/ImageServer",
 		"cellsize": 1,
 		"root": "gulfmex_LA_HCRT",
 		"field": "Name",
