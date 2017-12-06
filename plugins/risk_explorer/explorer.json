@@ -81,22 +81,22 @@
                     "text": "Priority conservation areas where habitats likely reduce risk now",
                     "type": "ancillary",
                     "default": 0,
-                    "index": 0,
+                    "index": 1,
                 },
                 {
                     "text": "Priority restoration areas where new oyster reefs could reduce risk",
                     "type": "ancillary",
                     "default": 0,
-                    "index": 1
+                    "index": 2
                 },
                 {
                     "text": "A map of median residential property values",
                     "type": "ancillary",
                     "default": 0,
-                    "index": 2
+                    "index": 3
                 }
             ],
-            "ancillaryUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico_Risk_Explorer/Alabama_Risk_Explorer_Show_Me_Layers/MapServer",
+            "ancillaryUrl": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/RiskExplorer/MapServer",
             "name": "Alabama",
             "url": "http://services.coastalresilience.org/arcgis/rest/services/Explorers_PG_Database/DatabaseConnection/MapServer",
 			"methods": "methods/Risk_Explorer_June2013.pdf",			
@@ -191,22 +191,22 @@
                     "text": "Priority conservation areas where habitats likely reduce risk now",
                     "type": "ancillary",
                     "default": 0,
-                    "index": 0
+                    "index": 5
                 },
                 {
                     "text": "Priority restoration areas where new oyster reefs could reduce risk",
                     "type": "ancillary",
                     "default": 0,
-                    "index": 1
+                    "index": 6
                 },
                 {
                     "text": "A map of median residential property values",
                     "type": "ancillary",
                     "default": 0,
-                    "index": 2
+                    "index": 7
                 }
             ],
-            "ancillaryUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico_Risk_Explorer/Mississippi_Risk_Explorer_Show_Me_Layers/MapServer",
+            "ancillaryUrl": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/RiskExplorer/MapServer",
             "name": "Mississippi",
             "url": "http://services.coastalresilience.org/arcgis/rest/services/Explorers_PG_Database/DatabaseConnection/MapServer",
 			"methods": "methods/Risk_Explorer_June2013.pdf",			
@@ -301,22 +301,22 @@
                     "text": "Priority conservation areas where habitats likely reduce risk now",
                     "type": "ancillary",
                     "default": 0,
-                    "index": 0
+                    "index": 8
                 },
                 {
                     "text": "Priority restoration areas where new oyster reefs could reduce risk",
                     "type": "ancillary",
                     "default": 0,
-                    "index": 1
+                    "index": 9
                 },
                 {
                     "text": "A map of median residential property values",
                     "type": "ancillary",
                     "default": 0,
-                    "index": 2
+                    "index": 10
                 }
             ],
-            "ancillaryUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico_Risk_Explorer/Texas_Risk_Explorer_Show_Me_Layers/MapServer",
+            "ancillaryUrl": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/RiskExplorer/MapServer",
             "name": "Texas",
             "url": "http://services.coastalresilience.org/arcgis/rest/services/Explorers_PG_Database/DatabaseConnection/MapServer",
 			"methods": "methods/Risk_Explorer_June2013.pdf",			
@@ -411,22 +411,22 @@
                     "text": "Priority conservation areas where habitats likely reduce risk now",
                     "type": "ancillary",
                     "default": 0,
-                    "index": 0
+                    "index": 21
                 },
                 {
                     "text": "Priority restoration areas where new oyster reefs could reduce risk",
                     "type": "ancillary",
                     "default": 0,
-                    "index": 1
+                    "index": 22
                 },
                 {
                     "text": "A map of median residential property values",
                     "type": "ancillary",
                     "default": 0,
-                    "index": 2
+                    "index": 23
                 }
             ],
-            "ancillaryUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico_Risk_Explorer/Florida_Risk_Explorer_Show_Me_Layers/MapServer",
+            "ancillaryUrl": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/RiskExplorer/MapServer",
             "name": "Florida",
             "url": "http://services.coastalresilience.org/arcgis/rest/services/Explorers_PG_Database/DatabaseConnection/MapServer",
 			"methods": "methods/Risk_Explorer_June2013.pdf",			
@@ -521,22 +521,22 @@
                     "text": "Priority conservation areas where habitats likely reduce risk now",
                     "type": "ancillary",
                     "default": 0,
-                    "index": 0
+                    "index": 13
                 },
                 {
                     "text": "Priority restoration areas where new oyster reefs could reduce risk",
                     "type": "ancillary",
                     "default": 0,
-                    "index": 1
+                    "index": 14
                 },
                 {
                     "text": "A map of median residential property values",
                     "type": "ancillary",
                     "default": 0,
-                    "index": 2
+                    "index": 15
                 }
             ],
-			"ancillaryUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico_Risk_Explorer/Gulfwide_Risk_Explorer_Show_Me_Layers/MapServer",
+			"ancillaryUrl": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/RiskExplorer/MapServer",
             "name": "Entire Gulf",
             "url": "http://services.coastalresilience.org/arcgis/rest/services/Explorers_PG_Database/DatabaseConnection/MapServer",
 			"methods": "methods/Risk_Explorer_June2013.pdf",			
