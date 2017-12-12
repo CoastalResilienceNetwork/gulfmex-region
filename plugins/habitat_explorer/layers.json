@@ -1,0 +1,18 @@
+[
+	{
+        "displayName": "Habitat Ecosystem Services",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Gulf_of_Mexico"
+        },
+        "includeLayers": [
+			{
+				"name" : "Habitat Ecosystem Services",
+				"description" : "The Habitat map service features data including but not limited to salt marshes, sea grasses, and current and historical oyster reefs. A brief description and metadata appear when you click on each layer.",
+				"includeAllLayers" : true
+			}
+		]
+	}
+]

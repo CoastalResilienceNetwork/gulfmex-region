@@ -30,6 +30,10 @@
         {
           "repo": "regional-planning",
           "name": "open_space"
+        },
+        {
+          "repo": "regional-planning",
+          "name": "habitat_explorer"
         }
     ]
 }
