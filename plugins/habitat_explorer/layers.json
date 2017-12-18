@@ -9,8 +9,23 @@
         },
         "includeLayers": [
 			{
-				"name" : "Habitat Ecosystem Services",
-				"description" : "The Habitat map service features data including but not limited to salt marshes, sea grasses, and current and historical oyster reefs. A brief description and metadata appear when you click on each layer.",
+				"name" : "Background Layers",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Coral",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Oyster",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Salt Marsh",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Seagrass",
 				"includeAllLayers" : true
 			}
 		]
