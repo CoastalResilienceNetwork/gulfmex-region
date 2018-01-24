@@ -1,6 +1,6 @@
 [
 	{
-        "displayName": "Habitat Ecosystem Services",
+        "displayName": "Habitat Monitoring Indicators",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -8,12 +8,13 @@
             "name": "Gulf_of_Mexico"
         },
         "includeLayers": [
+
 			{
-				"name" : "Background Layers",
+				"name" : "Coral",
 				"includeAllLayers" : true
 			},
 			{
-				"name" : "Coral",
+				"name" : "Mangrove",
 				"includeAllLayers" : true
 			},
 			{
@@ -26,6 +27,10 @@
 			},
 			{
 				"name" : "Seagrass",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Background Layers",
 				"includeAllLayers" : true
 			}
 		]
