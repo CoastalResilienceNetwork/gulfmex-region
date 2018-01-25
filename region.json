@@ -66,11 +66,7 @@
             "title": "U.S. Gulf Coast",
             "description": "<p>The Coastal Resilience decision-support tool provides communities across the five Gulf states access to the best available science and data to visualize their coastal hazards risks and examine where nature can increase resilience and reduce risk through conservation and restoration activities. For additional project information, visit the <a href= 'http://coastalresilience.org/project/gulf-of-mexico/' target='_blank'><b>Gulf of Mexico</b></a> home page.</p>",
             "plugins": [
-                {
-                    "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
-                    "description": "Gulfwide and state based data layers useful for resilience planning.",
-                    "pluginName": "regional-planning"
-                },
+              
                 {
                     "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
                     "description": "Shows the potential inundation effects of sea-level rise, as well as low lying areas vulnerable to storm surge.",
@@ -82,8 +78,8 @@
                     "pluginName": "risk_explorer"
                 },
 				{
-                    "title": "<img src='img/risk_explorer.png' hspace=10>Habitat Indicator Explorer",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    "title": "<img src='img/habitat_explorer.png' hspace=10>Habitat Indicator Explorer",
+                    "description": "Shows indicators of habitat condition (also called Ecological Integrity), as well as the extent to which each indicator is monitored in the Gulf.",
                     "pluginName": "habitat_explorer"
                 }
             ],
