@@ -83,7 +83,7 @@
                 },
 				{
                     "title": "<img src='img/risk_explorer.png' hspace=10>Habitat Indicator Explorer",
-                    "description": "Visualizes coastal hazards exposure, social vulnerability and overall risk and identifies where nature-based solutions could be implemented.",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     "pluginName": "habitat_explorer"
                 }
             ],
@@ -117,6 +117,21 @@
                     "logoPath": "img/TX_AM.png",
                     "link": "",
                     "title": "Texas A&M"
+				},
+                {
+                    "logoPath": "img/NS_Logo_Stacked_Big.png",
+                    "link": "",
+                    "title": "NatureServe"
+                },,
+                {
+                    "logoPath": "img/FWClogo2007.png",
+                    "link": "",
+                    "title": "Florida Fish and Wildlife Conservation Commission"
+                },,
+                {
+                    "logoPath": "img/USGS_ID_black.png",
+                    "link": "",
+                    "title": "USGS"
             }
         ]
     }
