@@ -1,38 +1,99 @@
 [
 	{
-        "displayName": "Habitat Monitoring Indicators",
+        "displayName": "Coral",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
-            "name": "Gulf_of_Mexico"
+            "name": "Gulf_of_MexicoTest"
         },
         "includeLayers": [
 
 			{
-				"name" : "Coral",
+				"name" : "Coral Indicators",
 				"includeAllLayers" : true
 			},
 			{
-				"name" : "Mangrove",
+				"name" : "Coral Habitat Distribution"
+				
+			}
+		]
+	},
+	{
+        "displayName": "Mangrove",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Gulf_of_MexicoTest"
+        },
+        "includeLayers": [
+
+			{
+				"name" : "Mangrove Indicators",
 				"includeAllLayers" : true
 			},
 			{
-				"name" : "Oyster",
+				"name" : "Mangrove Habitat Distribution"
+				
+			}
+		]
+	},
+	{
+        "displayName": "Oyster",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Gulf_of_MexicoTest"
+        },
+        "includeLayers": [
+
+			{
+				"name" : "Oyster Indicators",
 				"includeAllLayers" : true
 			},
 			{
-				"name" : "Salt Marsh",
+				"name" : "Oyster Habitat Distribution"
+			}
+		]
+	},
+	{
+        "displayName": "Salt Marsh",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Gulf_of_MexicoTest"
+        },
+        "includeLayers": [
+
+			{
+				"name" : "Salt Marsh Indicators",
 				"includeAllLayers" : true
 			},
 			{
-				"name" : "Seagrass",
-				"includeAllLayers" : true
+				"name" : "Salt Marsh Habitat Distribution"
+			}
+				
+		]
+	},
+	{
+        "displayName": "Background Layers",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Gulf_of_MexicoTest"
+        },
+        "includeLayers": [
+			{
+				"name" : "Project Area"
 			},
 			{
-				"name" : "Background Layers",
-				"includeAllLayers" : true
+				"name" : "Near Shore 100km Hex Grid"
 			}
 		]
 	}
 ]
+
