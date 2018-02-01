@@ -6,7 +6,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
-            "name": "Gulf_of_MexicoTest"
+            "name": "Gulf_of_Mexico"
         },
         "includeLayers": [
 
@@ -27,7 +27,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
-            "name": "Gulf_of_MexicoTest"
+            "name": "Gulf_of_Mexico"
         },
         "includeLayers": [
 
@@ -48,7 +48,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
-            "name": "Gulf_of_MexicoTest"
+            "name": "Gulf_of_Mexico"
         },
         "includeLayers": [
 
@@ -68,7 +68,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
-            "name": "Gulf_of_MexicoTest"
+            "name": "Gulf_of_Mexico"
         },
         "includeLayers": [
 
@@ -89,7 +89,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
-            "name": "Gulf_of_MexicoTest"
+            "name": "Gulf_of_Mexico"
         },
         "includeLayers": [
 
@@ -110,7 +110,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
-            "name": "Gulf_of_MexicoTest"
+            "name": "Gulf_of_Mexico"
         },
         "includeLayers": [
 			{
