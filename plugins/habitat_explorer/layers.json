@@ -32,7 +32,8 @@
 
 			{
 				"name" : "Mangrove Indicators",
-				"includeAllLayers" : true
+				"includeAllLayers" : true,
+				"description" : "Mangrove Indicator layers show areas where data for each indicator is being collected by an existing monitoring program in the Gulf of Mexico. The monitoring program locations were determined using the catalog of Gulf of Mexico monitoring programs assembled by The Ocean Conservancy. Data are displayed using a 100 km2 hexagon grid. Highlighted hexagons show that monitoring data for that indicator are collected somewhere within the grid cell. Individual layers are best viewed one at a time.  The monitoring program footprints used to compile this layer are available in the project geodatabase that can be downloaded here."
 			},
 			{
 				"name" : "Mangrove Habitat Distribution"
@@ -52,7 +53,8 @@
 
 			{
 				"name" : "Oyster Indicators",
-				"includeAllLayers" : true
+				"includeAllLayers" : true,
+				"description" : "Oyster Indicator layers show areas where data for each indicator is being collected by an existing monitoring program in the Gulf of Mexico. The monitoring program locations were determined using the catalog of Gulf of Mexico monitoring programs assembled by The Ocean Conservancy. Data are displayed using a 100 km2 hexagon grid. Highlighted hexagons show that monitoring data for that indicator are collected somewhere within the grid cell. Individual layers are best viewed one at a time.  The monitoring program footprints used to compile this layer are available in the project geodatabase that can be downloaded here."
 			},
 			{
 				"name" : "Oyster Habitat Distribution"
@@ -71,10 +73,32 @@
 
 			{
 				"name" : "Salt Marsh Indicators",
-				"includeAllLayers" : true
+				"includeAllLayers" : true,
+				"description" : "Salt Marsh Indicator layers show areas where data for each indicator is being collected by an existing monitoring program in the Gulf of Mexico. The monitoring program locations were determined using the catalog of Gulf of Mexico monitoring programs assembled by The Ocean Conservancy. Data are displayed using a 100 km2 hexagon grid. Highlighted hexagons show that monitoring data for that indicator are collected somewhere within the grid cell. Individual layers are best viewed one at a time.  The monitoring program footprints used to compile this layer are available in the project geodatabase that can be downloaded here."
 			},
 			{
 				"name" : "Salt Marsh Habitat Distribution"
+			}
+				
+		]
+	},
+	{
+        "displayName": "Seagrass",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Gulf_of_MexicoTest"
+        },
+        "includeLayers": [
+
+			{
+				"name" : "Seagrass Indicators",
+				"includeAllLayers" : true,
+				"description" : "Seagrass Indicator layers show areas where data for each indicator is being collected by an existing monitoring program in the Gulf of Mexico. The monitoring program locations were determined using the catalog of Gulf of Mexico monitoring programs assembled by The Ocean Conservancy. Data are displayed using a 100 km2 hexagon grid. Highlighted hexagons show that monitoring data for that indicator are collected somewhere within the grid cell. Individual layers are best viewed one at a time.  The monitoring program footprints used to compile this layer are available in the project geodatabase that can be downloaded here."
+			},
+			{
+				"name" : "Seagrass Habitat Distribution"
 			}
 				
 		]
