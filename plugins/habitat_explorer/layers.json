@@ -23,6 +23,7 @@
 	},
 	{
         "displayName": "Mangrove",
+		"description": "Mangrove ecosystems are characterized by often flooded saline soil conditions.  Three tree species are commonly found in the project area: black mangrove (Avicennia germinans), white mangrove (Laguncularia racemosa), and red mangrove (Rhizophora mangle). While these species differ in growth form, there can also be substantial plasticity in individuals within a species, leading to a variety of different forest structures in different hydrogeomorphic environments. The majority of United States coastline where mangrove ecosystems are located is in the Gulf of Mexico. This is largely due to temperature sensitivity which results in dramatic dieback of mangroves where freezing occurs, even periodically. Much of the NGOM is at the latitudinal limits for mangroves.",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -44,6 +45,7 @@
 	},
 	{
         "displayName": "Oyster",
+		"description": "Oyster reefs and beds are intertidal or subtidal biogenic structures formed by living oysters that provide habitat with significant structural complexity. Reefs are defined here as having significant vertical relief, >0.2 m above the surrounding substrate, while beds have lower relief, <0.2 m (Beck et al. 2009). Eastern oysters, Crassostrea virginica, are natural components of estuaries along the Gulf of Mexico and mostly tend towards forming reefs. These reef structures accrete shell material via recruitment and growth which is in turn degraded at varying rates. An oyster reef system is an area of ecologically connected reefs or beds and oyster shell dominated bottom, and may include small areas of bare mud, sand or shelly substrates that may offer benefits to neighboring submerged aquatic vegetation, marsh grass and mangrove habitats.",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -64,6 +66,7 @@
 	},
 	{
         "displayName": "Salt Marsh",
+		"description": "Salt marshes are coastal ecosystems within the intertidal zone, characterized by hypoxic, saline, soil conditions and low biodiversity. Low diversity arises from frequent disturbance and stressful conditions (i.e., high salinity and hypoxia), where vegetative reproduction and low competition result in mostly monotypic stands, with some ecosystem structure differences influenced by flooding regime). While there are several types of salt marshes in the project area ranging from low to high salt marshes and salt flats (Tiner 2013), the Spartina alterniflora salt marsh (or Gulf Coast Cordgrass Salt Marsh) is the most extensive and is the focus of this project.",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -85,6 +88,7 @@
 	},
 	{
         "displayName": "Seagrass",
+		"description": "Seagrasses are marine angiosperms found in many shallow coastal and oceanic waters around the world. They are widely dispersed, extending from the tropics to the Arctic Circle. Despite their large geographic extent, seagrasses have low species biodiversity. Globally, there are approximately 60 seagrass species, 6 of which in the Gulf of Mexico. The three most prevalent species, T. testudinum, S. filiforme and H. wrightii can form monospecific stands or mixed assemblages. The areal extent of seagrass beds in the Gulf of Mexico comprises nearly half of total seagrass coverage in the United States of America.",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -106,6 +110,7 @@
 	},
 	{
         "displayName": "Project Info",
+		"description": "This dataset was developed as part of the Inventory of Gulf of Mexico Ecosystem Indicators project funded by the <a href='https://restoreactscienceprogram.noaa.gov/' target='_blank'><b>NOAA RESTORE Science Program</b></a>.  The project team recommended ecological integrity and ecosystem service indicators for five key habitats (salt marsh, mangrove, seagrass, oyster beds/reefs, and coral reefs) across the Gulf of Mexico. The expert recommended indicators are listed under each habitat type. In addition, existing habitat distribution data were assembled for each ecosystem from multiple sources. The locations where each indicator is being collected by an existing monitoring program were determined using the catalog of Gulf monitoring programs assembled by The Ocean Conservancy. Data are displayed using a 100 km2 hexagon grid. Highlighted hexagons show that data for that indicator are collected somewhere within the cell. Individual layers are best viewed one at a time. A composite layer indicates the number of different indicators collected in individual cells. These data provide the spatial distribution of indicators collected in the Gulf and can be used to identify additional monitoring needs. The final project report can be found here. Project Team: NatureServe, USGS Wetlands and Aquatic Research Center, University of Texas, Marine Science Institute, Ocean Conservancy, The Nature Conservancy and Florida Wildlife Research Institute",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
