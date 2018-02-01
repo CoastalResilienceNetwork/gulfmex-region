@@ -3,5 +3,6 @@
     "width": 400,
     "resizable": false,
     "hasCustomPrint": true,
-    "name": "Habitat Indicator Explorer"
+    "name": "Habitat Indicator Explorer",
+	"description": "Shows indicators of habitat condition, as well as the extent to which each indicator is monitored in the Gulf."
 }
