@@ -124,16 +124,17 @@
                     "link": "",
                     "title": "Florida Fish and Wildlife Conservation Commission"
                 },
+				{
+                    "logoPath": "img/USGS_ID_black.png",
+                    "link": "",
+                    "title": "USGS"
+				},
                 {
                     "logoPath": "img/oc-email-logo-navy-transparent.png",
                     "link": "",
                     "title": "The Ocean Conservancy"
-                },
-                {
-                    "logoPath": "img/USGS_ID_black.png",
-                    "link": "",
-                    "title": "USGS"
             }
+                
         ]
     }
 }
