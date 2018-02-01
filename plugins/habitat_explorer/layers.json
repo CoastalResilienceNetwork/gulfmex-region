@@ -5,7 +5,8 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
-            "name": "Gulf_of_MexicoTest"
+            "name": "Gulf_of_MexicoTest",
+			"description": "Coral reefs are composed of large, limestone-building, colonial organisms in the phylum Cnidaria. In the Gulf of Mexico, corals are mostly found in shallow waters within the photic zone, though some deepwater varieties exist. Temperature limitations also constrict corals to 30 degrees north and south of the equator.  Typical tropical reef systems, with high topographic complexity, accretion, and diversity are rare in the Gulf of Mexico. The Gulf of Mexico is more temperate and eutrophic, and corals are at the northern limit of their range. Because abiotic aspects limit coral growth coral communities in the Gulf of Mexico are often composed of a mixture of scleractinian corals, sponges, octocorals, and hydrozoan corals and may or may not exhibit reef structure. There are four major reef types in the Gulf of Mexico based on geographic location and depth: shallow water West Florida Shelf reefs, Flower Garden Banks reefs, mesophotic reefs, and northwest Gulf of Mexico reefs."
         },
         "includeLayers": [
 
@@ -79,7 +80,7 @@
 		]
 	},
 	{
-        "displayName": "Background Layers",
+        "displayName": "Project Info",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
