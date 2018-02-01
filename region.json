@@ -79,7 +79,7 @@
                 },
 				{
                     "title": "<img src='img/habitat_explorer.png' hspace=10>Habitat Indicator Explorer",
-                    "description": "Shows indicators of habitat condition (also called Ecological Integrity), as well as the extent to which each indicator is monitored in the Gulf.",
+                    "description": "Shows indicators of habitat condition, as well as the extent to which each indicator is monitored in the Gulf.",
                     "pluginName": "habitat_explorer"
                 }
             ],
@@ -123,6 +123,11 @@
                     "logoPath": "img/FWClogo2007.png",
                     "link": "",
                     "title": "Florida Fish and Wildlife Conservation Commission"
+                },
+                {
+                    "logoPath": "img/oc-email-logo-navy-transparent.png",
+                    "link": "",
+                    "title": "The Ocean Conservancy"
                 },
                 {
                     "logoPath": "img/USGS_ID_black.png",
