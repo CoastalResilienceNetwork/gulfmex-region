@@ -66,7 +66,7 @@
             "plugins": [
                 {
                     "title": "<img src='img/eca.png' hspace=10>Economics of Coastal Adaptation",
-                    "description": "Explore current and future risks from coastal hazards and to compare the cost-effectiveness of nature-based (green), artificial (gray), and policy solutions.",
+                    "description": "Explore current and future risks from coastal hazards and to compare the cost-effectiveness of natural and artificial adaptation solutions.",
                     "pluginName": "eca"
                 },
                 {
