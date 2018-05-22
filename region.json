@@ -38,7 +38,7 @@
     ],
     "pluginOrder": [
         "regional-planning",
-        "open_space",
+        "gulf-mex-crs",
         "community_planning",
         "habitat_explorer",
         "flood_slr",
