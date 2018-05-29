@@ -1,0 +1,130 @@
+[
+	{
+        "displayName": "Coral",
+		"description": "Coral reefs are composed of large, limestone-building, colonial organisms in the phylum <em>Cnidaria</em>. In the Gulf of Mexico, corals are mostly found in shallow waters within the photic zone, though some deep-water varieties exist. Temperature limitations also constrict corals to 30 degrees north and south of the equator.  Typical tropical reef systems, with high topographic complexity, accretion, and diversity are rare in the Gulf of Mexico. The Gulf of Mexico is more temperate and eutrophic, and corals are at the northern limit of their range. Because abiotic aspects limit coral growth coral communities in the Gulf of Mexico are often composed of a mixture of scleractinian corals, sponges, octocorals, and hydrozoan corals and may or may not exhibit reef structure. There are four major reef types in the Gulf of Mexico based on geographic location and depth: shallow water West Florida Shelf reefs, Flower Garden Banks reefs, mesophotic reefs, and northwest Gulf of Mexico reefs.",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Gulf_of_Mexico"
+        },
+        "includeLayers": [
+
+			{
+				"name" : "Coral Indicators",
+				"includeAllLayers" : true,
+				"description" : "Coral Indicator layers show areas where data for each indicator is being collected by an existing monitoring program in the Gulf of Mexico. The monitoring program locations were determined using the catalog of Gulf of Mexico monitoring programs assembled by The Ocean Conservancy. Data are displayed using a 100 km2 hexagon grid. Highlighted hexagons show that monitoring data for that indicator are collected somewhere within the grid cell. Individual layers are best viewed one at a time.  The monitoring program footprints used to compile this layer are available in the project geodatabase that can be downloaded <a href='https://tnc.box.com/s/is0nhatwzm8t7gvgcgyfgc8710ryned5' target='_blank'><b>here</b></a>."
+			},
+			{
+				"name" : "Coral Habitat Distribution"
+				
+			}
+		]
+	},
+	{
+        "displayName": "Mangrove",
+		"description": "Mangrove ecosystems are characterized by often flooded saline soil conditions.  Three tree species are commonly found in the project area: black mangrove (<em>Avicennia germinans</em>), white mangrove (<em>Laguncularia racemosa</em>), and red mangrove (<em>Rhizophora mangle</em>). While these species differ in growth form, there can also be substantial plasticity in individuals within a species, leading to a variety of different forest structures in different hydrogeomorphic environments. The majority of United States coastline where mangrove ecosystems are located is in the Gulf of Mexico. This is largely due to temperature sensitivity which results in dramatic dieback of mangroves where freezing occurs, even periodically. Much of the NGOM is at the latitudinal limits for mangroves.",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Gulf_of_Mexico"
+        },
+        "includeLayers": [
+
+			{
+				"name" : "Mangrove Indicators",
+				"includeAllLayers" : true,
+				"description" : "Mangrove Indicator layers show areas where data for each indicator is being collected by an existing monitoring program in the Gulf of Mexico. The monitoring program locations were determined using the catalog of Gulf of Mexico monitoring programs assembled by The Ocean Conservancy. Data are displayed using a 100 km2 hexagon grid. Highlighted hexagons show that monitoring data for that indicator are collected somewhere within the grid cell. Individual layers are best viewed one at a time.  The monitoring program footprints used to compile this layer are available in the project geodatabase that can be downloaded <a href='https://tnc.box.com/s/is0nhatwzm8t7gvgcgyfgc8710ryned5' target='_blank'><b>here</b></a>."
+			},
+			{
+				"name" : "Mangrove Habitat Distribution"
+				
+			}
+		]
+	},
+	{
+        "displayName": "Oyster",
+		"description": "Oyster reefs and beds are intertidal or subtidal biogenic structures formed by living oysters that provide habitat with significant structural complexity. Reefs are defined here as having significant vertical relief, >0.2 m above the surrounding substrate, while beds have lower relief, <0.2 m (Beck et al. 2009). Eastern oysters, <em>Crassostrea virginica</em>, are natural components of estuaries along the Gulf of Mexico and mostly tend towards forming reefs. These reef structures accrete shell material via recruitment and growth which is in turn degraded at varying rates. An oyster reef system is an area of ecologically connected reefs or beds and oyster shell dominated bottom, and may include small areas of bare mud, sand or shelly substrates that may offer benefits to neighboring submerged aquatic vegetation, marsh grass and mangrove habitats.",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Gulf_of_Mexico"
+        },
+        "includeLayers": [
+
+			{
+				"name" : "Oyster Indicators",
+				"includeAllLayers" : true,
+				"description" : "Oyster Indicator layers show areas where data for each indicator is being collected by an existing monitoring program in the Gulf of Mexico. The monitoring program locations were determined using the catalog of Gulf of Mexico monitoring programs assembled by The Ocean Conservancy. Data are displayed using a 100 km2 hexagon grid. Highlighted hexagons show that monitoring data for that indicator are collected somewhere within the grid cell. Individual layers are best viewed one at a time.  The monitoring program footprints used to compile this layer are available in the project geodatabase that can be downloaded <a href='https://tnc.box.com/s/is0nhatwzm8t7gvgcgyfgc8710ryned5' target='_blank'><b>here</b></a>."
+			},
+			{
+				"name" : "Oyster Habitat Distribution"
+			}
+		]
+	},
+	{
+        "displayName": "Salt Marsh",
+		"description": "Salt marshes are coastal ecosystems within the intertidal zone, characterized by hypoxic, saline, soil conditions and low biodiversity. Low diversity arises from frequent disturbance and stressful conditions (i.e., high salinity and hypoxia), where vegetative reproduction and low competition result in mostly monotypic stands, with some ecosystem structure differences influenced by flooding regime). While there are several types of salt marshes in the project area ranging from low to high salt marshes and salt flats (Tiner 2013), the <em>Spartina alterniflora</em> salt marsh (or Gulf Coast Cordgrass Salt Marsh) is the most extensive and is the focus of this project.",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Gulf_of_Mexico"
+        },
+        "includeLayers": [
+
+			{
+				"name" : "Salt Marsh Indicators",
+				"includeAllLayers" : true,
+				"description" : "Salt Marsh Indicator layers show areas where data for each indicator is being collected by an existing monitoring program in the Gulf of Mexico. The monitoring program locations were determined using the catalog of Gulf of Mexico monitoring programs assembled by The Ocean Conservancy. Data are displayed using a 100 km2 hexagon grid. Highlighted hexagons show that monitoring data for that indicator are collected somewhere within the grid cell. Individual layers are best viewed one at a time.  The monitoring program footprints used to compile this layer are available in the project geodatabase that can be downloaded <a href='https://tnc.box.com/s/is0nhatwzm8t7gvgcgyfgc8710ryned5' target='_blank'><b>here</b></a>."
+			},
+			{
+				"name" : "Salt Marsh Habitat Distribution"
+			}
+				
+		]
+	},
+	{
+        "displayName": "Seagrass",
+		"description": "Seagrasses are marine angiosperms found in many shallow coastal and oceanic waters around the world. They are widely dispersed, extending from the tropics to the Arctic Circle. Despite their large geographic extent, seagrasses have low species biodiversity. Globally, there are approximately 60 seagrass species, 6 of which in the Gulf of Mexico. The three most prevalent species, <em>T. testudinum</em>, <em>S. filiforme</em> and <em>H. wrightii</em> can form monospecific stands or mixed assemblages. The areal extent of seagrass beds in the Gulf of Mexico comprises nearly half of total seagrass coverage in the United States of America.",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Gulf_of_Mexico"
+        },
+        "includeLayers": [
+
+			{
+				"name" : "Seagrass Indicators",
+				"includeAllLayers" : true,
+				"description" : "Seagrass Indicator layers show areas where data for each indicator is being collected by an existing monitoring program in the Gulf of Mexico. The monitoring program locations were determined using the catalog of Gulf of Mexico monitoring programs assembled by The Ocean Conservancy. Data are displayed using a 100 km2 hexagon grid. Highlighted hexagons show that monitoring data for that indicator are collected somewhere within the grid cell. Individual layers are best viewed one at a time.  The monitoring program footprints used to compile this layer are available in the project geodatabase that can be downloaded <a href='https://tnc.box.com/s/is0nhatwzm8t7gvgcgyfgc8710ryned5' target='_blank'><b>here</b></a>."
+			},
+			{
+				"name" : "Seagrass Habitat Distribution"
+			}
+				
+		]
+	},
+	{
+        "displayName": "Project Info",
+		"description": "This dataset was developed as part of the Inventory of Gulf of Mexico Ecosystem Indicators project funded by the <a href='https://restoreactscienceprogram.noaa.gov/' target='_blank'><b>NOAA RESTORE Science Program</b></a>.  The project team recommended ecological integrity and ecosystem service indicators for five key habitats (salt marsh, mangrove, seagrass, oyster beds/reefs, and coral reefs) across the Gulf of Mexico. The expert recommended indicators are listed under each habitat type. In addition, existing habitat distribution data were assembled for each ecosystem from multiple sources. The locations where each indicator is being collected by an existing monitoring program were determined using the catalog of Gulf monitoring programs assembled by The Ocean Conservancy. Data are displayed using a 100 km2 hexagon grid. Highlighted hexagons show that data for that indicator are collected somewhere within the cell. Individual layers are best viewed one at a time. A composite layer indicates the number of different indicators collected in individual cells. These data provide the spatial distribution of indicators collected in the Gulf and can be used to identify additional monitoring needs. The final project report can be found <a href='http://www.natureserve.org/conservation-tools/projects/ecological-resilience-indicators-gulf-mexico-ecosystems' target ='_blank'><b>here</b>. Project Team: <a href='http://www.natureserve.org/' target='_blank'><b>NatureServe</b></a>, <a href='https://www.usgs.gov/centers/wetland-and-aquatic-research-center-warc' target='_blank'><b>USGS Wetlands and Aquatic Research Center</b></a>, <a href='https://utmsi.utexas.edu/' target='_blank'><b>University of Texas, Marine Science Institute</b></a>, <a href='https://oceanconservancy.org/' target='_blank'><b>Ocean Conservancy</b></a>, <a href='https://www.nature.org' target='_blank'><b>The Nature Conservancy</b></a> and <a href='http://myfwc.com/research/' target='_blank'><b>Florida Wildlife Research Institute</b></a><br> For compiled project data <a href='https://tnc.box.com/s/is0nhatwzm8t7gvgcgyfgc8710ryned5' target='_blank'><b>download the geodatabase</b></a>.",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Gulf_of_Mexico"
+        },
+        "includeLayers": [
+			{
+				"name" : "Project Area"
+			},
+			{
+				"name" : "Near Shore 100km Hex Grid (Habitat Density)"
+			}
+		]
+	}
+]
+

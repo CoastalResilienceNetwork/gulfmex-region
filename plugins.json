@@ -20,6 +20,10 @@
         },
         {   
             "repo": "regional-planning",
+            "name": "habitat_explorer"
+        },
+        {   
+            "repo": "regional-planning",
             "name": "flood_slr"
         }
     ]
