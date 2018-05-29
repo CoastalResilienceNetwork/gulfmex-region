@@ -1,5 +1,5 @@
 {
-    "googleAnalyticsPropertyId": "7401895-23",
+    "googleAnalyticsPropertyId": "7401895-16",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
     "titleMain": { "text": "Coastal Resilience", "url": "" },
     "titleDetail": { "text": "Gulf of Mexico", "url": "" },
@@ -38,13 +38,14 @@
     ],
     "pluginOrder": [
         "regional-planning",
+        "gulf-mex-crs",
         "community_planning",
+        "habitat_explorer",
+        "flood_slr",
 		"future_habitat",
-		"habitat_explorer",
         "eca",
         "restoration_explorer",
         "risk_explorer",
-        "flood_slr",
         "zoom_to",
         "measure",
         "legend_display",
@@ -65,20 +66,21 @@
             "title": "U.S. Gulf Coast",
             "description": "<p>The Coastal Resilience decision-support tool provides communities across the five Gulf states access to the best available science and data to visualize their coastal hazards risks and examine where nature can increase resilience and reduce risk through conservation and restoration activities. For additional project information, visit the <a href= 'http://coastalresilience.org/project/gulf-of-mexico/' target='_blank'><b>Gulf of Mexico</b></a> home page.</p>",
             "plugins": [
-                {
-                    "title": "<img src='img/eca.png' hspace=10>Economics of Coastal Adaptation",
-                    "description": "Explore current and future risks from coastal hazards and to compare the cost-effectiveness of natural and artificial adaptation solutions.",
-                    "pluginName": "eca"
-                },
+              
                 {
                     "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
                     "description": "Shows the potential inundation effects of sea-level rise, as well as low lying areas vulnerable to storm surge.",
                     "pluginName": "flood_slr"
                 },
                 {
-                    "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
-                    "description": "Gulfwide and state based data layers useful for resilience planning.",
-                    "pluginName": "regional-planning"
+                    "title": "<img src='img/risk_explorer.png' hspace=10>Risk Explorer",
+                    "description": "Visualizes coastal hazards exposure, social vulnerability and overall risk and identifies where nature-based solutions could be implemented.",
+                    "pluginName": "risk_explorer"
+                },
+				{
+                    "title": "<img src='img/habitat_explorer.png' hspace=10>Habitat Indicator Explorer",
+                    "description": "Shows indicators of habitat condition, as well as the extent to which each indicator is monitored in the Gulf.",
+                    "pluginName": "habitat_explorer"
                 }
             ],
             "partners": [
@@ -111,7 +113,28 @@
                     "logoPath": "img/TX_AM.png",
                     "link": "",
                     "title": "Texas A&M"
+				},
+                {
+                    "logoPath": "img/NS_Logo_Stacked_Big.png",
+                    "link": "",
+                    "title": "NatureServe"
+                },
+                {
+                    "logoPath": "img/FWClogo2007.png",
+                    "link": "",
+                    "title": "Florida Fish and Wildlife Conservation Commission"
+                },
+				{
+                    "logoPath": "img/USGS_ID_black.png",
+                    "link": "",
+                    "title": "USGS"
+				},
+                {
+                    "logoPath": "img/oc-email-logo-navy-transparent.png",
+                    "link": "",
+                    "title": "The Ocean Conservancy"
             }
+                
         ]
     }
 }
