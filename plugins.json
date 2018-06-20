@@ -4,9 +4,6 @@
             "repo": "eca",
             "name": "eca"
         },
-        {   "repo": "multiexplorer",
-            "name": "risk_explorer"
-        },
         {
             "repo": "future_habitat",
             "name": "future_habitat"

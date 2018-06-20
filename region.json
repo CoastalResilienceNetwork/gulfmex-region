@@ -44,8 +44,6 @@
         "flood_slr",
 		"future_habitat",
         "eca",
-        "restoration_explorer",
-        "risk_explorer",
         "zoom_to",
         "measure",
         "legend_display",
@@ -71,11 +69,6 @@
                     "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
                     "description": "Shows the potential inundation effects of sea-level rise, as well as low lying areas vulnerable to storm surge.",
                     "pluginName": "flood_slr"
-                },
-                {
-                    "title": "<img src='img/risk_explorer.png' hspace=10>Risk Explorer",
-                    "description": "Visualizes coastal hazards exposure, social vulnerability and overall risk and identifies where nature-based solutions could be implemented.",
-                    "pluginName": "risk_explorer"
                 },
 				{
                     "title": "<img src='img/habitat_explorer.png' hspace=10>Habitat Indicator Explorer",
