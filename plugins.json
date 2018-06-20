@@ -1,9 +1,5 @@
 {
     "plugins": [
-        {
-            "repo": "multiexplorer",
-            "name": "restoration_explorer"
-        },
         {   "repo": "multiexplorer",
             "name": "risk_explorer"
         },
