@@ -15,6 +15,10 @@
             "repo": "regional-planning",
             "name": "community_planning"
         },
+        {
+          	"repo": "gulf-mex-crs",
+          	"name": "gulf-mex-crs"
+        },
         {   
             "repo": "regional-planning",
             "name": "habitat_explorer"
