@@ -23,6 +23,13 @@
             "repo": "regional-planning",
             "name": "habitat_explorer"
         },
+        { "repo": "multiexplorer",
+          "name": "risk_explorer"
+        },
+        {
+          "repo": "multiexplorer",
+          "name": "restoration_explorer"
+        },
         {   
             "repo": "regional-planning",
             "name": "flood_slr"
