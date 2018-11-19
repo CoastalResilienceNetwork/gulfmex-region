@@ -3,5 +3,5 @@
 	"slr": "",
 	"vulArray": ["pop_score","older_scor","pov_score"],
 	"extent": [],
-	"url": "http://services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/RiskExplorer/MapServer"
+	"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico/RiskExplorer/MapServer"
 }
