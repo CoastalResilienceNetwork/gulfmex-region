@@ -36,7 +36,7 @@
         "gulf-mex-crs",
         "community_planning",
         "habitat_explorer",
-        "risk_explorer",
+        "risk-explorer",
         "restoration_explorer",
         "flood_slr",
 		"future_habitat",
@@ -70,7 +70,7 @@
                 {
                     "title": "<img src='img/risk_explorer.png' hspace=10>Risk Explorer",
                     "description": "Visualizes coastal hazards exposure, social vulnerability and overall risk and identifies where nature-based solutions could be implemented.",
-                    "pluginName": "risk_explorer"
+                    "pluginName": "risk-explorer"
                 },
 				{
                     "title": "<img src='img/habitat_explorer.png' hspace=10>Habitat Indicator Explorer",
