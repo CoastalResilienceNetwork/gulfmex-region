@@ -7,7 +7,7 @@
         <pubdate>20160318</pubdate>
         <title>Community Resilience for Category 1 Storm Event in 2100</title>
         <geoform>Vector Digital Data Set (Polygon)</geoform>
-        <onlink>http://maps.coastalresilience.org/gulfmex/</onlink>
+        <onlink>https://maps.coastalresilience.org/gulfmex/</onlink>
         <lworkcit>
           <citeinfo>
             <origin>Mary Kate Brown</origin>
@@ -471,7 +471,7 @@
           <onlinopt>
             <computer>
               <networka>
-                <networkr>http://maps.coastalresilience.org/gulfmex/</networkr>
+                <networkr>https://maps.coastalresilience.org/gulfmex/</networkr>
               </networka>
             </computer>
           </onlinopt>

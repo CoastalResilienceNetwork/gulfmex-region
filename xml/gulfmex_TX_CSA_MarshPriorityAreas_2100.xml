@@ -19,7 +19,7 @@
               <pubplace>The Coastal Resilience Network</pubplace>
               <publish>The Nature Conservancy</publish>
             </pubinfo>
-            <onlink>http://maps.coastalresilience.org/network/</onlink>
+            <onlink>https://maps.coastalresilience.org/network/</onlink>
           </citeinfo>
         </lworkcit>
       </citeinfo>
@@ -212,7 +212,7 @@
           <onlinopt>
             <computer>
               <networka>
-                <networkr>http://maps.coastalresilience.org/network/</networkr>
+                <networkr>https://maps.coastalresilience.org/network/</networkr>
               </networka>
             </computer>
           </onlinopt>
