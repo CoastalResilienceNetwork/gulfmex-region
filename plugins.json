@@ -1,40 +1,35 @@
 {
     "plugins": [
         {
-          "repo": "future_habitat",
-          "name": "future_habitat"
+            "repo": "eca",
+            "name": "eca"
         },
         {
-          "repo": "eca",
-          "name": "eca"
+            "repo": "future_habitat",
+            "name": "future_habitat"
         },
-		    {
-		      "repo": "regional-planning",
-		      "name": "regional-planning"
-		    },
-		    {
-		      "repo": "regional-planning",
-		      "name": "community_planning"
+        {   "repo": "regional-planning",
+            "name": "regional-planning"
         },
-        {
-          "repo": "regional-planning",
-          "name": "flood_slr"
+        {   
+            "repo": "regional-planning",
+            "name": "community_planning"
         },
         {
-          "repo": "gulf-mex-crs",
-          "name": "gulf-mex-crs"
+          	"repo": "gulf-mex-crs",
+          	"name": "gulf-mex-crs"
+        },
+        {   
+            "repo": "regional-planning",
+            "name": "habitat_explorer"
+        },
+        {   
+            "repo": "regional-planning",
+            "name": "flood_slr"
         },
         {
-          "repo": "regional-planning",
-          "name": "habitat_explorer"
-        },
-        {
-          "repo": "risk-explorer",
-          "name": "risk-explorer"
-        },
-        {
-          "repo": "multiexplorer",
-          "name": "restoration_explorer"
-        }
+             "repo": "risk-explorer",
+             "name": "risk-explorer"
+        }    
     ]
 }
