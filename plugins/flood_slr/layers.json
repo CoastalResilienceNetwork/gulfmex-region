@@ -9,46 +9,46 @@
         "includeLayers": [
             {
                 "server": {
-                    "name": "slr_1ft",
-                    "displayName": "1 ft Above Current MHHW",
-                	"includeAllLayers" : true
-                }
+                "name": "slr_1ft"
+                },
+                    "name": "1ft SLR Depth",
+                    "displayName": "1 ft Above Current MHHW"
             },
             {
                 "server": {
-                    "name": "slr_2ft",
-                    "displayName": "2 ft Above Current MHHW",
-                	"includeAllLayers" : true
-                }
+                "name": "slr_2ft"
+                },
+                    "name": "2ft SLR Depth",
+                    "displayName": "2 ft Above Current MHHW"
             },
             {
                 "server": {
-                    "name": "slr_3ft",
-                    "displayName": "3 ft Above Current MHHW",
-                	"includeAllLayers" : true
-                }
+                "name": "slr_3ft"
+                },
+                    "name": "3ft SLR Depth",
+                    "displayName": "3 ft Above Current MHHW"
             },
             {
                 "server": {
-                    "name": "slr_4ft",
-                    "displayName": "4 ft Above Current MHHW",
-                	"includeAllLayers" : true
-                }
+                "name": "slr_4ft"
+                },
+                    "name": "4ft SLR Depth",
+                    "displayName": "4 ft Above Current MHHW"
             },
             {
                 "server": {
-                    "name": "slr_5ft",
-                    "displayName": "5 ft Above Current MHHW",
-                	"includeAllLayers" : true
-                }
+                "name": "slr_5ft"
+                },
+                    "name": "5ft SLR Depth",
+                    "displayName": "5 ft Above Current MHHW"
             },
             {
                 "server": {
-                    "name": "slr_6ft",
-                    "displayName": "6 ft Above Current MHHW",
-                	"includeAllLayers" : true
-                }
-            }
+                "name": "slr_6ft"
+                },
+                    "name": "6ft SLR Depth",
+                    "displayName": "6 ft Above Current MHHW"
+            }     
         ]
     },
 	{
@@ -61,41 +61,41 @@
 		"includeLayers" : [
 			{
                 "server": {
-                    "name": "CFEM_NHC_Surge_Cat1",
-                    "displayName": "Category 1 Storm",
-                	"includeAllLayers" : true
-                }
+                "name": "CFEM_NHC_Surge_Cat1"
+                },
+                    "name": "Storm Surge Inundation Scenarios",
+                    "displayName": "Category 1 Storm"
             },
             {
                 "server": {
-                    "name": "CFEM_NHC_Surge_Cat2",
-                    "displayName": "Category 2 Storm",
-                	"includeAllLayers" : true
-                }
+                "name": "CFEM_NHC_Surge_Cat2"
+                },
+                    "name": "Storm Surge Inundation Scenarios",
+                    "displayName": "Category 2 Storm"
             },
             {
                 "server": {
-                    "name": "CFEM_NHC_Surge_Cat3",
-                    "displayName": "Category 3 Storm",
-                	"includeAllLayers" : true
-                }
+                "name": "CFEM_NHC_Surge_Cat3"
+                },
+                    "name": "Storm Surge Inundation Scenarios",
+                    "displayName": "Category 3 Storm"
             },
             {
                 "server": {
-                    "name": "CFEM_NHC_Surge_Cat4",
-                    "displayName": "Category 4 Storm",
-                	"includeAllLayers" : true
-                }
+                "name": "CFEM_NHC_Surge_Cat4"
+                },
+                    "name": "Storm Surge Inundation Scenarios",
+                    "displayName": "Category 4 Storm"
             },
             {
                 "server": {
-                    "name": "CFEM_NHC_Surge_Cat5",
-                    "displayName": "Category 5 Storm",
-                	"includeAllLayers" : true
-                }
+                "name": "CFEM_NHC_Surge_Cat5"
+                },
+                    "name": "Storm Surge Inundation Scenarios",
+                    "displayName": "Category 5 Storm"
             }
         ]
-	},
+    },      
 	{
 		"displayName": "Critical Facilities",
 		"server": {
