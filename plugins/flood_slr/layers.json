@@ -4,72 +4,97 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://coast.noaa.gov/arcgis/rest/services",
-            "name": "dc_slr"
-		},
-		"includeLayers" : [
-			{
-				"name": "slr_1ft",
-				"displayName": "1 ft Above Current MHHW",
-				"includeAllLayers": true
-			},
-			{
-				"name": "slr_2ft",
-				"displayName": "2 ft Above Current MHHW",
-				"includeAllLayers": true
-			},
-			{
-				"name": "slr_3ft",
-				"displayName": "3 ft Above Current MHHW",
-				"includeAllLayers": true
-			},
-			{
-				"name": "slr_4ft",
-				"displayName": "4 ft Above Current MHHW",
-				"includeAllLayers": true
-			},
-			{
-				"name": "slr_5ft",
-				"displayName": "5 ft Above Current MHHW",
-				"includeAllLayers": true
-			},
-			{
-				"name": "slr_6ft",
-				"displayName": "6 ft Above Current MHHW",
-				"includeAllLayers": true
-			}
-		]
-	},
+            "url": "https://coast.noaa.gov/arcgis/rest/services/dc_slr"
+        },
+        "includeLayers": [
+            {
+                "server": {
+                    "name": "slr_1ft",
+                    "displayName": "1 ft Above Current MHHW",
+                	"includeAllLayers" : true
+                }
+            },
+            {
+                "server": {
+                    "name": "slr_2ft",
+                    "displayName": "2 ft Above Current MHHW",
+                	"includeAllLayers" : true
+                }
+            },
+            {
+                "server": {
+                    "name": "slr_3ft",
+                    "displayName": "3 ft Above Current MHHW",
+                	"includeAllLayers" : true
+                }
+            },
+            {
+                "server": {
+                    "name": "slr_4ft",
+                    "displayName": "4 ft Above Current MHHW",
+                	"includeAllLayers" : true
+                }
+            },
+            {
+                "server": {
+                    "name": "slr_5ft",
+                    "displayName": "5 ft Above Current MHHW",
+                	"includeAllLayers" : true
+                }
+            },
+            {
+                "server": {
+                    "name": "slr_6ft",
+                    "displayName": "6 ft Above Current MHHW",
+                	"includeAllLayers" : true
+                }
+            }
+        ]
+    },
 	{
         "displayName": "NOAA Storm Surge Scenarios",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://coast.noaa.gov/arcgis/rest/services",
-            "name": "FloodExposureMapper"
+            "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper"
 		},
 		"includeLayers" : [
 			{
-				"name": "CFEM_NHC_Surge_Cat1",
-				"displayName": "Category 1 Storm"
-			},
-			{
-				"name": "CFEM_NHC_Surge_Cat2",
-				"displayName": "Category 2 Storm"
-			},
-			{
-				"name": "CFEM_NHC_Surge_Cat3",
-				"displayName": "Category 3 Storm"
-			},
-			{
-				"name": "CFEM_NHC_Surge_Cat4",
-				"displayName": "Category 4 Storm"
-			},
-			{
-				"name": "CFEM_NHC_Surge_Cat5",
-				"displayName": "Category 5 Storm"
-			}
-		]
+                "server": {
+                    "name": "CFEM_NHC_Surge_Cat1",
+                    "displayName": "Category 1 Storm",
+                	"includeAllLayers" : true
+                }
+            },
+            {
+                "server": {
+                    "name": "CFEM_NHC_Surge_Cat2",
+                    "displayName": "Category 2 Storm",
+                	"includeAllLayers" : true
+                }
+            },
+            {
+                "server": {
+                    "name": "CFEM_NHC_Surge_Cat3",
+                    "displayName": "Category 3 Storm",
+                	"includeAllLayers" : true
+                }
+            },
+            {
+                "server": {
+                    "name": "CFEM_NHC_Surge_Cat4",
+                    "displayName": "Category 4 Storm",
+                	"includeAllLayers" : true
+                }
+            },
+            {
+                "server": {
+                    "name": "CFEM_NHC_Surge_Cat5",
+                    "displayName": "Category 5 Storm",
+                	"includeAllLayers" : true
+                }
+            }
+        ]
 	},
 	{
 		"displayName": "Critical Facilities",
