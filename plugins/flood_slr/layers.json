@@ -5,7 +5,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
-            "name": "CFEM_ShallowCoastalFlooding"
+            "name": "CFEM_SeaLevelRise"
 		},
 		"includeLayers" : [
 			{
