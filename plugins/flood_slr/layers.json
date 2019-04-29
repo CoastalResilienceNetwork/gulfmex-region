@@ -9,52 +9,41 @@
 		},
 		"includeLayers" : [
 			{
+				"name": "Sea Level Rise Scenarios",
 				"displayName": "Sea Level Rise Scenarios",
-				"server": {
-					"type": "ags",
-					"layerType": "dynamic",
-					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
-					"name": "CFEM_SeaLevelRise"
-				},
-				"includeLayers" : [
-					{
-						"name": "Sea Level Rise Scenarios",
-						"displayName": "Sea Level Rise Scenarios",
-						"includeAllLayers": true
-					}
-				]
-			},
-			{
-				"displayName": "Storm Surge Scenarios",
-				"server": {
-					"type": "ags",
-					"layerType": "dynamic",
-					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
-					"name": "CFEM_StormSurge"
-				},
-				"includeLayers" : [
-					{
-						"name": "Storm Surge Scenarios",
-						"displayName": "Storm Surge Scenarios",
-						"includeAllLayers" : true
-					}
-				]
-			},
-			{
-				"displayName": "Critical Facilities",
-				"server": {
-					"type": "ags",
-					"layerType": "dynamic",
-					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
-					"name": "CFEM_CriticalFacilities"
-				},
-				"includeLayers" : [
-					{
-						"name": "Critical Facilities",
-						"displayName": "Critical Facilities (Zoom In to View)"
-					}	
-				]
+				"includeAllLayers": true
 			}
+		]
+	},
+	{
+        "displayName": "Storm Surge Scenarios",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
+            "name": "CFEM_StormSurge"
+		},
+		"includeLayers" : [
+			{
+				"name": "Storm Surge Scenarios",
+				"displayName": "Storm Surge Scenarios",
+				"includeAllLayers" : true
+			}
+		]
+	},
+	{
+		"displayName": "Critical Facilities",
+		"server": {
+			"type": "ags",
+			"layerType": "dynamic",
+			"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
+			"name": "CFEM_CriticalFacilities"
+		},
+		"includeLayers" : [
+			{
+				"name": "Critical Facilities",
+				"displayName": "Critical Facilities (Zoom In to View)"
+			}	
 		]
 	}
 ]
