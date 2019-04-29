@@ -18,33 +18,9 @@
 				},
 				"includeLayers" : [
 					{
-						"name": "Areas Not Mapped",
-						"displayName": "Areas Not Mapped",
+						"name": "Sea Level Rise Scenarios",
+						"displayName": "Sea Level Rise Scenarios",
 						"includeAllLayers": true
-					},	
-					{
-						"name": "GOM_slr_merged_1ft",
-						"displayName": "1 ft Above Current MHHW"
-					},
-					{
-						"name": "GOM_slr_merged_2ft",
-						"displayName": "2 ft Above Current MHHW"
-					},
-					{
-						"name": "GOM_slr_merged_3ft",
-						"displayName": "3 ft Above Current MHHW"
-					},
-					{
-						"name": "GOM_slr_merged_4ft",
-						"displayName": "4 ft Above Current MHHW"
-					},
-					{
-						"name": "GOM_slr_merged_5ft",
-						"displayName": "5 ft Above Current MHHW"
-					},
-					{
-						"name": "GOM_slr_merged_6ft",
-						"displayName": "6 ft Above Current MHHW"
 					}
 				]
 			},
@@ -58,13 +34,9 @@
 				},
 				"includeLayers" : [
 					{
-						"name": "OCM Symbology",
-						"displayName": "Storm Type",
+						"name": "Storm Surge Scenarios",
+						"displayName": "Storm Surge Scenarios",
 						"includeAllLayers" : true
-					},
-					{
-						"name": "LeveeAreas_wm",
-						"displayName": "Levee Areas - Consult Local Officials for Flood Risk"
 					}
 				]
 			},
