@@ -1,88 +1,114 @@
 [
 	{
-        "displayName": "NOAA Coastal Flood Exposure",
+        "displayName": "NOAA Sea Level Rise Scenarios",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
-            "name": "CFEM_ShallowCoastalFlooding"
+            "url": "https://coast.noaa.gov/arcgis/rest/services/dc_slr"
+        },
+        "includeLayers": [
+            {
+                "server": {
+                "name": "slr_1ft"
+                },
+                    "name": "1ft SLR Depth",
+                    "displayName": "1 ft Above Current MHHW"
+            },
+            {
+                "server": {
+                "name": "slr_2ft"
+                },
+                    "name": "2ft SLR Depth",
+                    "displayName": "2 ft Above Current MHHW"
+            },
+            {
+                "server": {
+                "name": "slr_3ft"
+                },
+                    "name": "3ft SLR Depth",
+                    "displayName": "3 ft Above Current MHHW"
+            },
+            {
+                "server": {
+                "name": "slr_4ft"
+                },
+                    "name": "4ft SLR Depth",
+                    "displayName": "4 ft Above Current MHHW"
+            },
+            {
+                "server": {
+                "name": "slr_5ft"
+                },
+                    "name": "5ft SLR Depth",
+                    "displayName": "5 ft Above Current MHHW"
+            },
+            {
+                "server": {
+                "name": "slr_6ft"
+                },
+                    "name": "6ft SLR Depth",
+                    "displayName": "6 ft Above Current MHHW"
+            }     
+        ]
+    },
+	{
+        "displayName": "NOAA Storm Surge Scenarios",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper"
 		},
 		"includeLayers" : [
 			{
-				"displayName": "Sea Level Rise Scenarios",
-				"server": {
-					"type": "ags",
-					"layerType": "dynamic",
-					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
-					"name": "CFEM_SeaLevelRise"
-				},
-				"includeLayers" : [
-					{
-						"name": "Areas Not Mapped",
-						"displayName": "Areas Not Mapped",
-						"includeAllLayers": true
-					},	
-					{
-						"name": "GOM_slr_merged_1ft",
-						"displayName": "1 ft Above Current MHHW"
-					},
-					{
-						"name": "GOM_slr_merged_2ft",
-						"displayName": "2 ft Above Current MHHW"
-					},
-					{
-						"name": "GOM_slr_merged_3ft",
-						"displayName": "3 ft Above Current MHHW"
-					},
-					{
-						"name": "GOM_slr_merged_4ft",
-						"displayName": "4 ft Above Current MHHW"
-					},
-					{
-						"name": "GOM_slr_merged_5ft",
-						"displayName": "5 ft Above Current MHHW"
-					},
-					{
-						"name": "GOM_slr_merged_6ft",
-						"displayName": "6 ft Above Current MHHW"
-					}
-				]
-			},
+                "server": {
+                "name": "CFEM_NHC_Surge_Cat1"
+                },
+                    "name": "Storm Surge Inundation Scenarios",
+                    "displayName": "Category 1 Storm"
+            },
+            {
+                "server": {
+                "name": "CFEM_NHC_Surge_Cat2"
+                },
+                    "name": "Storm Surge Inundation Scenarios",
+                    "displayName": "Category 2 Storm"
+            },
+            {
+                "server": {
+                "name": "CFEM_NHC_Surge_Cat3"
+                },
+                    "name": "Storm Surge Inundation Scenarios",
+                    "displayName": "Category 3 Storm"
+            },
+            {
+                "server": {
+                "name": "CFEM_NHC_Surge_Cat4"
+                },
+                    "name": "Storm Surge Inundation Scenarios",
+                    "displayName": "Category 4 Storm"
+            },
+            {
+                "server": {
+                "name": "CFEM_NHC_Surge_Cat5"
+                },
+                    "name": "Storm Surge Inundation Scenarios",
+                    "displayName": "Category 5 Storm"
+            }
+        ]
+    },      
+	{
+		"displayName": "Critical Facilities",
+		"server": {
+			"type": "ags",
+			"layerType": "dynamic",
+			"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
+			"name": "CFEM_CriticalFacilities"
+		},
+		"includeLayers" : [
 			{
-				"displayName": "Storm Surge Scenarios",
-				"server": {
-					"type": "ags",
-					"layerType": "dynamic",
-					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
-					"name": "CFEM_StormSurge"
-				},
-				"includeLayers" : [
-					{
-						"name": "OCM Symbology",
-						"displayName": "Storm Type",
-						"includeAllLayers" : true
-					},
-					{
-						"name": "LeveeAreas_wm",
-						"displayName": "Levee Areas - Consult Local Officials for Flood Risk"
-					}
-				]
-			},
-			{
-				"displayName": "Critical Facilities",
-				"server": {
-					"type": "ags",
-					"layerType": "dynamic",
-					"url": "https://coast.noaa.gov/arcgis/rest/services/FloodExposureMapper",
-					"name": "CFEM_CriticalFacilities"
-				},
-				"includeLayers" : [
-					{
-						"name": "Critical Facilities",
-						"displayName": "Critical Facilities (Zoom In to View)"
-					}	
-				]
-			}
+				"name": "Critical Facilities",
+				"displayName": "Critical Facilities (Zoom In to View)"
+			}	
 		]
 	}
 ]
