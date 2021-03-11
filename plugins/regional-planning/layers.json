@@ -604,5 +604,76 @@
 				]
 			}
 		]
+	},
+	{
+    	"displayName": "Migratory Species",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
+            "name": "Conservation_Blueways"
+        },
+        "includeLayers": [
+			{
+				"name" : "Regional Data",
+				"includeLayers": [
+                    {
+                        "name": "Jurisdictions",
+                        "includeAllLayers" : true
+                    },
+                    {
+                        "name": "Protected and Managed Areas",
+                        "includeAllLayers" : true
+                    },
+                    {
+                        "name": "Oil and Gas",
+                        "includeAllLayers" : true
+                    },
+                    {
+                        "name": "Environmental",
+                        "includeAllLayers" : true
+                    },
+                    {
+                        "name": "Habitat",
+                        "includeAllLayers" : true
+                    },
+                    {
+                        "name": "Human Activity",
+                        "includeLayers": [
+                        	{
+                        		"name":"Fishing Vessel Density (2013)"
+                        	},
+                        	{
+                        		"name":"Tanker Vessel Density (2013)"
+                        	}
+      					 ]
+                    }
+             	]
+			},
+			{
+				"name" : "Fish",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Sea Turtles",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Marine Mammals",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Birds",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Multi Species Products",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Conservation Products",
+				"includeAllLayers" : true
+			}
+		]
 	}
 ]
