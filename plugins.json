@@ -26,6 +26,14 @@
         {
              "repo": "risk-explorer",
              "name": "risk-explorer"
+        },
+        {
+            "repo": "migratory-blueways",
+            "name": "migratory-blueways"
+        },
+        {
+            "repo": "tuna-fisheries",
+            "name": "tuna-fisheries"
         }    
     ]
 }
